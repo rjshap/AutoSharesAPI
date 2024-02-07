@@ -357,7 +357,7 @@ where:
     </tr>
     <tr>
       <td style="text-align:left">SubscriptionPlanId</td>
-      <td style="text-align:left">This is an internal field in ETNA Trader and it shouldn&apos;t be used
+      <td style="text-align:left">This is an internal field in AutoShares and it shouldn&apos;t be used
         by third-party developers.</td>
     </tr>
     <tr>
@@ -378,7 +378,7 @@ where:
     </tr>
     <tr>
       <td style="text-align:left">IsChanged</td>
-      <td style="text-align:left">This is an internal field in ETNA Trader and it shouldn&apos;t be used
+      <td style="text-align:left">This is an internal field in AutoShares and it shouldn&apos;t be used
         by third-party developers.</td>
     </tr>
     <tr>

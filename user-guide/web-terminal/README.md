@@ -5,7 +5,7 @@ description: >-
   dashboards and design widgets.
 ---
 
-# ETNA Trader Web
+# AutoShares Web
 
 ### Introduction
 
@@ -19,7 +19,7 @@ ETNA Web Trading Platform is a next generation all-in-one web trader software fo
 
 ![](../../.gitbook/assets/screenshot-2020-12-01-at-19.41.29_macbookpro15_front.png)
 
-To take a quick look at ETNA Trader Web in action, feel free to watch our short demo:
+To take a quick look at AutoShares Web in action, feel free to watch our short demo:
 
 {% embed url="https://www.youtube.com/watch?v=yS12523JVN8" %}
 

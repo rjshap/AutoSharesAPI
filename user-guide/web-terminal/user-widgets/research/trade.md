@@ -2,7 +2,7 @@
 
 The Trade tab provides a trade summary and a list of trades for the last trading session.
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2023-11-13 at 10.27.11.png" alt=""><figcaption><p>Trade in Research - ETNA Trader</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2023-11-13 at 10.27.11.png" alt=""><figcaption><p>Trade in Research - AutoShares</p></figcaption></figure>
 
 ### Trade Summary
 

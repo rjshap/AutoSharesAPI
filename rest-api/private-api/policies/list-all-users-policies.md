@@ -8,7 +8,7 @@ description: List security policies applicable to a particular user
 
 This GET endpoint enables you to list all security policies that apply to the user whose authorization token is used in the request header. 
 
-In ETNA Trader, each [user group](../../../administrator-guide/administrators-widgets/managing-user-groups.md) must have a [**security policy**](../../../administrator-guide/administrators-widgets/system-security-policies.md) that defines various security-related settings like minimum password length, two-factor authentication, and so forth. These security policies can be configured in the **System Security Policies** widget \(only available to administrators\).
+In AutoShares, each [user group](../../../administrator-guide/administrators-widgets/managing-user-groups.md) must have a [**security policy**](../../../administrator-guide/administrators-widgets/system-security-policies.md) that defines various security-related settings like minimum password length, two-factor authentication, and so forth. These security policies can be configured in the **System Security Policies** widget \(only available to administrators\).
 
 There are three required parameters that must be provided in the request:
 

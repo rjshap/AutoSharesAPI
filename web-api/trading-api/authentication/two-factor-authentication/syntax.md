@@ -15,7 +15,7 @@ This API endpoint returns the authentication token that is used in all other API
 | Type | Name | Description | Schema | Default |
 | :--- | :--- | :--- | :--- | :--- |
 | **Header** | **Authorization**   _optional_ | This is the authorization token that must be provided in the header of all requests except this one. | string | `""` |
-| **Header** | **Et-App-Key**   _required_ | This is your app’s unique key that can be retrieved from the BO Companies widget in ETNA Trader. | string |  |
+| **Header** | **Et-App-Key**   _required_ | This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares. | string |  |
 | **Header** | **Password**   _optional_ | The password of the user on whose behalf the authentication is being performed. | string | `"testpassword"` |
 | **Header** | **PinCode**   _optional_ | This is the user’s pincode. | string | `""` |
 | **Header** | **Username**   _optional_ | This is the name of the user on whose behalf the authentication is being performed. | string | `"testusername"` |

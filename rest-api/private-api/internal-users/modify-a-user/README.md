@@ -1,12 +1,12 @@
 ---
-description: Modify an existing user in ETNA Trader
+description: Modify an existing user in AutoShares
 ---
 
 # Modify a User
 
 ### Overview
 
-This PUT endpoint enables you to modify an existing user in ETNA Trader. Updated information about the user is provided in the request body in the JSON format. 
+This PUT endpoint enables you to modify an existing user in AutoShares. Updated information about the user is provided in the request body in the JSON format. 
 
 {% hint style="warning" %}
 In order to modify an existing user, you must use an [authorization token](../../authentication/) of an administrator. Using authorization tokens of regular users will lead to the 401 status code.
@@ -52,21 +52,21 @@ where:
 
 | Parameter | Description |
 | :--- | :--- |
-| FirstName | This is the first name of the user in ETNA Trader. |
-| Middle | This is the middle name of the user in ETNA Trader. |
-| LastName | This is the last name of the user in ETNA Trader. |
+| FirstName | This is the first name of the user in AutoShares. |
+| Middle | This is the middle name of the user in AutoShares. |
+| LastName | This is the last name of the user in AutoShares. |
 | EmailAddress | This is the email address of the modified user. |
 | Login | This is the user's login. |
 | Salutation | This is a special salutation used to address this user in emails. |
 | Suffix | This is the suffix used when addressing the user \(Jr, Sr, I, II, III, etc.\). |
-| Enabled | This field indicates if the user is active and can make trades in ETNA Trader. |
+| Enabled | This field indicates if the user is active and can make trades in AutoShares. |
 | TimeZoneInfoId | This field indicates the time zone in which the user lives. |
 | ExpirationDate | This is the date on which the user's account will be disabled. |
 | PhoneNumber / EntitlementsPhoneNumber | This the user's phone number. |
 
 ### Response
 
-In response to this API request, you'll receive a JSON file that contains information you specified in the request body along with the modified user's internal identifier in ETNA Trader:
+In response to this API request, you'll receive a JSON file that contains information you specified in the request body along with the modified user's internal identifier in AutoShares:
 
 ```javascript
 {

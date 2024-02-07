@@ -66,7 +66,7 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 
 #### Specifying the Regular User ID Instead of the Internal One
 
-Another common mistake when making this request is specifying the regular user ID instead of the internal ETNA Trader ID. Doing so will result in the 400 status code and the following error message:
+Another common mistake when making this request is specifying the regular user ID instead of the internal AutoShares ID. Doing so will result in the 400 status code and the following error message:
 
 ```javascript
 {

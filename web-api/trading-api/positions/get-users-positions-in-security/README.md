@@ -157,7 +157,7 @@ Another common mistake when making this request is specifying the user ID instea
 
 ### Specifying the Internal ID of the Security instead of the Ticker
 
-Bear in mind that this request requires the ticker symbol of the security \(as displayed on the exchange\) and not the internal ID in ETNA Trader. Specifying the internal ID will lead to the 500 status code and the following error message:
+Bear in mind that this request requires the ticker symbol of the security \(as displayed on the exchange\) and not the internal ID in AutoShares. Specifying the internal ID will lead to the 500 status code and the following error message:
 
 ```javascript
 {

@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The previous articles of ETNA Trader's REST API documentation provide an in-depth look into the structure, syntax, and the range of possible responses for each endpoint of the extended API. But before you proceed to examine each endpoint in detail, let's first walk through a few sample scripts that demonstrate how the API works in action.
+The previous articles of AutoShares's REST API documentation provide an in-depth look into the structure, syntax, and the range of possible responses for each endpoint of the extended API. But before you proceed to examine each endpoint in detail, let's first walk through a few sample scripts that demonstrate how the API works in action.
 
-Each endpoint has its own URL and a set of parameters that must be provided in the request header, body, and query. For example, the initial authentication endpoint requires the credentials of a user in ETNA Trader as well as the application key that is retrievable from the BO Companies widget. It's critical to ensure that all required parameters are provided in the request; otherwise the request will fail.
+Each endpoint has its own URL and a set of parameters that must be provided in the request header, body, and query. For example, the initial authentication endpoint requires the credentials of a user in AutoShares as well as the application key that is retrievable from the BO Companies widget. It's critical to ensure that all required parameters are provided in the request; otherwise the request will fail.
 
 If the request is successful, you'll receive a confirmation message as well as the 200 status code. If the request is improperly constructed or some parameters are lacking, you'll receive a status code in the range between 400 and 500.
 
@@ -28,8 +28,8 @@ class EtnaAPIRequest:
 
 	token = 'uninitialized'
 
-	username = "your username in ETNA Trader"
-	password = "your password in ETNA Trader"
+	username = "your username in AutoShares"
+	password = "your password in AutoShares"
 
 	def initialAuth(self):
 	    #Creating a POST request
@@ -56,7 +56,7 @@ sampleRequest.initialAuth()
 In this example, there's a class called `EtnaAPIRequest` that has five properties:
 
 * `baseURL` — this is the URL that hosts your API. Each solution has its own base URL for both the Trader and the Developer API.
-* `EtAppKey` — this is the unique key of your solution that can be retrieved from the BO companies widget in ETNA Trader.
+* `EtAppKey` — this is the unique key of your solution that can be retrieved from the BO companies widget in AutoShares.
 * `Token` — this is the authentication token that must be provided in all API requests except for the first one \(authentication\).
 * `Username` and `password` — these are the credentials of a user on whose behalf all API requests will be made.
 
@@ -343,7 +343,7 @@ sampleRequest.simpleAuth()
 sampleRequest.getUsersInfo(7420)
 ```
 
-This method — `getUsersInfo()` — enables you to retrieve detailed information about a specific user in ETNA Trader. The ID of the enquired user must be specified in the base URL. In response to this request, you'll receive a JSON file with the user's information. 
+This method — `getUsersInfo()` — enables you to retrieve detailed information about a specific user in AutoShares. The ID of the enquired user must be specified in the base URL. In response to this request, you'll receive a JSON file with the user's information. 
 {% endtab %}
 
 {% tab title="JavaScript" %}
@@ -441,7 +441,7 @@ for accountJson in accounts:
 
 ```
 
-This method — `getUsersPositions()` — enables you to retrieve the list positions opened on a specific account in ETNA Trader. The ID of the enquired account must be specified in the base URL. In response to this request, you'll receive a JSON file with the list of currently open positions. 
+This method — `getUsersPositions()` — enables you to retrieve the list positions opened on a specific account in AutoShares. The ID of the enquired account must be specified in the base URL. In response to this request, you'll receive a JSON file with the list of currently open positions. 
 {% endtab %}
 
 {% tab title="JavaScript" %}
@@ -625,7 +625,7 @@ Creating new trading accounts is permitted only through the [extended API.](./)
 {% tabs %}
 {% tab title="Python" %}
 {% code-tabs %}
-{% code-tabs-item title="Creating a new trading account in ETNA Trader" %}
+{% code-tabs-item title="Creating a new trading account in AutoShares" %}
 ```python
 import requests
 
@@ -713,7 +713,7 @@ sampleRequest.createNewTradingAccount(newTradingAccount)
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-This method — `createNewTradingAccount()` — enables you to create a new trading account in ETNA Trader. Information about the new trading account must be provided in the JSON format as the request's body. In response to this request, you'll receive a JSON file with the newly created account's information \(including its ID\). 
+This method — `createNewTradingAccount()` — enables you to create a new trading account in AutoShares. Information about the new trading account must be provided in the JSON format as the request's body. In response to this request, you'll receive a JSON file with the newly created account's information \(including its ID\). 
 {% endtab %}
 
 {% tab title="JavaScript" %}
@@ -775,7 +775,7 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: applica
 {% tabs %}
 {% tab title="Python" %}
 {% code-tabs %}
-{% code-tabs-item title="Creating a new user in ETNA Trader" %}
+{% code-tabs-item title="Creating a new user in AutoShares" %}
 ```python
 import requests
 
@@ -840,7 +840,7 @@ sampleRequest.createNewUser(newUser)
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-This method — `createNewUser()` — enables you to create a new user in ETNA Trader. Information about the new user must be provided in the JSON format as the request's body. In response to this request, you'll receive a JSON file with the newly created user's information \(including its ID\). 
+This method — `createNewUser()` — enables you to create a new user in AutoShares. Information about the new user must be provided in the JSON format as the request's body. In response to this request, you'll receive a JSON file with the newly created user's information \(including its ID\). 
 {% endtab %}
 
 {% tab title="JavaScript" %}

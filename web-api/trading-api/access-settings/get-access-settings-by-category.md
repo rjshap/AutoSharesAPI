@@ -6,7 +6,7 @@ description: Retrieve all available access settings for a specific category
 
 ### Overview
 
-This GET endpoint enables you to retrieve all access settings for a specific category. In ETNA Trader, both brokers and users can customize the appearance of the platform and its components. Furthermore, some of these components can have a different layout depending on the user (e.g. some users have access to options trading while others do not). And in order to properly display the UI for each user, it's necessary to retrieve the user's settings for different UI components. To do that, you need to first call this endpoint to determine which settings are actually available for the user.
+This GET endpoint enables you to retrieve all access settings for a specific category. In AutoShares, both brokers and users can customize the appearance of the platform and its components. Furthermore, some of these components can have a different layout depending on the user (e.g. some users have access to options trading while others do not). And in order to properly display the UI for each user, it's necessary to retrieve the user's settings for different UI components. To do that, you need to first call this endpoint to determine which settings are actually available for the user.
 
 There are four required parameters that must be provided in the request:
 

@@ -6,7 +6,7 @@ description: Place a new order
 
 ### Overview
 
-This POST endpoint enables you to place a new order in ETNA Trader. The order is sent in the JSON format to our service which turns it into a new outstanding order that should eventually be fulfilled \(or suspended depending on the type of order and the [order review mechanisms](../../../../administrator-guide/administrators-widgets/bo-order-review/) applicable to this user\). 
+This POST endpoint enables you to place a new order in AutoShares. The order is sent in the JSON format to our service which turns it into a new outstanding order that should eventually be fulfilled \(or suspended depending on the type of order and the [order review mechanisms](../../../../administrator-guide/administrators-widgets/bo-order-review/) applicable to this user\). 
 
 There are five required parameters that must be provided in the request:
 
@@ -40,7 +40,7 @@ The body of this request represents the information about the to-be-created orde
     </tr>
     <tr>
       <td style="text-align:left">ClientId</td>
-      <td style="text-align:left">This is the order ID on the execution venue. ETNA Trader generates this
+      <td style="text-align:left">This is the order ID on the execution venue. AutoShares generates this
         field automatically; however, if you want to use a custom ID &#x2014; feel
         free to provide your own value.</td>
     </tr>
@@ -537,7 +537,7 @@ In the following article we provide in-depth coverage of the syntax for this API
 
 ### Sample Code
 
-The following python script demonstrates how to place a new stop-limit order in ETNA Trader. 
+The following python script demonstrates how to place a new stop-limit order in AutoShares. 
 
 ```python
 import requests

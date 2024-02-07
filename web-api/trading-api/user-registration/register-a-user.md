@@ -1,5 +1,5 @@
 ---
-description: Register a new user in ETNA Trader
+description: Register a new user in AutoShares
 ---
 
 # Register a User

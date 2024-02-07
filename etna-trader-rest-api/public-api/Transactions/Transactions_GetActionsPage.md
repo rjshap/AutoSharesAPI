@@ -15,9 +15,9 @@ This API endpoint enables you to retrieve a list of transactions that have been 
 |Type|Name|Description|Schema|Default|
 |---|---|---|---|---|
 |**Header**|**Authorization**  <br>*required*|This is the authorization token that you retrieved from the first endpoint (/token).|string||
-|**Header**|**Et-App-Key**  <br>*required*|This is your app’s unique key that can be retrieved from the BO Companies widget in ETNA Trader.|string||
+|**Header**|**Et-App-Key**  <br>*required*|This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.|string||
 |**Path**|**accountId**  <br>*required*|This is the internal identifier of the trading account whose transactions must be retrieved.|integer (int32)||
-|**Path**|**version**  <br>*required*|This is the version of the API. Unless you have multiple versions of ETNA Trader’s API deployed in your environment, leave it at 1.0.|string|`"1"`|
+|**Path**|**version**  <br>*required*|This is the version of the API. Unless you have multiple versions of AutoShares’s API deployed in your environment, leave it at 1.0.|string|`"1"`|
 |**Query**|**filter**  <br>*optional*|This is a filter query used to retrieve only those transactions that satisfy the conditions of the query.|string (String)||
 |**Query**|**isDesc**  <br>*required*|This is a boolean field that indicates if the returned transactions should be sorted in  descending (true) or ascending (false) order.|boolean||
 |**Query**|**pageNumber**  <br>*required*|This is the page number (all transactions are split into pages).|integer (int32)||

@@ -6,7 +6,7 @@ description: Manually add a new position on a trading account
 
 ### Overview
 
-This POST endpoint enables you to create positions in securities, bypassing the regular order creation mechanism. Every once in a while some breakdown takes place on the exchange or in ETNA Trader, forcing you to use our Back Office to manually add the required position to the user's trading account. This procedure must be carried out with caution so as to prevent any conflicts.
+This POST endpoint enables you to create positions in securities, bypassing the regular order creation mechanism. Every once in a while some breakdown takes place on the exchange or in AutoShares, forcing you to use our Back Office to manually add the required position to the user's trading account. This procedure must be carried out with caution so as to prevent any conflicts.
 
 {% hint style="warning" %}
 In order to add a new position, you must use an [authorization token](../../authentication/) of an administrator. Using authorization tokens of regular users will lead to the 401 status code.
@@ -56,7 +56,7 @@ where:
 | Parameter | Description |
 | :--- | :--- |
 | AccountId | This is the internal identifier of the trading account. |
-| SecurityId | This is the internal identifier of the underlying security in ETNA Trader. You can get this ID using [this API method](../../securities/get-securitys-info-by-its-ticket-symbol/). |
+| SecurityId | This is the internal identifier of the underlying security in AutoShares. You can get this ID using [this API method](../../securities/get-securitys-info-by-its-ticket-symbol/). |
 | Quantity | This is the number of securities in the new position. |
 | CostBasis | This is the weighted average execution price of the order. |
 | Id | This is the internal identifier of an existing position to which you intend to add securities. |
@@ -69,15 +69,15 @@ where:
 | StopLossPrice | This is the price at which the position should be terminated if the market value reaches the price. |
 | TakeProfitPrice | This is the price at which the profit of the position should be realized if the market value reaches the price. |
 | DailyCloseProfitLoss | This is the unrealized profit or loss of the position measured against the last closing price. |
-| ExcessChanges | This is an internal field in ETNA Trader and it shouldn't be used by third parties. |
-| DayQuantity | This is an internal field in ETNA Trader and it shouldn't be used by third parties. |
-| OpenQuantity | This is an internal field in ETNA Trader and it shouldn't be used by third parties. |
-| LastLot | This is an internal field in ETNA Trader and it shouldn't be used by third parties. |
-| Unsettled | This is an internal field in ETNA Trader and it shouldn't be used by third parties. |
-| UnsettledDate | This is an internal field in ETNA Trader and it shouldn't be used by third parties. |
+| ExcessChanges | This is an internal field in AutoShares and it shouldn't be used by third parties. |
+| DayQuantity | This is an internal field in AutoShares and it shouldn't be used by third parties. |
+| OpenQuantity | This is an internal field in AutoShares and it shouldn't be used by third parties. |
+| LastLot | This is an internal field in AutoShares and it shouldn't be used by third parties. |
+| Unsettled | This is an internal field in AutoShares and it shouldn't be used by third parties. |
+| UnsettledDate | This is an internal field in AutoShares and it shouldn't be used by third parties. |
 | MarginType | This is the trading account type. Possible values: **Cash**, **Margin**, **DayTrader**. |
-| Locked | This is an internal field in ETNA Trader and it shouldn't be used by third parties. |
-| SpreadQuantity | This is an internal field in ETNA Trader and it shouldn't be used by third parties. |
+| Locked | This is an internal field in AutoShares and it shouldn't be used by third parties. |
+| SpreadQuantity | This is an internal field in AutoShares and it shouldn't be used by third parties. |
 
 Here's the final template for this API request:
 

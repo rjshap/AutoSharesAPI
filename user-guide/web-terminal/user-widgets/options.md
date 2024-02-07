@@ -1,10 +1,10 @@
 # Options
 
-### Trading Options in ETNA Trader
+### Trading Options in AutoShares
 
 Option is a contract in which a party that owns the option has the right (but not obligation) to purchase (Call) or sell (Put) a specific asset at a pre-defined (strike) price within a specific time frame. The counter party in this transaction is the writer of the option that in exchange for a premium agreed to purchase or sell the asset. Both the writer and the owner of the option make opposite bets on the price of the underlying asset: if its market price is better than the strike price, the owner of the option realizes a profit; if the strike price is better, the writer of the options realizes a profit.
 
-ETNA Trader features powerful option trading functionality that enables traders to buy and sell call and put options as well as enter into complex strategies. By default, all widgets related to options trading are available on the **Options** tab of ETNA Trader's Web Terminal.
+AutoShares features powerful option trading functionality that enables traders to buy and sell call and put options as well as enter into complex strategies. By default, all widgets related to options trading are available on the **Options** tab of AutoShares's Web Terminal.
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-20.34.44.png)
 
@@ -71,7 +71,7 @@ The `Time` parameter is calculated as the difference between the option's mark p
 
 ### Probability Calculator&#x20;
 
-In option trading, it's critical to estimate the probability of the underlying security reaching the target price range. For this purpose, ETNA Trader provides traders with the so-called probability calculator.
+In option trading, it's critical to estimate the probability of the underlying security reaching the target price range. For this purpose, AutoShares provides traders with the so-called probability calculator.
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-20.49.09.png)
 
@@ -87,7 +87,7 @@ The probability calculator features a group of sliders that traders can adjust t
 4. **Custom Volatility**. Use this slider to set a custom volatility (expressed in percentage terms).
 5. **Days to Expiration**. Use this slider to set the number of days until the expiration of the option.
 
-Once all five sliders are set, ETNA Trader will automatically calculate the probability of the underlying security's price reaching the target price range using log-normal distribution:
+Once all five sliders are set, AutoShares will automatically calculate the probability of the underlying security's price reaching the target price range using log-normal distribution:
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-20.52.38.png)
 
@@ -133,7 +133,7 @@ The blue line represents the value of the option depending on the price of the u
 
 #### Choosing Strategies
 
-ETNA Trader enables traders to buy and sell Put and Call options with different expiration dates and strike prices. To the left of the **Strike** column there are **Call** options; to the right — **Put** options.
+AutoShares enables traders to buy and sell Put and Call options with different expiration dates and strike prices. To the left of the **Strike** column there are **Call** options; to the right — **Put** options.
 
 To **buy** a Call or Put option, select the following checkbox until the green letter **B** appears. To sell a Call or Put option, select click on it twice until the red letter S appears. Optionally, specify the target number of options to be purchased.&#x20;
 
@@ -179,7 +179,7 @@ Once the order is filled, it can be inspected from the **Orders** widget and the
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-21.23.40.png)
 
-#### Options Trading in ETNA Trader for iOS:
+#### Options Trading in AutoShares for iOS:
 
 {% content-ref url="../../etna-trader-mobile/quotes-view/trade-view/options-trading.md" %}
 [options-trading.md](../../etna-trader-mobile/quotes-view/trade-view/options-trading.md)
@@ -187,6 +187,6 @@ Once the order is filled, it can be inspected from the **Orders** widget and the
 
 ### Video Overview
 
-Feel free to watch our video overview that demonstrates how to trade options in ETNA Trader Web as well as in our mobile apps:
+Feel free to watch our video overview that demonstrates how to trade options in AutoShares Web as well as in our mobile apps:
 
 {% embed url="https://www.youtube.com/watch?v=POJAl2lnpg8&t=380s" %}

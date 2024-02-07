@@ -3,7 +3,7 @@
 This endpoint enables you to deposit or withdraw funds to/from an ACH-based banking account.&#x20;
 
 {% hint style="info" %}
-Deposits and withdrawals performed through ACH relationships will be reflected in trading account balances before the start of the following trading session (after ETNA Trader receives SOD files).
+Deposits and withdrawals performed through ACH relationships will be reflected in trading account balances before the start of the following trading session (after AutoShares receives SOD files).
 {% endhint %}
 
 {% swagger baseUrl="baseURL" path="/v{version}/accounts/{accountId}/transfers/ach" method="post" summary="Send An ACH Transfer To The Clearing Firm" %}

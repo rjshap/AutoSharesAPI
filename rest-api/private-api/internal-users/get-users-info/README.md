@@ -6,7 +6,7 @@ description: Retrieve information about a particular user
 
 ### Overview
 
-This GET endpoint enables you to retrieve information about a particular user by providing their internal identifier in ETNA Trader in the request path.
+This GET endpoint enables you to retrieve information about a particular user by providing their internal identifier in AutoShares in the request path.
 
 {% hint style="warning" %}
 In order to retrieve information about a particular user, you must use an [authorization token](../../authentication/) of an administrator. Using authorization tokens of regular users will lead to the 401 status code.
@@ -51,16 +51,16 @@ where:
 
 | Parameter | Description |
 | :--- | :--- |
-| Id | This is the internal identifier of the user in ETNA Trader. |
-| FirstName | This is the first name of the user in ETNA Trader. |
-| Middle | This is the middle name of the user in ETNA Trader. |
-| LastName | This is the last name of the user in ETNA Trader. |
+| Id | This is the internal identifier of the user in AutoShares. |
+| FirstName | This is the first name of the user in AutoShares. |
+| Middle | This is the middle name of the user in AutoShares. |
+| LastName | This is the last name of the user in AutoShares. |
 | EmailAddress | This is the email address of the user. |
 | Login | This is the user's login. |
 | Salutation | This is a special salutation used to address this user in emails. |
 | Suffix | This is the suffix used when addressing the user \(Jr, Sr, I, II, III, etc.\). |
-| AddedDate | This is the date on which this user account was added to ETNA Trader. |
-| Enabled | This field indicates if the user is active and can make trades in ETNA Trader. |
+| AddedDate | This is the date on which this user account was added to AutoShares. |
+| Enabled | This field indicates if the user is active and can make trades in AutoShares. |
 | Deleted | This field indicates if the user has been deleted. |
 | TimeZoneInfoId | This field indicates the time zone in which the user lives. |
 | EntitlementsPhoneNumber | This the user's phone number. |

@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This POST endpoint enables to send a request for opening a new trading account. The process of creating new trading accounts differs based on the clearing firm responsible for handing these requests; in this article we will demonstrate how to open a new paper trading account in ETNA Trader's demo environment.
+This POST endpoint enables to send a request for opening a new trading account. The process of creating new trading accounts differs based on the clearing firm responsible for handing these requests; in this article we will demonstrate how to open a new paper trading account in AutoShares's demo environment.
 
 There are five required parameters that must be provided in the request:
 

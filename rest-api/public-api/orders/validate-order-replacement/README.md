@@ -6,7 +6,7 @@ description: Validate an order modification before committing changes
 
 ### Overview
 
-This PUT endpoint enables you to validate an order replacement before using it to replace an existing order in ETNA Trader. This might be useful for ensuring that the user has properly constructed an order and prevent any issues related with defective orders.
+This PUT endpoint enables you to validate an order replacement before using it to replace an existing order in AutoShares. This might be useful for ensuring that the user has properly constructed an order and prevent any issues related with defective orders.
 
 There are six required parameters that must be provided in the request:
 

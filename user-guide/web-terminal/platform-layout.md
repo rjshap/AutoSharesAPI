@@ -1,12 +1,12 @@
 ---
-description: Get to know the layout of ETNA Trader's web terminal
+description: Get to know the layout of AutoShares's web terminal
 ---
 
 # Platform Layout
 
 ### How to set up a layout?
 
-ETNA Trader features  a customizable widget-based user interface. Personalize trading dashboards to meet you trading style. Here is a quick rundown of icons and settings used in the platform with their meanings and purpose.&#x20;
+AutoShares features  a customizable widget-based user interface. Personalize trading dashboards to meet you trading style. Here is a quick rundown of icons and settings used in the platform with their meanings and purpose.&#x20;
 
 |                                             Icon                                             |         Name        |                                                            Description                                                            |
 | :------------------------------------------------------------------------------------------: | :-----------------: | :-------------------------------------------------------------------------------------------------------------------------------: |
@@ -51,7 +51,7 @@ The penultimate checkbox is called **Turn safe mode on** and it enables you to p
 
 ### Marquee Settings
 
-ETNA Trader's Marquee streams security information in the most flexible real-time quote displays. With ETNA Trader's Marquee, you can combine real-time data of securities in a variety of customizable displays. The content of Marquee can be customized in three different models:
+AutoShares's Marquee streams security information in the most flexible real-time quote displays. With AutoShares's Marquee, you can combine real-time data of securities in a variety of customizable displays. The content of Marquee can be customized in three different models:
 
 1. **Positions**. Marquee that shows updated quotes of all the symbols you traded and opened positions in.
 2. **Watchlist**. Marquee that shows updated quotes of the three different types of securities: Stocks, Forex, or Indices.
@@ -59,6 +59,6 @@ ETNA Trader's Marquee streams security information in the most flexible real-tim
 
 ### Tabs
 
-ETNA Trader's interface is designed to make it easy for users to find features, place and organize widgets as they want. Each tab is customizable and can contain any component the user chooses from our widget list. By scrolling the drop-down menu of "Add Widget", click on the picked widget and it will be automatically added to the tab menu. You can also create and add extra tabs and label them to break down your trading tasks into simple actions.
+AutoShares's interface is designed to make it easy for users to find features, place and organize widgets as they want. Each tab is customizable and can contain any component the user chooses from our widget list. By scrolling the drop-down menu of "Add Widget", click on the picked widget and it will be automatically added to the tab menu. You can also create and add extra tabs and label them to break down your trading tasks into simple actions.
 
 ![](../../.gitbook/assets/screenshot-2020-03-20-at-19.00.59.png)

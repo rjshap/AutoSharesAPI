@@ -6,7 +6,7 @@ description: Learn more about trading accounts
 
 ### Account information
 
-ETNA Trader's account information is designed to display the user's real-time information on all trading activities, account value, buying power as well as a set of other parameters. It also displays various information about the total profit or loss on the account. To view this information, add the **Account Info** widget to your dashboard.
+AutoShares's account information is designed to display the user's real-time information on all trading activities, account value, buying power as well as a set of other parameters. It also displays various information about the total profit or loss on the account. To view this information, add the **Account Info** widget to your dashboard.
 
 ![](../../../.gitbook/assets/screenshot-2020-03-19-at-16.48.06.png)
 
@@ -114,4 +114,4 @@ $$
 
 ### Trade Data Balance
 
-Trade data balance is a parameter that is retrieved daily from the clearing firm but is not used in our platform in any capacity. You may encounter it in the API and in the `Account Info` widget of the web terminal, but it doesn't affect anything as far as ETNA Trader is concerned.
+Trade data balance is a parameter that is retrieved daily from the clearing firm but is not used in our platform in any capacity. You may encounter it in the API and in the `Account Info` widget of the web terminal, but it doesn't affect anything as far as AutoShares is concerned.

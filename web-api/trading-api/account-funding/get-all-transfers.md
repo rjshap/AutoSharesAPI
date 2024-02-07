@@ -13,7 +13,7 @@ There are eight required parameters that must be provided in the request:
 1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
 2. **Authorization** (header). This is the authorization token from the very first [token request](../authentication/). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
 3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **accountId** (path). This is the [internal identifier](../user-accounts/list-users-accounts.md) of the trading account in ETNA Trader.
+4. **accountId** (path). This is the [internal identifier](../user-accounts/list-users-accounts.md) of the trading account in AutoShares.
 5. **pageNumber** (query). This is the number of the page (all transfers are split in pages).
 6. **pageSize** (query). This is the preferable size of the page (maximum value is 99).
 7. **sortField** (query). This is a parameter by which all returned transfers must be sorted.
@@ -75,7 +75,7 @@ where:
 | Status       | The status of the transfer.                                                                                                                                                                                              | String  |
 | Comment      | An accompanying comment.                                                                                                                                                                                                 | String  |
 | Amount       | The amount transferred in USD.                                                                                                                                                                                           | Double  |
-| TransferDate | The date on which the transfer was finalized at the clearing firm. The funds will be available in the trading account the following trading session when ETNA Trader receives Start-of-Day files from the clearing firm. | String  |
+| TransferDate | The date on which the transfer was finalized at the clearing firm. The funds will be available in the trading account the following trading session when AutoShares receives Start-of-Day files from the clearing firm. | String  |
 | CreatedAt    | The date on which the transfer was initiated.                                                                                                                                                                            | String  |
 
 ### Common Mistakes

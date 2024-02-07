@@ -56,7 +56,7 @@ where:
 
 | Parameter | Description |
 | :--- | :--- |
-| Id | This is the internal ID of the security in ETNA Trader. |
+| Id | This is the internal ID of the security in AutoShares. |
 | Symbol | This is the ticker symbol under which the security is listed on the exchange. |
 | Description | Usually this is the full name of the underlying company. |
 | Exchange | This is the exchange on which the security is listed. |
@@ -75,7 +75,7 @@ where:
 | ExpirationType | This is the expiration type of the option. Possible values: Regular, Quarterly, Weekly, Flex, Undefined, Mini, NonStandard. |
 | ExpirationDate | This is the expiration date of the option. |
 | StrikePrice | This is the price at which the holder of the option can buy or sell the underlying asset. |
-| SeriesId | This is the internal ID of the option series in ETNA Trader. |
+| SeriesId | This is the internal ID of the option series in AutoShares. |
 | UnderlyingAssetSymbol | This is the ticker symbol of the underlying asset. |
 | ContractSize | This is the deliverable quantity of the option's underlying asset. |
 

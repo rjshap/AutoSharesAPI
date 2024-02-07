@@ -205,7 +205,7 @@ where:
 
 | Parameter | Description |
 | :--- | :--- |
-| Id | This is the internal ID of the security in ETNA Trader. |
+| Id | This is the internal ID of the security in AutoShares. |
 | Symbol | This is the ticker symbol under which the security is listed on the exchange. |
 | Description | Usually this is the full name of the underlying company. |
 | Exchange | This is the exchange on which the security is listed. |
@@ -220,18 +220,18 @@ where:
 | AllowTrade | This field indicates is the security if permitted for trading. |
 | AllowMargin | This field indicates if the security is allowed to be traded on margin. |
 | AllowShort | This field indicates if the security can be sold short. |
-| Source | This is an internal field in ETNA Trader. It shouldn't be used. |
-| SourceId | This is an internal field in ETNA Trader. It shouldn't be used. |
+| Source | This is an internal field in AutoShares. It shouldn't be used. |
+| SourceId | This is an internal field in AutoShares. It shouldn't be used. |
 | ParentId | This is the internal identifier of the underlying security of an option series. If the value is set to -1, it means that this security is not an option. |
-| MarginRate | This is an internal field in ETNA Trader. It shouldn't be used by third-party developers. |
+| MarginRate | This is an internal field in AutoShares. It shouldn't be used by third-party developers. |
 | OptionType | This is the type of the option. Possible values: Call, Put. |
 | ExpirationType | This is the type of options' expiration date. Possible values: Regular, Quarterly, Weekly, Flex, Undefined, Mini. |
 | ExpirationDate | This the expiration date of the option. |
 | StrikePrice | This is the strike price of the option. |
 | SeriesId | This is the internal identifier of the option series. If the value is set to -1, it means that this security is not an option. |
 | Price | This is the security's price. |
-| QuoteSubscriptionKey | This is a key that ETNA Trader uses to subscribe to quotes for this security. It's an internal field and should not be used by third-party developers. |
-| Leverage | This is an internal field in ETNA Trader. It shouldn't be used by third-party developers. |
+| QuoteSubscriptionKey | This is a key that AutoShares uses to subscribe to quotes for this security. It's an internal field and should not be used by third-party developers. |
+| Leverage | This is an internal field in AutoShares. It shouldn't be used by third-party developers. |
 | Name | This is the name of the security \(usually it's identical to the Symbol field\). |
 | ExpirationName | This is the expiration name of the option. If the value is set to Jan 01 0001, it means that this security is not an option. |
 | NextPageLink | This is the next page with the requested securities. |

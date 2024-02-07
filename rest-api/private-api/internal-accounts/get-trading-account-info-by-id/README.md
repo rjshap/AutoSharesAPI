@@ -6,7 +6,7 @@ description: Get information about a particular trading account
 
 ### Overview
 
-This GET endpoint enables you to retrieve information about a particular trading account by providing its internal identifier in ETNA Trader in the request path. This internal identifier can be retrieved with [this method](../list-all-accounts/) that lists all trading accounts in your company. You can also view the trading accounts of a users in ETNA Trader's header:
+This GET endpoint enables you to retrieve information about a particular trading account by providing its internal identifier in AutoShares in the request path. This internal identifier can be retrieved with [this method](../list-all-accounts/) that lists all trading accounts in your company. You can also view the trading accounts of a users in AutoShares's header:
 
 ![](../../../../.gitbook/assets/screenshot-2019-03-07-at-14.59.29.png)
 
@@ -87,7 +87,7 @@ where:
     </tr>
     <tr>
       <td style="text-align:left">SubscriptionPlanId</td>
-      <td style="text-align:left">This is an internal field in ETNA Trader and it shouldn&apos;t be used
+      <td style="text-align:left">This is an internal field in AutoShares and it shouldn&apos;t be used
         by third-party developers.</td>
     </tr>
     <tr>
@@ -108,7 +108,7 @@ where:
     </tr>
     <tr>
       <td style="text-align:left">IsChanged</td>
-      <td style="text-align:left">This is an internal field in ETNA Trader and it shouldn&apos;t be used
+      <td style="text-align:left">This is an internal field in AutoShares and it shouldn&apos;t be used
         by third-party developers.</td>
     </tr>
     <tr>

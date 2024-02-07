@@ -1,12 +1,12 @@
 ---
-description: Opening an account in ETNA Trader
+description: Opening an account in AutoShares
 ---
 
 # Getting Started
 
 ### Registration Form
 
-The first step in getting started with ETNA Trader is to register as as new user. In order to do that, quickly fill out out the following online form:
+The first step in getting started with AutoShares is to register as as new user. In order to do that, quickly fill out out the following online form:
 
 ![](../../.gitbook/assets/screenshot-2020-03-19-at-16.57.06.png)
 
@@ -26,7 +26,7 @@ When using "Contact Support"  form please describe your question in as many deta
 
 ### **Language Settings**
 
-ETNA Trader provides users with multilingual support. Pick a language of your preference and changes will take effect right away, without the need to refresh the page. 
+AutoShares provides users with multilingual support. Pick a language of your preference and changes will take effect right away, without the need to refresh the page. 
 
 Currently there are five languages available in the platform:
 
@@ -47,5 +47,5 @@ Once you complete and submit your online registration form, you will receive an 
 
 ![](../../.gitbook/assets/screenshot-2020-03-19-at-16.58.57.png)
 
-Press  "**Click here to start using ETNA Trader** " and you will be re-directed to the web trader dashboard.
+Press  "**Click here to start using AutoShares** " and you will be re-directed to the web trader dashboard.
 

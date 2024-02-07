@@ -57,7 +57,7 @@ sampleRequest.simpleAuth()
 sampleRequest.getUsersInfo(7420)
 ```
 
-This method — `getUsersInfo()` — enables you to retrieve detailed information about a specific user in ETNA Trader. The ID of the enquired user must be specified in the base URL. In response to this request, you'll receive a JSON file with the user's information.
+This method — `getUsersInfo()` — enables you to retrieve detailed information about a specific user in AutoShares. The ID of the enquired user must be specified in the base URL. In response to this request, you'll receive a JSON file with the user's information.
 {% endtab %}
 {% endtabs %}
 

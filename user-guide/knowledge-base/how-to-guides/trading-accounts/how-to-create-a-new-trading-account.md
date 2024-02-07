@@ -1,5 +1,5 @@
 ---
-description: Learn how to create a new trading account in ETNA Trader
+description: Learn how to create a new trading account in AutoShares
 ---
 
 # How to Create a New Trading Account
@@ -9,12 +9,12 @@ description: Learn how to create a new trading account in ETNA Trader
 From time to time traders need to create a new trading account to test a new strategy or reset their current trading account. A new trading account will have an initial deposit, no orders and no positions, thereby enabling the trader to start anew.
 
 {% hint style="info" %}
-ETNA Trader enables traders to own several trading accounts.
+AutoShares enables traders to own several trading accounts.
 {% endhint %}
 
 ### Creating a New Trading Account
 
-To create a new trading account, navigate to ETNA Trader Web. In the header, expand the drop-down menu containing the list of your trading accounts and click **Edit**.
+To create a new trading account, navigate to AutoShares Web. In the header, expand the drop-down menu containing the list of your trading accounts and click **Edit**.
 
 ![](../../../../.gitbook/assets/screenshot-2020-01-17-at-17.08.41.png)
 
@@ -34,7 +34,7 @@ Now you can proceed to use the new trading account to open new positions, deposi
 
 ### Switching the Account in Mobile Apps
 
-After switching trading accounts in ETNA Trader Web, perform the same operation in the mobile app. Go the **Account** tab and then tap on the number of the current trading account.
+After switching trading accounts in AutoShares Web, perform the same operation in the mobile app. Go the **Account** tab and then tap on the number of the current trading account.
 
 ![](../../../../.gitbook/assets/img_0385_iphonexspacegrey_portrait.png)
 

@@ -1,12 +1,12 @@
 ---
-description: Create and manage watchlists in ETNA Trader
+description: Create and manage watchlists in AutoShares
 ---
 
 # Watchlists
 
 ### Exploring the Watchlists Widget
 
-ETNA Trader's watchlist is designed to be sortable and filterable to help traders make decisions quicker \(this is especially important when trading options as it helps determine the entry strategy\). You can create your own watch list based on which groupings of stocks you would like to see in one view \(available in demo mode\). The screenshots below show the steps of creating your own watch list \(ex: _FANG_ watchlist\).
+AutoShares's watchlist is designed to be sortable and filterable to help traders make decisions quicker \(this is especially important when trading options as it helps determine the entry strategy\). You can create your own watch list based on which groupings of stocks you would like to see in one view \(available in demo mode\). The screenshots below show the steps of creating your own watch list \(ex: _FANG_ watchlist\).
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-19.39.54.png)
 
@@ -16,7 +16,7 @@ You can link the News widget with your watchlist or vice versa. Every watch list
 
 ### Importing Watchlists From CSV Files
 
-In addition to manually creating new watchlists, ETNA Trader also enables traders to import watchlists from CSV Files. This can be done by clicking **Load from file**.
+In addition to manually creating new watchlists, AutoShares also enables traders to import watchlists from CSV Files. This can be done by clicking **Load from file**.
 
 ![](../../../.gitbook/assets/screenshot-2020-02-27-at-15.03.33.png)
 
@@ -48,5 +48,5 @@ The selection of system widgets available by default can be configured by contac
 
 ### Cross-Platform Synchronization of Watchlists
 
-ETNA Trader being a cross-platform solution, all user data is always in sync in both ETNA Trader Web and the mobile apps. That also applies to watchlists — any modification made to the contents of any watchlist in ETNA Trader Web will immediately be reflected in the mobile apps and vice versa. In this way you can always be sure that there's no mismatch between watchlist data in any ETNA Trader app you use in you day-to-day trading.
+AutoShares being a cross-platform solution, all user data is always in sync in both AutoShares Web and the mobile apps. That also applies to watchlists — any modification made to the contents of any watchlist in AutoShares Web will immediately be reflected in the mobile apps and vice versa. In this way you can always be sure that there's no mismatch between watchlist data in any AutoShares app you use in you day-to-day trading.
 

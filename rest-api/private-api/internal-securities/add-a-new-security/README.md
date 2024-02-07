@@ -1,12 +1,12 @@
 ---
-description: Add a new security to ETNA Trader
+description: Add a new security to AutoShares
 ---
 
 # Add a New Security
 
 ### Overview
 
-This POST endpoint enables you to add a new security to ETNA Trader by sending a JSON file with the updated information. Whereas the public API only permits you to retrieve information about existing securities, the private API also permits addition of new securities. It's critical to be cautious with this procedure because providing incorrect information might lead to certain conflicts like the absence of quotes for a particular security.
+This POST endpoint enables you to add a new security to AutoShares by sending a JSON file with the updated information. Whereas the public API only permits you to retrieve information about existing securities, the private API also permits addition of new securities. It's critical to be cautious with this procedure because providing incorrect information might lead to certain conflicts like the absence of quotes for a particular security.
 
 {% hint style="warning" %}
 In order to add a new security, you must use an [authorization token](../../authentication/) of an administrator. Using authorization tokens of regular users will lead to the 401 status code.
@@ -98,7 +98,7 @@ where:
 | Parameter | Description |
 | :--- | :--- |
 | Symbol | This is the ticker symbol of the new security.  |
-| Suffix | This is an internal field in ETNA Trader and it shouldn't be used by third-party developers. |
+| Suffix | This is an internal field in AutoShares and it shouldn't be used by third-party developers. |
 | Description | Usually this is the full name of the underlying company. |
 | Exchange | This is the exchange on which the security is listed. |
 | Currency | This is the currency in which the security is denominated. |
@@ -115,10 +115,10 @@ where:
 | BaseCurrency | This is the currency in which a forex instrument is denominated. |
 | Source | This is the identifier of the security in the market provider \(leave it at 0\). |
 | SourceId | This is the security's ID in the market provider. Usually it's identical to the security's ticker symbol. |
-| MarginRate | This is an internal field in ETNA Trader. It shouldn't be used by third-party developers. |
+| MarginRate | This is an internal field in AutoShares. It shouldn't be used by third-party developers. |
 | Price | This is the security's last closing price. |
-| QuoteSubscriptionKey | This is a key that ETNA Trader uses to subscribe to quotes for this security. It's an internal field and should not be used by third-party developers. |
-| Leverage | This is an internal field in ETNA Trader. It shouldn't be used by third-party developers. |
+| QuoteSubscriptionKey | This is a key that AutoShares uses to subscribe to quotes for this security. It's an internal field and should not be used by third-party developers. |
+| Leverage | This is an internal field in AutoShares. It shouldn't be used by third-party developers. |
 | Name | This is the name of the security \(usually it's identical to the Symbol field\). |
 | ExpirationName | This is the expiration name of the option. If the value is set to Jan 01 0001, it means that this security is not an option. |
 | Isin | This abbreviation stands for International Securities Identification Number and it serves as a security's unique identifier. |

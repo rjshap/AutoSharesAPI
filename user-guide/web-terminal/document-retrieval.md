@@ -6,7 +6,7 @@ description: 'Fetch traders'' account statements, tax forms, etc.'
 
 ### Introduction
 
-ETNA Trader provides a special UI for retrieving traders' personal documents like account statements, tax forms, and trade confirmations. This UI is available only through the [Digital Advisor](../digital-advisor/), so traders will have to use that platform to retrieve the documents \(their credentials from the professional web terminal will work there\). To navigate to the documents page, open the Digital Advisor, click on the username in the top-right corner, and, in the appeared drop-down menu, click **My Documents**.
+AutoShares provides a special UI for retrieving traders' personal documents like account statements, tax forms, and trade confirmations. This UI is available only through the [Digital Advisor](../digital-advisor/), so traders will have to use that platform to retrieve the documents \(their credentials from the professional web terminal will work there\). To navigate to the documents page, open the Digital Advisor, click on the username in the top-right corner, and, in the appeared drop-down menu, click **My Documents**.
 
 ![](../../.gitbook/assets/screenshot-2020-12-29-at-14.29.16.png)
 

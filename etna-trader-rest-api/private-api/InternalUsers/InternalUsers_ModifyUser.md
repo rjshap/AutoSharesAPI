@@ -7,7 +7,7 @@ PUT /v{version}/users/{userId}
 
 
 ##### Description
-This API endpoint enables you to modify an existing user in ETNA Trader.
+This API endpoint enables you to modify an existing user in AutoShares.
 
 
 ##### Parameters
@@ -15,9 +15,9 @@ This API endpoint enables you to modify an existing user in ETNA Trader.
 |Type|Name|Description|Schema|Default|
 |---|---|---|---|---|
 |**Header**|**Authorization**  <br>*required*|This is the authorization token that you retrieved from the first endpoint (/token).|string||
-|**Header**|**Et-App-Key**  <br>*required*|This is your app’s unique key that can be retrieved from the BO Companies widget in ETNA Trader.|string||
+|**Header**|**Et-App-Key**  <br>*required*|This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.|string||
 |**Path**|**userId**  <br>*required*|This is the internal identifier of the user whose information needs to be modified.|integer (int32)||
-|**Path**|**version**  <br>*required*|This is the version of the API. Unless you have multiple versions of ETNA Trader’s API deployed in your environment, leave it at 1.0.|string|`"1"`|
+|**Path**|**version**  <br>*required*|This is the version of the API. Unless you have multiple versions of AutoShares’s API deployed in your environment, leave it at 1.0.|string|`"1"`|
 |**Query**|**sendInvitationEmail**  <br>*required*|This is a boolean parameter that indicates if an invitation email should be sent to the user after their information is modified.|boolean||
 |**Body**|**body**  <br>*required*|This is JSON data that contains detailed information about the modified user.|[ModifyUserModel](#modifyusermodel)||
 

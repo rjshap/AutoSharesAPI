@@ -41,7 +41,7 @@ where:
 | StreetAddress1 | This is the first line of the street address of the user. |
 | City | This is the city is which the user is residing. |
 | State | This is the state in which the user is residing \(if applicable\). |
-| CountryId | This is the user's country's internal identifier in ETNA Trader. |
+| CountryId | This is the user's country's internal identifier in AutoShares. |
 
 ### Common Mistakes
 

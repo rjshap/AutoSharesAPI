@@ -20,7 +20,7 @@ This is the authorization token from the token request. The value of this header
 {% endswagger-parameter %}
 
 {% swagger-parameter in="header" name="Et-App-Key" required="true" type="String" %}
-This is your app’s unique key that can be retrieved from the BO Companies widget in ETNA Trader.
+This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Successful request. Response includes current settings." %}

@@ -81,7 +81,7 @@ where:
     </tr>
     <tr>
       <td style="text-align:left">SubscriptionPlanId</td>
-      <td style="text-align:left">This is an internal field in ETNA Trader and it shouldn&apos;t be used
+      <td style="text-align:left">This is an internal field in AutoShares and it shouldn&apos;t be used
         by third-party developers.</td>
     </tr>
     <tr>
@@ -102,7 +102,7 @@ where:
     </tr>
     <tr>
       <td style="text-align:left">IsChanged</td>
-      <td style="text-align:left">This is an internal field in ETNA Trader and it shouldn&apos;t be used
+      <td style="text-align:left">This is an internal field in AutoShares and it shouldn&apos;t be used
         by third-party developers.</td>
     </tr>
     <tr>
@@ -288,7 +288,7 @@ POST apiURL/v1.0/accounts
 
 ### Response
 
-In response to this API request, you'll receive a JSON file with detailed information about the newly created trading account. In addition to all parameters specified in the request body, the response will also contain the ID of the trading account in ETNA Trader.
+In response to this API request, you'll receive a JSON file with detailed information about the newly created trading account. In addition to all parameters specified in the request body, the response will also contain the ID of the trading account in AutoShares.
 
 ```javascript
 {

@@ -6,7 +6,7 @@ description: Track open positions
 
 ### Introduction
 
-The second tab in ETNA Trader Mobile — **Positions** — is responsible for listing all outstanding positions on the current trading account. When a trader opens a new position from the [Trade View](quotes-view/trade-view/), this newly created position becomes instantly visible on the Positions view. In addition to viewing outstanding positions, this tab also enables you track the profit and loss figures for each position, their market value, and a set of other parameters.
+The second tab in AutoShares Mobile — **Positions** — is responsible for listing all outstanding positions on the current trading account. When a trader opens a new position from the [Trade View](quotes-view/trade-view/), this newly created position becomes instantly visible on the Positions view. In addition to viewing outstanding positions, this tab also enables you track the profit and loss figures for each position, their market value, and a set of other parameters.
 
 ### Exploring the Position Tab
 

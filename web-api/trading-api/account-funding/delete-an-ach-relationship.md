@@ -26,7 +26,7 @@ Authorization token. Must be provided in the following format: `Bearer token` (`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="id" type="String" required="true" %}
-This is the ID of the ACH relationship in ETNA Trader.
+This is the ID of the ACH relationship in AutoShares.
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Successful request, the ACH relationship has been removed." %}

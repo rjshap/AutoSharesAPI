@@ -8,11 +8,11 @@ description: 'Buy, sell, exchange, and liquidate mutual funds'
 
 Mutual funds are a popular investment vehicle for investors who wish to delegate the responsibility of managing their funds to a group of professional investment managers that run these funds. The nature of mutual funds somewhat differs from stocks and bonds that can simply be purchased and sold on the exchange. Specifically, mutual funds can be exchanged or liquidated, the dividends received by the mutual fund from its holdings can be further reinvested or distributed back to the stockholder, etc. 
 
-Furthermore, mutual funds have their own technicalities like the time of order execution, order processing workflow, supported quantity qualifiers, etc. And in this article we will clarify the implementation of mutual funds trading in ETNA Trader before you proceed to use our API.
+Furthermore, mutual funds have their own technicalities like the time of order execution, order processing workflow, supported quantity qualifiers, etc. And in this article we will clarify the implementation of mutual funds trading in AutoShares before you proceed to use our API.
 
 ### Mutual Funds Trading Schedule
 
-During the night, from 12 AM to 9:30 AM Eastern Time, ETNA Trader collects the ticker symbols and quotes for all available mutual funds. 
+During the night, from 12 AM to 9:30 AM Eastern Time, AutoShares collects the ticker symbols and quotes for all available mutual funds. 
 
 Mutual fund orders are accepted from 9:30 AM ET until the cut-off time \(defined by the broker during deployment\). 
 
@@ -39,7 +39,7 @@ Whenever a new mutual fund order is placed, its status is initially set to **New
 
 ### Reinvestment of Proceeds
 
-ETNA Trader enables investors to instruct mutual fund managers to either distribute the dividends and capital gains back to the investor or, alternatively, further reinvest them. This can be achieved by setting three parameters to `true` in the payload of the [corresponding API request](buy-a-mutual-fund.md):
+AutoShares enables investors to instruct mutual fund managers to either distribute the dividends and capital gains back to the investor or, alternatively, further reinvest them. This can be achieved by setting three parameters to `true` in the payload of the [corresponding API request](buy-a-mutual-fund.md):
 
 * [x] ReinvestDividends
 * [x] ReinvestShortTermGains
@@ -47,7 +47,7 @@ ETNA Trader enables investors to instruct mutual fund managers to either distrib
 
 ### Supported Mutual Fund Operations
 
-As of now, ETNA Trader supports all standard mutual fund operations:
+As of now, AutoShares supports all standard mutual fund operations:
 
 #### Purchasing Mutual Funds
 

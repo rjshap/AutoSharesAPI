@@ -8,15 +8,15 @@ POST /v{version}/feedbacks
 
 ### Description
 
-This API endpoint enables you to submit user feedback into ETNA Trader's support ticket management system.
+This API endpoint enables you to submit user feedback into AutoShares's support ticket management system.
 
 ### Parameters
 
 | Type       | Name                                                         | Description                                                                                                                           | Schema                                                                  | Default |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------- |
 | **Header** | <p><strong>Authorization</strong>  <br><em>required</em></p> | This is the authorization token that you retrieved from the first endpoint (/token).                                                  | string                                                                  |         |
-| **Header** | <p><strong>Et-App-Key</strong>  <br><em>required</em></p>    | This is your app’s unique key that can be retrieved from the BO Companies widget in ETNA Trader.                                      | string                                                                  |         |
-| **Path**   | <p><strong>version</strong>  <br><em>required</em></p>       | This is the version of the API. Unless you have multiple versions of ETNA Trader’s API deployed in your environment, leave it at 1.0. | string                                                                  | `"1"`   |
+| **Header** | <p><strong>Et-App-Key</strong>  <br><em>required</em></p>    | This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.                                      | string                                                                  |         |
+| **Path**   | <p><strong>version</strong>  <br><em>required</em></p>       | This is the version of the API. Unless you have multiple versions of AutoShares’s API deployed in your environment, leave it at 1.0. | string                                                                  | `"1"`   |
 | **Body**   | <p><strong>body</strong>  <br><em>required</em></p>          | This is a JSON dictionary that contains information about the new user feedback.                                                      | [SubmitFeedbackModel](feedbacks\_submitfeedback.md#submitfeedbackmodel) |         |
 
 ### Responses

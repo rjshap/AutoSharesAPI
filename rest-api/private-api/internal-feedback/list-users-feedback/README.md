@@ -81,7 +81,7 @@ The following table lists a set of sample queries:
       </td>
       <td style="text-align:left">
         <ul>
-          <li>Retrieves feedbacks that were submitted from ETNA Trader of version 1.2.47.149</li>
+          <li>Retrieves feedbacks that were submitted from AutoShares of version 1.2.47.149</li>
         </ul>
       </td>
     </tr>
@@ -306,14 +306,14 @@ where:
 | Parameter | Description |
 | :--- | :--- |
 | Result | This is an array that contains the retrieved feedbacks \(the number of elements in the array depends on the value set in the **pageSize** parameter\). |
-| Id | This is the internal identifier of the feedback in ETNA Trader. |
+| Id | This is the internal identifier of the feedback in AutoShares. |
 | Contacts | This is the users' contact information. |
 | Subject | This is the subject line of a user feedback. |
 | Comment | This is the body of a user feedback. |
 | Login | This is the login of the user who's submitted the feedback. |
 | UserAgent | This is the platform used by the user when they submitted the feedback. |
 | TimeStamp | This is the time \(in C\# ticks\) when the feedback was submitted. |
-| BuildVersion | This is the version of ETNA Trader that the user was using when they submitted the feedback. |
+| BuildVersion | This is the version of AutoShares that the user was using when they submitted the feedback. |
 | Files | This is an array with the files the user attached when submitting the feedback. |
 | NextPageLink | This is the next page of the user feedback. |
 | PreviousPageLink | This is the previous page of the user feedback. |

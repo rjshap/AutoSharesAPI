@@ -350,7 +350,7 @@ where:
     </tr>
     <tr>
       <td style="text-align:left">StateId</td>
-      <td style="text-align:left">The is the identifier of the order&apos;s state in ETNA Trader.</td>
+      <td style="text-align:left">The is the identifier of the order&apos;s state in AutoShares.</td>
     </tr>
     <tr>
       <td style="text-align:left">ParentId</td>
@@ -398,7 +398,7 @@ where:
       <td style="text-align:left">IsExternal</td>
       <td style="text-align:left">This field indicates if the order was placed externally. For example,
         a user can place an order manually by calling their broker without using
-        ETNA Trader.</td>
+        AutoShares.</td>
     </tr>
     <tr>
       <td style="text-align:left">ExecBrocker</td>
@@ -422,7 +422,7 @@ where:
     </tr>
     <tr>
       <td style="text-align:left">ParentRequestId</td>
-      <td style="text-align:left">This is an internal ETNA Trader field that should not be used.</td>
+      <td style="text-align:left">This is an internal AutoShares field that should not be used.</td>
     </tr>
     <tr>
       <td style="text-align:left">SettlementDate</td>

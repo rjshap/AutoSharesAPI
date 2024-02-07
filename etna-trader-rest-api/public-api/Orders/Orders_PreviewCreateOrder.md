@@ -15,9 +15,9 @@ This API endpoint enables you to validate the parameters of a new order before p
 |Type|Name|Description|Schema|Default|
 |---|---|---|---|---|
 |**Header**|**Authorization**  <br>*required*|This is the authorization token that you retrieved from the first endpoint (/token).|string||
-|**Header**|**Et-App-Key**  <br>*required*|This is your app’s unique key that can be retrieved from the BO Companies widget in ETNA Trader.|string||
+|**Header**|**Et-App-Key**  <br>*required*|This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.|string||
 |**Path**|**accountId**  <br>*required*|This is the unique identifier of the trading account on which a new order is to be verified.|integer (int32)||
-|**Path**|**version**  <br>*required*|This is the version of the API. Unless you have multiple versions of ETNA Trader’s API deployed in your environment, leave it at 1.0.|string|`"1"`|
+|**Path**|**version**  <br>*required*|This is the version of the API. Unless you have multiple versions of AutoShares’s API deployed in your environment, leave it at 1.0.|string|`"1"`|
 |**Query**|**currency**  <br>*optional*|This is the currency in which the underlying security of the order is denominated.|string||
 |**Query**|**exchange**  <br>*optional*|This is the exchange on which the verified order should preferably be placed.|string||
 |**Body**|**body**  <br>*required*|Place order parameters|[CreateOrderResource](#createorderresource)||

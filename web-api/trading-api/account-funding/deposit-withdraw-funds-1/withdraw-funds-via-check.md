@@ -8,7 +8,7 @@ description: Withdraw funds via checks
 
 This POST endpoint enables you to withdraw funds from your trading account by means of a check.&#x20;
 
-In addition to ACH transfers, ETNA Trader also enables traders to withdraw funds from their trading account by means of a check. In this case a check with the specified sum will be sent to the address specified by the trader in the account opening form (the one you filled out when opening the trading account).
+In addition to ACH transfers, AutoShares also enables traders to withdraw funds from their trading account by means of a check. In this case a check with the specified sum will be sent to the address specified by the trader in the account opening form (the one you filled out when opening the trading account).
 
 {% hint style="warning" %}
 Check transfers are available only for withdrawing funds.
@@ -19,7 +19,7 @@ There are five required parameters that must be provided in the request:
 1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
 2. **Authorization** (header). This is the authorization token from the very first [token request](../../authentication/). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
 3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **accountId** (path). This is the [internal identifier](../../user-accounts/list-users-accounts.md) of the trading account in ETNA Trader.
+4. **accountId** (path). This is the [internal identifier](../../user-accounts/list-users-accounts.md) of the trading account in AutoShares.
 5. **model** (body). This is a JSON file containing detailed information about the check withdrawal.
 
 #### Body Syntax

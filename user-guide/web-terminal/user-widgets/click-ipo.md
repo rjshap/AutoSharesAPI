@@ -6,7 +6,7 @@ description: Participate in initial public offerings via Click IPO
 
 ### Integration with Click IPO
 
-ETNA Trader supports full native Integration with [Click IPO](https://clickipo.com/how/) which enables traders to participate in all upcoming initial public offerings with just a few clicks. For this purpose the platform features a separate widget called **Click IPO Trade Ticket** that enables traders to participate in initial public offerings.
+AutoShares supports full native Integration with [Click IPO](https://clickipo.com/how/) which enables traders to participate in all upcoming initial public offerings with just a few clicks. For this purpose the platform features a separate widget called **Click IPO Trade Ticket** that enables traders to participate in initial public offerings.
 
 Let's delve deeper into the implementation the top there is a table listing all upcoming IPOs; moving downward there are two text fields where traders can specify the target company's ticker symbol and the maximum amount of funds to be spent on the securities \(the quantity will be calculated automatically\). At the very bottom there's a brief overview of the company, including its prospectus, anticipated price range, IPO date, and the list of underwriters.
 

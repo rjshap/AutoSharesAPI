@@ -6,7 +6,7 @@ description: Verify a new order before placing it
 
 ## Overview
 
-This POST endpoint enables you to verify an order before placing it in ETNA Trader. This might be useful for ensuring that the user has properly constructed an order and prevent any issues related with defective orders.
+This POST endpoint enables you to verify an order before placing it in AutoShares. This might be useful for ensuring that the user has properly constructed an order and prevent any issues related with defective orders.
 
 There are five required parameters that must be provided in the request:
 
@@ -459,7 +459,7 @@ where:
 | Cost                 | This is the total cost of the order (including commission).                                                                                                    |
 | NetCost              | This is the cost of the order less commission.                                                                                                                 |
 | TotalCost            | The gross commission applied to the order (includes all other commissions).                                                                                    |
-| Quotes               | This is the last batch of quotes for this security (includes the security's ticker symbol, its internal identifier in ETNA Trader, and the quote's timestamp). |
+| Quotes               | This is the last batch of quotes for this security (includes the security's ticker symbol, its internal identifier in AutoShares, and the quote's timestamp). |
 | MarginChange         | This is the amount by which the trading account margin requirements will be affected once this order is filled.                                                |
 | ErrorDescription     | This is the description of the error in case the provided order was improperly constructed.                                                                    |
 | ErrorDescriptionArgs | This is an array with error description arguments.                                                                                                             |

@@ -14,7 +14,7 @@ The version of API. By default, set it to `1.0`.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="accountId" required="true" type="integer" %}
-Internal ETNA Trader ID of the trading account.
+Internal AutoShares ID of the trading account.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="header" name="Authorization" required="true" %}
@@ -22,7 +22,7 @@ This is the authorization token from the token request. The value of this header
 {% endswagger-parameter %}
 
 {% swagger-parameter in="header" name="Et-App-Key" required="true" %}
-This is your app’s unique key that can be retrieved from the BO Companies widget in ETNA Trader.
+This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Successful request." %}

@@ -1,11 +1,11 @@
 # Table of contents
 
-* [What is ETNA Trader?](README.md)
+* [What is AutoShares?](README.md)
 
 ## User guide
 
 * [Introduction](user-guide/introduction.md)
-* [ETNA Trader Web](user-guide/web-terminal/README.md)
+* [AutoShares Web](user-guide/web-terminal/README.md)
   * [Getting Started](user-guide/web-terminal/getting-started.md)
   * [Platform Layout](user-guide/web-terminal/platform-layout.md)
   * [User Widgets](user-guide/web-terminal/user-widgets/README.md)
@@ -50,7 +50,7 @@
   * [Trading Tab](user-guide/digital-advisor/trading-tab.md)
   * [Activity Tab](user-guide/digital-advisor/activity-tab.md)
   * [Funding Tab](user-guide/digital-advisor/funding-tab.md)
-* [ETNA Trader Mobile](user-guide/etna-trader-mobile/README.md)
+* [AutoShares Mobile](user-guide/etna-trader-mobile/README.md)
   * [Getting Started](user-guide/etna-trader-mobile/getting-started.md)
   * [App Layout](user-guide/etna-trader-mobile/app-layout.md)
   * [Watchlist & Quotes View](user-guide/etna-trader-mobile/quotes-view/README.md)

@@ -7,7 +7,7 @@ POST /v{version}/internalsecurities
 
 
 ##### Description
-This API endpoint enables you to add a new security to ETNA Trader by sending JSON data with the updated information.
+This API endpoint enables you to add a new security to AutoShares by sending JSON data with the updated information.
 
 
 ##### Parameters
@@ -15,8 +15,8 @@ This API endpoint enables you to add a new security to ETNA Trader by sending JS
 |Type|Name|Description|Schema|Default|
 |---|---|---|---|---|
 |**Header**|**Authorization**  <br>*required*|This is the authorization token that you retrieved from the first endpoint (/token).|string||
-|**Header**|**Et-App-Key**  <br>*required*|This is your app’s unique key that can be retrieved from the BO Companies widget in ETNA Trader.|string||
-|**Path**|**version**  <br>*required*|This is the version of the API. Unless you have multiple versions of ETNA Trader’s API deployed in your environment, leave it at 1.0.|string|`"1"`|
+|**Header**|**Et-App-Key**  <br>*required*|This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.|string||
+|**Path**|**version**  <br>*required*|This is the version of the API. Unless you have multiple versions of AutoShares’s API deployed in your environment, leave it at 1.0.|string|`"1"`|
 |**Body**|**body**  <br>*required*|This is JSON data that contains detailed information about the new security.|[InternalSecurityResource](#internalsecurityresource)||
 
 

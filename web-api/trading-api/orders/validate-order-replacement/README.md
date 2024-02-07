@@ -6,7 +6,7 @@ description: Verify an order modification before committing changes
 
 ## Overview
 
-This PUT endpoint enables you to verify an order replacement before using it to replace an existing order in ETNA Trader. This might be useful for ensuring that the user has properly constructed an order and prevent any issues related with defective orders.
+This PUT endpoint enables you to verify an order replacement before using it to replace an existing order in AutoShares. This might be useful for ensuring that the user has properly constructed an order and prevent any issues related with defective orders.
 
 There are six required parameters that must be provided in the request:
 
@@ -118,7 +118,7 @@ where:
 | Cost         | This is the total cost of the order (including commission).                                                                                                    |
 | NetCost      | This is the cost of the order less commission.                                                                                                                 |
 | TotalCost    | This is the gross commission applied to the order (including all other commissions).                                                                           |
-| Quotes       | This is the last batch of quotes for this security (includes the security's ticker symbol, its internal identifier in ETNA Trader, and the quote's timestamp). |
+| Quotes       | This is the last batch of quotes for this security (includes the security's ticker symbol, its internal identifier in AutoShares, and the quote's timestamp). |
 | MarginChange | This is the amount by which the trading account margin requirements will be affected once this order is filled.                                                |
 
 ## Common Mistakes

@@ -6,7 +6,7 @@ description: List all users who use a particular trading account.
 
 ### Overview
 
-This GET endpoint enables you to retrieve information about all users who user a particular trading account. This account's ID is provided in the request's path and, in response, ETNA Trader will return an array of users who use this trading account.
+This GET endpoint enables you to retrieve information about all users who user a particular trading account. This account's ID is provided in the request's path and, in response, AutoShares will return an array of users who use this trading account.
 
 {% hint style="warning" %}
 In order to list users who user a particular trading account, you must use an [authorization token](../../authentication/) of an administrator. Using authorization tokens of regular users will lead to the 401 status code.
@@ -53,12 +53,12 @@ where:
 | Parameter | Description |
 | :--- | :--- |
 | UserId | This is the internal identifier of the user who uses this trading account. |
-| FirstName | This is the first name of the user in ETNA Trader. |
-| MiddleName | This is the first name of the user in ETNA Trader. |
-| LastName | This is the last name of the user in ETNA Trader. |
-| Login | This is the user's login in ETNA Trader. |
+| FirstName | This is the first name of the user in AutoShares. |
+| MiddleName | This is the first name of the user in AutoShares. |
+| LastName | This is the last name of the user in AutoShares. |
+| Login | This is the user's login in AutoShares. |
 | Email | This is the user's email address. |
-| AddedDate | This is the date on which the user was added to ETNA Trader. |
+| AddedDate | This is the date on which the user was added to AutoShares. |
 | Salutation | This is a special salutation used to address this user in emails. |
 | Suffix | This is the suffix used when addressing the user \(Jr, Sr, I, II, III, etc.\). |
 | AccountAccessType | This is the account access type which indicates the user's access level to this trading account. Possible values: Full, ReadOnly, ClosePositionsOnly. |

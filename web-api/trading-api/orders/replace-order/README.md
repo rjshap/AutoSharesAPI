@@ -6,7 +6,7 @@ description: Modify an existing order (cancel and replace)
 
 ## Overview
 
-This PUT endpoint enables you to replace an existing order in ETNA Trader. The order is sent in the JSON format to our service which in turn replaced the fields in the existing order.
+This PUT endpoint enables you to replace an existing order in AutoShares. The order is sent in the JSON format to our service which in turn replaced the fields in the existing order.
 
 There are six required parameters that must be provided in the request:
 

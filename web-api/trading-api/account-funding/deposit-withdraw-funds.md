@@ -11,7 +11,7 @@ description: >-
 This POST endpoint enables you to deposit or withdraw funds to/from an ACH-based banking account. 
 
 {% hint style="info" %}
-Deposits and withdrawals performed through ACH relationships will be reflected in trading account balances before the start of the following trading session \(after ETNA Trader receives SOD files\).
+Deposits and withdrawals performed through ACH relationships will be reflected in trading account balances before the start of the following trading session \(after AutoShares receives SOD files\).
 {% endhint %}
 
 There are five required parameters that must be provided in the request:
@@ -19,7 +19,7 @@ There are five required parameters that must be provided in the request:
 1. **Et-App-Key** \(header\). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
 2. **Authorization** \(header\). This is the authorization token from the very first [token request](../authentication/).
 3. **API version** \(path\). Unless necessary, leave it at "1.0".
-4. **accountId** \(path\). This is the [internal identifier](../user-accounts/list-users-accounts/) of the trading account in ETNA Trader.
+4. **accountId** \(path\). This is the [internal identifier](../user-accounts/list-users-accounts/) of the trading account in AutoShares.
 5. **model** \(body\). This is a JSON file containing detailed information about the funds transfer.
 
 #### Body Syntax

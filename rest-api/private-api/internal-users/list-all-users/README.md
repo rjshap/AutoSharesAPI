@@ -19,7 +19,7 @@ There are seven required parameters that must be provided in the request:
 3. **API version** \(path\). Unless necessary, leave it at "1.0".
 4. **pageSize** \(query\). This field indicates the number of users that need to be retrieved per page.
 5. **pageNumber** \(query\). This field indicates the number of the page that needs to be retrieved \(all users are split into a set of pages that can be loaded one by one\).
-6. **sortBy** \(query\). This is the field by which the retrieved users should be sorted. For example, if the value of this parameter is set to **Id**, the retrieved feedbacks will be sorted by the users' internal identifier in ETNA Trader.
+6. **sortBy** \(query\). This is the field by which the retrieved users should be sorted. For example, if the value of this parameter is set to **Id**, the retrieved feedbacks will be sorted by the users' internal identifier in AutoShares.
 7. **isDesc** \(query\). This field indicates if the list of retrieved users should be sorted in the descending \(true\) or ascending \(false\) order.
 
 There's also one optional parameter worth examining:
@@ -232,16 +232,16 @@ where:
 
 | Parameter | Description |
 | :--- | :--- |
-| Id | This is the internal identifier of the user in ETNA Trader. |
-| FirstName | This is the first name of the user in ETNA Trader. |
-| Middle | This is the middle name of the user in ETNA Trader. |
-| LastName | This is the last name of the user in ETNA Trader. |
+| Id | This is the internal identifier of the user in AutoShares. |
+| FirstName | This is the first name of the user in AutoShares. |
+| Middle | This is the middle name of the user in AutoShares. |
+| LastName | This is the last name of the user in AutoShares. |
 | EmailAddress | This is the email address of the user. |
 | Login | This is the user's login. |
 | Salutation | This is a special salutation used to address this user in emails. |
 | Suffix | This is the suffix used when addressing the user \(Jr, Sr, I, II, III, etc.\). |
-| AddedDate | This is the date on which this user account was added to ETNA Trader. |
-| Enabled | This field indicates if the user is active and can make trades in ETNA Trader. |
+| AddedDate | This is the date on which this user account was added to AutoShares. |
+| Enabled | This field indicates if the user is active and can make trades in AutoShares. |
 | Deleted | This field indicates if the user has been deleted. |
 | TimeZoneInfoId | This field indicates the time zone in which the user lives. |
 | EntitlementsPhoneNumber | This the user's phone number. |

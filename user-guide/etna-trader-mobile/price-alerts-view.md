@@ -6,9 +6,9 @@ description: Manage price alerts
 
 ### Introduction
 
-The fourth tab of ETNA Trader Mobile — **Price Alerts** — is responsible for displaying the trader's price alerts. A price alert is a scheduled notification that will go off when the specified target price is reached for a specific security. For example, if you want to be notified when the price of the Netflix stock reaches $500, you can create a price alert for the stock with the following condition: `>= 500`.
+The fourth tab of AutoShares Mobile — **Price Alerts** — is responsible for displaying the trader's price alerts. A price alert is a scheduled notification that will go off when the specified target price is reached for a specific security. For example, if you want to be notified when the price of the Netflix stock reaches $500, you can create a price alert for the stock with the following condition: `>= 500`.
 
-Price alerts are shared between all platforms of ETNA Trader, meaning all alerts created in the mobile apps will function in the web terminal and vice versa.
+Price alerts are shared between all platforms of AutoShares, meaning all alerts created in the mobile apps will function in the web terminal and vice versa.
 
 ### Creating a New Price Alert
 

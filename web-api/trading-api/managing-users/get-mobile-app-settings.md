@@ -1,12 +1,12 @@
 ---
-description: Retrieve settings for ETNA Trader for iOS and Android
+description: Retrieve settings for AutoShares for iOS and Android
 ---
 
 # Get Mobile App Settings
 
 ## Overview
 
-This GET endpoint enables you to retrieve the mobile settings for ETNA Trader for iOS and Android. These settings can and should be used to determine how the mobile apps function and whether or not they should function in the first place (perhaps the mobile app's version is obsolete and must be updated before working).
+This GET endpoint enables you to retrieve the mobile settings for AutoShares for iOS and Android. These settings can and should be used to determine how the mobile apps function and whether or not they should function in the first place (perhaps the mobile app's version is obsolete and must be updated before working).
 
 {% hint style="info" %}
 The selection of available settings can always be extended or contracted. If you would like to add extra settings that can be leveraged in your mobile app, contact our [support team](mailto:support@etnatrader.com) and they will add them for you.

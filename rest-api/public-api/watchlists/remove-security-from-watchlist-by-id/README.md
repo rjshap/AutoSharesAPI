@@ -110,8 +110,8 @@ In response to this API request, you'll receive the updated watchlist with the s
 
 | Parameter | Description |
 | :--- | :--- |
-| Id | This is the internal identifier of the watchlist in ETNA Trader. |
-| Name | This is the name of the watchlist in ETNA Trader. |
+| Id | This is the internal identifier of the watchlist in AutoShares. |
+| Name | This is the name of the watchlist in AutoShares. |
 | Type | This is the type of the watchlist. It could either be a user-created watchlist or a default watchlist provided by the system. |
 | CreateDate | This is the date on which the watchlist was created. |
 | ModifyDate | This is the date on which the watchlist was last modified. |

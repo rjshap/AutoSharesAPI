@@ -19,8 +19,8 @@ class EtnaAPIRequest:
 
 	token = 'uninitialized'
 
-	username = "your username in ETNA Trader"
-	password = "your password in ETNA Trader"
+	username = "your username in AutoShares"
+	password = "your password in AutoShares"
 
 	def initialAuth(self):
 	    #Creating a POST request
@@ -46,7 +46,7 @@ sampleRequest.initialAuth()
 In this example, there's a class called `EtnaAPIRequest` that has five properties:
 
 * `baseURL` — this is the URL that hosts your API. Each solution has its own base URL for both the Trader and the Developer API.
-* `EtAppKey` — this is the unique key of your solution that can be retrieved from the BO companies widget in ETNA Trader.
+* `EtAppKey` — this is the unique key of your solution that can be retrieved from the BO companies widget in AutoShares.
 * `Token` — this is the authentication token that must be provided in all API requests except for the first one (authentication).
 * `Username` and `password` — these are the credentials of a user on whose behalf all API requests will be made.
 

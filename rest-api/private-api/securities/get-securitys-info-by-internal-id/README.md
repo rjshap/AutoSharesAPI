@@ -8,7 +8,7 @@ description: >-
 
 ### Overview
 
-This GET endpoint enables you to retrieve information about a particular security by specifying its internal ID in the request's path. This information is not retrieved directly from the exchange; rather, it's the information about the security that is specific to ETNA Trader.
+This GET endpoint enables you to retrieve information about a particular security by specifying its internal ID in the request's path. This information is not retrieved directly from the exchange; rather, it's the information about the security that is specific to AutoShares.
 
 There are four required parameters that must be provided in the request:
 
@@ -51,7 +51,7 @@ where:
 
 | Parameter | Description |
 | :--- | :--- |
-| Id | This is the internal ID of the security in ETNA Trader. |
+| Id | This is the internal ID of the security in AutoShares. |
 | Symbol | This is the ticker symbol under which the security is listed on the exchange. |
 | Description | Usually this is the full name of the underlying company. |
 | Exchange | This is the exchange on which the security is listed. |

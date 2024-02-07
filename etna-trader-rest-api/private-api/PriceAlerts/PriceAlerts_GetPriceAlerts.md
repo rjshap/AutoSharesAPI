@@ -15,9 +15,9 @@ This API endpoint enables you to retrieve all price alerts of a specific user.
 |Type|Name|Description|Schema|Default|
 |---|---|---|---|---|
 |**Header**|**Authorization**  <br>*required*|This is the authorization token that you retrieved from the first endpoint (/token).|string||
-|**Header**|**Et-App-Key**  <br>*required*|This is your app’s unique key that can be retrieved from the BO Companies widget in ETNA Trader.|string||
+|**Header**|**Et-App-Key**  <br>*required*|This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.|string||
 |**Path**|**userId**  <br>*required*|This is the internal identifier of the user whose price alerts must be retrieved.|integer (int32)||
-|**Path**|**version**  <br>*required*|This is the version of the API. Unless you have multiple versions of ETNA Trader’s API deployed in your environment, leave it at 1.0.|string|`"1"`|
+|**Path**|**version**  <br>*required*|This is the version of the API. Unless you have multiple versions of AutoShares’s API deployed in your environment, leave it at 1.0.|string|`"1"`|
 |**Query**|**isDesc**  <br>*required*|This is a boolean field that indicates if the returned price alerts should be sorted in  descending (true) or ascending (false) order.|boolean||
 |**Query**|**pageNumber**  <br>*required*|This is the page number (all price alerts are split into pages).|integer (int32)||
 |**Query**|**pageSize**  <br>*required*|This is the number of price alerts that should be retrieved from the specified page.|integer (int32)||

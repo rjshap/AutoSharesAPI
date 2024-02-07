@@ -6,7 +6,7 @@ description: Change global settings, inspect the account balances
 
 ### Introduction
 
-The last tab of ETNA Trader Mobile — **Account** — is responsible for displaying comprehensive information about the current trading account as well as enabling you to change the app's settings. Here you can quickly glance at the current market value of the account, track the profit and loss figures, take a closer look at your current buying power, configure notifications, etc.
+The last tab of AutoShares Mobile — **Account** — is responsible for displaying comprehensive information about the current trading account as well as enabling you to change the app's settings. Here you can quickly glance at the current market value of the account, track the profit and loss figures, take a closer look at your current buying power, configure notifications, etc.
 
 ![](../../.gitbook/assets/Account.png)
 

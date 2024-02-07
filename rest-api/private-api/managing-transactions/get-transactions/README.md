@@ -263,14 +263,14 @@ where:
 | Result | This is a dictionary that contains the requested transactions. |
 | Id | This is the internal identifier of a given transaction. |
 | SecurityId | This is the internal identifier of the underlying security that was traded in this transaction. |
-| OrderStateId | This is the internal identifier of the order in ETNA Trader. In most cases this information should not be used. |
+| OrderStateId | This is the internal identifier of the order in AutoShares. In most cases this information should not be used. |
 | AccountId | This is the internal identifier of the trading account on which the transaction was made. |
 | Date | This is the date on which the transaction was made. |
 | Value | This is the amount of funds that were subtracted from or added to the trading account. |
 | Quantity | This is the number of securities that were traded in this transaction. |
 | LeavesQuantity | This is the number of securities that are yet to be purchased in this transaction. This field is applicable for partial orders. |
 | Fee | This is a dictionary that contains information about the fees applied to this transaction. |
-| Id | This is the internal identifier of the fee in ETNA Trader. |
+| Id | This is the internal identifier of the fee in AutoShares. |
 | CommissionId | This is the identifier of the fee in the string format. |
 | Value | This is the numeric value of the fee \(the amount that was subtracted from the trading account\). |
 | Seizure | This field indicates when the fee will be applied to the trading account. |

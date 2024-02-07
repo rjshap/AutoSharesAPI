@@ -1,12 +1,12 @@
 ---
-description: Perform two-factor authentication in ETNA Trader
+description: Perform two-factor authentication in AutoShares
 ---
 
 # Two-Factor Authentication
 
 ### Overview
 
-All API requests in ETNA Trader require a unique authentication token that must be provided in the request header. Without this token, it's impossible to place orders, retrieve charts, create users, etc. To get the token, use the following API endpoint:
+All API requests in AutoShares require a unique authentication token that must be provided in the request header. Without this token, it's impossible to place orders, retrieve charts, create users, etc. To get the token, use the following API endpoint:
 
 ```
 POST APIBaseURL + /token

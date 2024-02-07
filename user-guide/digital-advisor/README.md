@@ -8,7 +8,7 @@ description: >-
 
 ### Introduction
 
-In addition to the full-fledged trading terminal available for professional traders, ETNA Trader also comes with a lightweight digital advisor that enables automatic rebalancing of portfolios in accordance with a pre-defined model that determines:
+In addition to the full-fledged trading terminal available for professional traders, AutoShares also comes with a lightweight digital advisor that enables automatic rebalancing of portfolios in accordance with a pre-defined model that determines:
 
 * Which asset classes should comprise the portfolio
 * The weight of every asset class in the portfolio.

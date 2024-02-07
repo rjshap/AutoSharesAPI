@@ -97,9 +97,9 @@ where:
 
 | Parameter | Description |
 | :--- | :--- |
-| Id | This is the modified security's internal identifier in ETNA Trader. You can retrieve this identifier via this [API request](../get-security-info-by-ticker/). |
+| Id | This is the modified security's internal identifier in AutoShares. You can retrieve this identifier via this [API request](../get-security-info-by-ticker/). |
 | Symbol | This is the ticker symbol of the modified security.  |
-| Suffix | This is an internal field in ETNA Trader and it shouldn't be used by third-party developers. |
+| Suffix | This is an internal field in AutoShares and it shouldn't be used by third-party developers. |
 | Description | Usually this is the full name of the underlying company. |
 | Exchange | This is the exchange on which the security is listed. |
 | Currency | This is the currency in which the security is denominated. |
@@ -114,18 +114,18 @@ where:
 | AllowMargin | This field indicates if the security is allowed to be traded on margin. |
 | AllowShort | This field indicates if the security can be sold short. |
 | BaseCurrency | This is the currency in which a forex instrument is denominated. |
-| Source | This is an internal field in ETNA Trader. It shouldn't be used. |
-| SourceId | This is an internal field in ETNA Trader. It shouldn't be used. |
+| Source | This is an internal field in AutoShares. It shouldn't be used. |
+| SourceId | This is an internal field in AutoShares. It shouldn't be used. |
 | ParentId | This is the internal identifier of the underlying security of an option series. If the value is set to -1, it means that this security is not an option. |
-| MarginRate | This is an internal field in ETNA Trader. It shouldn't be used by third-party developers. |
+| MarginRate | This is an internal field in AutoShares. It shouldn't be used by third-party developers. |
 | OptionType | This is the type of the option. Possible values: Call, Put. |
 | ExpirationType | This is the type of options' expiration date. Possible values: Regular, Quarterly, Weekly, Flex, Undefined, Mini. |
 | ExpirationDate | This the expiration date of the option. |
 | StrikePrice | This is the strike price of the option. |
 | SeriesId | This is the internal identifier of the option series. If the value is set to -1, it means that this security is not an option. |
 | Price | This is the security's last closing price. |
-| QuoteSubscriptionKey | This is a key that ETNA Trader uses to subscribe to quotes for this security. It's an internal field and should not be used by third-party developers. |
-| Leverage | This is an internal field in ETNA Trader. It shouldn't be used by third-party developers. |
+| QuoteSubscriptionKey | This is a key that AutoShares uses to subscribe to quotes for this security. It's an internal field and should not be used by third-party developers. |
+| Leverage | This is an internal field in AutoShares. It shouldn't be used by third-party developers. |
 | Name | This is the name of the security \(usually it's identical to the Symbol field\). |
 | ExpirationName | This is the expiration name of the option. If the value is set to Jan 01 0001, it means that this security is not an option. |
 | Isin | This abbreviation stands for International Securities Identification Number and it serves as a security's unique identifier. |
@@ -174,7 +174,7 @@ In response to this API request, you'll receive a JSON file that contains inform
 }
 ```
 
-As you can see, in this sample request  we've increased the price precision from one to five. If we navigate to ETNA Trader,  we'll notice that the number of decimal places in the security's price has increased  to five.
+As you can see, in this sample request  we've increased the price precision from one to five. If we navigate to AutoShares,  we'll notice that the number of decimal places in the security's price has increased  to five.
 
 ![](../../../../.gitbook/assets/screenshot-2019-03-04-at-15.24.12.png)
 

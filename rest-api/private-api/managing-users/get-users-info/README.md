@@ -1,12 +1,12 @@
 ---
-description: Get a user's information by their ETNA Trader identifier
+description: Get a user's information by their AutoShares identifier
 ---
 
 # Get User's Info
 
 ### Overview
 
-This endpoint enables you to request a user's information by supplying their unique ETNA Trader identifier in the header. In response, you'll receive a JSON file with the user's information.
+This endpoint enables you to request a user's information by supplying their unique AutoShares identifier in the header. In response, you'll receive a JSON file with the user's information.
 
 There are three required parameters that must be provided in the request:
 
@@ -57,7 +57,7 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 
 #### Specifying the Regular User ID Instead of the Internal One
 
-Another common mistake when making this request is specifying the regular user ID instead of the internal ETNA Trader ID. Doing so will result in the 400 status code and the following error message:
+Another common mistake when making this request is specifying the regular user ID instead of the internal AutoShares ID. Doing so will result in the 400 status code and the following error message:
 
 ```javascript
 {

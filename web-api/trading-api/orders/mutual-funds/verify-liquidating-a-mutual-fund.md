@@ -6,7 +6,7 @@ description: Verify placing a liquidation order for a mutual fund
 
 ### Overview
 
-This POST endpoint enables you to verify a liquidation order before placing it in ETNA Trader. This might be useful for ensuring that the user has properly constructed an order and prevent any issues related with defective orders.
+This POST endpoint enables you to verify a liquidation order before placing it in AutoShares. This might be useful for ensuring that the user has properly constructed an order and prevent any issues related with defective orders.
 
 There are five required parameters that must be provided in the request:
 

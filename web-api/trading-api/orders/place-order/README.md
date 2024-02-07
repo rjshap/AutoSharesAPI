@@ -6,7 +6,7 @@ description: Place a new order
 
 ## Overview
 
-This POST endpoint enables you to place a new order in ETNA Trader. The order is sent in the JSON format to our service which turns it into a new outstanding order that should eventually be fulfilled.
+This POST endpoint enables you to place a new order in AutoShares. The order is sent in the JSON format to our service which turns it into a new outstanding order that should eventually be fulfilled.
 
 There are five required parameters that must be provided in the request:
 

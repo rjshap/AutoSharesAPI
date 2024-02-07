@@ -1,12 +1,12 @@
 ---
-description: Learn how to place a trade in ETNA Trader for iOS
+description: Learn how to place a trade in AutoShares for iOS
 ---
 
 # Trade View
 
 ### Introduction
 
-ETNA Trader Mobile offers full-fledged functionality for trading, enabling traders to open positions in both stocks and options. Whether a trader wants to open a long, short, or buy-to-cover position, they can do so by tapping on the **Trade** button in the top-right corner.
+AutoShares Mobile offers full-fledged functionality for trading, enabling traders to open positions in both stocks and options. Whether a trader wants to open a long, short, or buy-to-cover position, they can do so by tapping on the **Trade** button in the top-right corner.
 
 ![](<../../../../.gitbook/assets/img\_ff96693f5a2f-1\_iphonexspacegrey\_portrait (1).png>)
 
