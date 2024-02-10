@@ -13,4 +13,3 @@ Another frequent use-case of our API is to augment the existing functionality of
 This is the trader's API that invokes actions typically performed by trader's widgets: placing orders, getting quotes, configuring price alerts, and so forth. This API can be called from anywhere simply using your app's API key and a user's credentials. 
 
 {% page-ref page="trading-api/" %}
-
