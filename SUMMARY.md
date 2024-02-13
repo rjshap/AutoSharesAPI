@@ -4,8 +4,6 @@
 
 ## User guide
 
-* [Introduction](user-guide/introduction.md)
-
 ## AutoShares API
 
 * [Introduction](web-api/introduction.md)
