@@ -1,8 +1,3 @@
----
-description: >-
-Details on AutoShares suite of applications, including descriptions of components, features, and more.
----
-
 # What is AutoShares?
 
 AutoShares offers an all-in-one front-to-to back-office trading solution consisting of several components: web trader, mobile trading applications for iOS and Android, OMS with a middle and back office, and a suite of APIs. Technology services are available for hobbyists, traders, fintech companies, app developers, RIAs, and broker-dealers. 
