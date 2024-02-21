@@ -8,9 +8,9 @@ description: Establish an ACH relationship and bind it to a trading account via 
 
 This POST endpoint enables you to establish an ACH relationship via Plaid. Unlike the regular endpoint for [establishing ACH relationships](create-an-ach-relationship.md), this endpoint accepts parameters provided by Plaid after the user went through the Plaid's UI.&#x20;
 
-After an ACH relationship is established, it'll take some time for the clearing firm to approve it. For Velox, If the data provided via this API request matches their data (name, etc.), the relationships will be established immediately. However, if there is a mismatch in the name, It will need to be review by the Correspondent via the Velox Portal. From the Velox portal the Correspondent can reject the request or approve it, depending on the mismatch. A bank statement my be required for validation.
+After an ACH relationship is established, it'll take some time for the clearing firm to approve it. If the data provided via this API request matches their data (name, etc.), the relationships will be established immediately. However, if there is a mismatch in the name, It will need to be review by the Correspondent via the Velox Portal. From the Velox portal the Correspondent can reject the request or approve it, depending on the mismatch. A bank statement my be required for validation.
 
-Note that some clearing firms put limitations on the number of ACH relationships that can be established for one trading account. For Velox, you can establish up to **two** ACH relationships per trading account.
+Note that some clearing firms put limitations on the number of ACH relationships that can be established for one trading account. Users can establish up to **two** ACH relationships per trading account.
 
 {% hint style="info" %}
 Establishment of ACH relationships is available only for real trading accounts. If you attempt to establish an ACH relationship for a paper trading account, the request will fall through.
