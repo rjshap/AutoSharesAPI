@@ -8,9 +8,9 @@ description: Establish and bind an ACH relationship to a trading account.
 
 After a trader has created a new [trading account](../trading-accounts/open-a-new-trading-account.md), they should proceed to deposit funds into it. AutoShares provides native functionality for managing deposits and withdrawals by means of ACH relationships. Essentially, a trader must establish an ACH relationship with their banking account and, once it's done, use it to deposit and withdraw funds to/from their banking account through AutoShares's web terminal and iOS apps.
 
-After an ACH relationship is established, it'll take some time for the clearing firm to approve it. For Velox, If the data provided via this API request matches their data (name, etc.), the relationships will be established immediately. However, if there is a mismatch in the name, It will need to be review by the Correspondent via the Velox Portal. From the Velox portal the Correspondent can reject the request or approve it, depending on the mismatch. A bank statement my be required for validation.
+After an ACH relationship is established, it'll take some time for the clearing firm to approve it. If the data provided via this API request matches their data (name, etc.), the relationships will be established immediately. However, if there is a mismatch in the name, It will need to be review by the Correspondent via the Portal. From the portal the Correspondent can reject the request or approve it, depending on the mismatch. A bank statement my be required for validation.
 
-Note that some clearing firms put limitations on the number of ACH relationships that can be established for one trading account. For Velox, you can establish up to **two** ACH relationships per trading account.
+Note that some clearing firms put limitations on the number of ACH relationships that can be established for one trading account. For AutoShares, you can establish up to **two** ACH relationships per trading account.
 
 {% hint style="info" %}
 Establishment of ACH relationships is available only for real trading accounts. If you attempt to establish an ACH relationship for a paper trading account, the request will fall through.
