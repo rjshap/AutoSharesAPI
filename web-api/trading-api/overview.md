@@ -1,5 +1,5 @@
 ---
-description: Get started with the Trading API
+description: Getting started with the Trading API
 ---
 
 # Overview
