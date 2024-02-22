@@ -25,6 +25,8 @@ There's no need to analyze the contents of the array; simply check if there are 
 Step 2. Displaying the Agreements Page
 
 The next step is to display the agreements page to the trader. The page itself along with the signing process is taken care of at our end while you simply need to display the following mark-up:
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,6 +83,7 @@ The next step is to display the agreements page to the trader. The page itself a
     </script>
 </body>
 </html>
+
 
 As you can see, there are a few customizable feature in the form like the preferred theme, borders, name, etc. It is also possible to redirect the user to the URL specified in the CUSTOM_URL variable once the signing process is complete. If there's some JavaScript code that must be executed afterwards, that is also possible.
 
