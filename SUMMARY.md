@@ -118,8 +118,7 @@
   * [Managing Transactions](web-api/trading-api/managing-transactions/README.md)
     * [Get Transactions](web-api/trading-api/managing-transactions/get-transactions/README.md)
       * [Syntax](web-api/trading-api/managing-transactions/get-transactions/transactions\_getactionspage.md)
-
-  * [Streaming Data](web-api/trading-api/streaming-data/README.md)
+ * [Streaming Data](web-api/trading-api/streaming-data/README.md)
     * [API Endpoints](web-api/trading-api/streaming-data/api-endpoints/README.md)
       * [Get Streamers' Info](web-api/trading-api/streaming-data/api-endpoints/get-streamers-info.md)
       * [Recover a Streamer Session](web-api/trading-api/streaming-data/api-endpoints/recover-a-streamer-session.md)
@@ -129,8 +128,7 @@
     * [Watchlists](web-api/trading-api/streaming-data/watchlists.md)
     * [Account Balances](web-api/trading-api/streaming-data/account-balances.md)
     * [User Balance](web-api/trading-api/streaming-data/user-balance.md)
-
-  * [ACH Wires and Account Transfers](web-api/trading-api/account-funding/README.md)
+ * [ACH Wires and Account Transfers](web-api/trading-api/account-funding/README.md)
     * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
     * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
     * [Get an ACH Relationship](web-api/trading-api/account-funding/get-an-ach-relationship.md)
