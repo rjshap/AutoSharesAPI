@@ -11,8 +11,8 @@
   * [Overview](web-api/trading-api/overview.md)
 * [Agreements](web-api/trading-api/agreements/README.md)
   * [Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
-  * [Authentication(coming soon)]
-  * [Managing Users](web-api/trading-api/managing-users/README.md)
+* [Authentication(coming soon)]
+* [Managing Users](web-api/trading-api/managing-users/README.md)
     * [Get User's Info](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
     * [Get User's Trading Settings](web-api/trading-api/managing-users/get-users-settings.md)
