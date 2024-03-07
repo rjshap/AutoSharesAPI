@@ -56,7 +56,7 @@
       * [Syntax](web-api/trading-api/positions/get-users-positions-in-security/positions\_getpositionbysymbol.md)
     * [Get Market Value of all Security Groups](web-api/trading-api/positions/get-market-value-of-all-security-types.md)
   
- * [Managing Transactions](web-api/trading-api/managing-transactions/README.md)
+    * [Managing Transactions](web-api/trading-api/managing-transactions/README.md)
     * [Get Transactions](web-api/trading-api/managing-transactions/get-transactions/README.md)
       * [Syntax](web-api/trading-api/managing-transactions/get-transactions/transactions\_getactionspage.md)
  * [Streaming Data and Quotes](web-api/trading-api/streaming-data/README.md)
