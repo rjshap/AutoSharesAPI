@@ -9,8 +9,8 @@
 * [Introduction](web-api/introduction.md)
 * [AutoShares API](web-api/trading-api/README.md)
   * [Overview](web-api/trading-api/overview.md)
-   * [Agreements](web-api/trading-api/agreements/README.md)
-    * [Get a Trader's Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
+* [Agreements](web-api/trading-api/agreements/README.md)
+  * [Get a Trader's Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
   * [Authentication(coming soon)]
   * [Managing Users](web-api/trading-api/managing-users/README.md)
     * [Get User's Info](web-api/trading-api/managing-users/get-users-info/README.md)
@@ -20,7 +20,7 @@
     * [Get User's Exchanges](web-api/trading-api/managing-users/get-users-exchanges.md)
    
     * [Get Balance Information For A User](web-api/trading-api/managing-users/get-balance-information-for-a-user.md)
-    * [Account Funding](web-api/trading-api/account-funding/README.md)
+ * [Account Funding](web-api/trading-api/account-funding/README.md)
     * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
     * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
     * [Get an ACH Relationship](web-api/trading-api/account-funding/get-an-ach-relationship.md)
