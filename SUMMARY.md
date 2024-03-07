@@ -10,7 +10,7 @@
 * [AutoShares API](web-api/trading-api/README.md)
   * [Overview](web-api/trading-api/overview.md)
 * [Agreements](web-api/trading-api/agreements/README.md)
-  * [Get a Trader's Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
+  * [Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
   * [Authentication(coming soon)]
   * [Managing Users](web-api/trading-api/managing-users/README.md)
     * [Get User's Info](web-api/trading-api/managing-users/get-users-info/README.md)
@@ -39,7 +39,7 @@
       * [Get a Wire Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-wire-transfers-info.md)
       * [Get a Check Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-check-transfers-info.md)
     * [Get All Transfers](web-api/trading-api/account-funding/get-all-transfers.md)
-  * [Trading Accounts](web-api/trading-api/user-accounts/README.md)
+  * [Account and Balances](web-api/trading-api/user-accounts/README.md)
     * [Get Account's Balance Info](web-api/trading-api/user-accounts/get-accounts-balance-info.md)
     * [Get All Accounts Of A User](web-api/trading-api/user-accounts/list-users-accounts.md)
     * [Get All Users Of An Account](web-api/trading-api/user-accounts/list-users-accounts-1.md)
