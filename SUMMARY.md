@@ -9,10 +9,9 @@
 * [Introduction](web-api/introduction.md)
 * [AutoShares API](web-api/trading-api/README.md)
   * [Overview](web-api/trading-api/overview.md)
+   * [Agreements](web-api/trading-api/agreements/README.md)
+    * [Get a Trader's Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
   * [Authentication(coming soon)]
-  * [User Registration](web-api/trading-api/user-registration/README.md)
-    * [Get Required Fields](web-api/trading-api/user-registration/get-required-fields.md)
-    * [Register a User](web-api/trading-api/user-registration/register-a-user.md)
   * [Managing Users](web-api/trading-api/managing-users/README.md)
     * [Get User's Info](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
@@ -139,9 +138,7 @@
   * [Managing Transactions](web-api/trading-api/managing-transactions/README.md)
     * [Get Transactions](web-api/trading-api/managing-transactions/get-transactions/README.md)
       * [Syntax](web-api/trading-api/managing-transactions/get-transactions/transactions\_getactionspage.md)
-  * [Agreements](web-api/trading-api/agreements/README.md)
-    * [Get a Trader's Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
-  
+
   * [Streaming Data](web-api/trading-api/streaming-data/README.md)
     * [API Endpoints](web-api/trading-api/streaming-data/api-endpoints/README.md)
       * [Get Streamers' Info](web-api/trading-api/streaming-data/api-endpoints/get-streamers-info.md)
