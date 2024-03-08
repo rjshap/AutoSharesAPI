@@ -25,7 +25,6 @@
     * [Get All Users Of An Account](web-api/trading-api/user-accounts/list-users-accounts-1.md)
     * [Get Account Info](web-api/trading-api/user-accounts/list-users-accounts-2.md)
     * [Get Historical Account Value](web-api/trading-api/user-accounts/list-users-accounts-3.md)
-    * [Get All Accounts](web-api/trading-api/user-accounts/list-users-accounts-4.md)
     * [Remove Account From User](web-api/trading-api/user-accounts/list-users-accounts-5.md)
     * [Add Account To User](web-api/trading-api/user-accounts/list-users-accounts-6.md)
     * [Add Account To User By Username](web-api/trading-api/user-accounts/list-users-accounts-7.md)
