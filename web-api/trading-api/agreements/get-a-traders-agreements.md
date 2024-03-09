@@ -6,7 +6,7 @@ description: Retrieve the list of agreements that the trader must sign
 
 ### Introduction
 
-This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the trader.
+All users on the system must sign agreements. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the trader.
 
 There are four required parameters that must be provided in the request:
 
