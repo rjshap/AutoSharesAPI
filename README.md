@@ -17,4 +17,4 @@ Features include:
 * Trade from any where functionality
 * Paper trading/simulated trading mode 
 
-Find more information about the features of AutoShares here: https://autoshares.com
+Find more information about the features of AutoShares here: https://autoshares.com/api

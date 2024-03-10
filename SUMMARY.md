@@ -7,7 +7,7 @@
 ## AutoShares API
 
 * [Quick Start Guide](web-api/introduction.md)
-* [API Overview](web-api/trading-api/README.md)
+* [Working with the APIs](web-api/trading-api/README.md)
   * [Working with the APIs](web-api/trading-api/overview.md)
 * [Authentication(coming soon)]
 * [Agreements](web-api/trading-api/agreements/README.md)
