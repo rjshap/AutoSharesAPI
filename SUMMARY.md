@@ -11,23 +11,14 @@
 * [Authentication]
 * [Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
 * [Accounts and Transactions](web-api/trading-api/managing-users/README.md)
+  
+*  [Onboarding Accounts(coming soon)]
     * [Get User's Info](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
     * [Get User's Trading Settings](web-api/trading-api/managing-users/get-users-settings.md)
     * [Get User's Exchanges](web-api/trading-api/managing-users/get-users-exchanges.md)
     * [Get Balance Information For A User](web-api/trading-api/managing-users/get-balance-information-for-a-user.md)
-
-  * [Accounts, Balances,and Buying Power](web-api/trading-api/user-accounts/README.md)
-    * [Get Account's Balance Info](web-api/trading-api/user-accounts/get-accounts-balance-info.md)
-    * [Get All Accounts Of A User](web-api/trading-api/user-accounts/list-users-accounts.md)
-    * [Get All Users Of An Account](web-api/trading-api/user-accounts/list-users-accounts-1.md)
-    * [Get Account Info](web-api/trading-api/user-accounts/list-users-accounts-2.md)
-    * [Get Historical Account Value](web-api/trading-api/user-accounts/list-users-accounts-3.md)
-    * [Remove Account From User](web-api/trading-api/user-accounts/list-users-accounts-5.md)
-    * [Add Account To User](web-api/trading-api/user-accounts/list-users-accounts-6.md)
-    * [Add Account To User By Username](web-api/trading-api/user-accounts/list-users-accounts-7.md)
-    * [Update Alias Account For Current User](web-api/trading-api/user-accounts/list-users-accounts-8.md)
-  
+ 
   * [ACH Wires and Account Transfers](web-api/trading-api/account-funding/README.md)
     * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
     * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
@@ -47,7 +38,18 @@
       * [Get a Wire Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-wire-transfers-info.md)
       * [Get a Check Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-check-transfers-info.md)
     * [Get All Transfers](web-api/trading-api/account-funding/get-all-transfers.md) 
-  
+
+  * [Accounts, Balances,and Buying Power](web-api/trading-api/user-accounts/README.md)
+    * [Get Account's Balance Info](web-api/trading-api/user-accounts/get-accounts-balance-info.md)
+    * [Get All Accounts Of A User](web-api/trading-api/user-accounts/list-users-accounts.md)
+    * [Get All Users Of An Account](web-api/trading-api/user-accounts/list-users-accounts-1.md)
+    * [Get Account Info](web-api/trading-api/user-accounts/list-users-accounts-2.md)
+    * [Get Historical Account Value](web-api/trading-api/user-accounts/list-users-accounts-3.md)
+    * [Remove Account From User](web-api/trading-api/user-accounts/list-users-accounts-5.md)
+    * [Add Account To User](web-api/trading-api/user-accounts/list-users-accounts-6.md)
+    * [Add Account To User By Username](web-api/trading-api/user-accounts/list-users-accounts-7.md)
+    * [Update Alias Account For Current User](web-api/trading-api/user-accounts/list-users-accounts-8.md)
+
   * [Orders](web-api/trading-api/orders/README.md)
     * [Verify Order Placement](web-api/trading-api/orders/validate-order-placement/README.md)
       * [Syntax](web-api/trading-api/orders/validate-order-placement/orders\_previewcreateorder.md)
@@ -72,7 +74,7 @@
       * [Syntax](web-api/trading-api/positions/get-users-positions-in-security/positions\_getpositionbysymbol.md)
     * [Get Market Value of all Security Groups](web-api/trading-api/positions/get-market-value-of-all-security-types.md)
   
-    * [Managing Transactions](web-api/trading-api/managing-transactions/README.md)
+  * [Managing Transactions](web-api/trading-api/managing-transactions/README.md)
     * [Get Transactions](web-api/trading-api/managing-transactions/get-transactions/README.md)
       * [Syntax](web-api/trading-api/managing-transactions/get-transactions/transactions\_getactionspage.md)
 
@@ -86,7 +88,7 @@
     * [Watchlists](web-api/trading-api/streaming-data/watchlists.md)
     * [Account Balances](web-api/trading-api/streaming-data/account-balances.md)
     * [User Balance](web-api/trading-api/streaming-data/user-balance.md)
-    * [Securities](web-api/trading-api/securities/README.md)
+ * [Securities](web-api/trading-api/securities/README.md)
     * [Get Equity Info by Internal ID](web-api/trading-api/securities/get-securitys-info-by-internal-id/README.md)
       * [Syntax](web-api/trading-api/securities/get-securitys-info-by-internal-id/securities\_getequitybyid.md)
     * [Get Equity Info by Ticker](web-api/trading-api/securities/get-securitys-info-by-ticker/README.md)
@@ -105,7 +107,7 @@
     * [Get Filtered Options](web-api/trading-api/securities/get-filtered-options/README.md)
       * [Syntax](web-api/trading-api/securities/get-filtered-options/securities\_getoptions.md)
     * [Get Company Logo By Symbol](web-api/trading-api/securities/get-company-logo-by-symbol.md)
-      * [Historical Data](web-api/trading-api/historical-data/README.md)
+* [Historical Data](web-api/trading-api/historical-data/README.md)
     * [Get Comparison Chart Data](web-api/trading-api/historical-data/get-chart-data/README.md)
       * [Syntax](web-api/trading-api/historical-data/get-chart-data/historicaltradedata\_getchartcomparedata.md)
     * [Get Candles and Indicators for a Security](web-api/trading-api/historical-data/get-candles-and-indicators-for-charts/README.md)
@@ -113,7 +115,7 @@
     * [Get Chart Data in the Excel Format](web-api/trading-api/historical-data/get-chart-data-in-the-excel-format/README.md)
       * [Syntax](web-api/trading-api/historical-data/get-chart-data-in-the-excel-format/historicaltradedata\_exporttoexcel.md)
 
-    * [Price Alerts](web-api/trading-api/price-alerts/README.md)
+* [Price Alerts](web-api/trading-api/price-alerts/README.md)
     * [Create Price Alert](web-api/trading-api/price-alerts/create-price-alert/README.md)
       * [Syntax](web-api/trading-api/price-alerts/create-price-alert/pricealerts\_createpricealert.md)
     * [Delete Price Alert](web-api/trading-api/price-alerts/delete-price-alert/README.md)
@@ -125,7 +127,7 @@
     * [Modify Price Alert](web-api/trading-api/price-alerts/modify-price-alert/README.md)
       * [Syntax](web-api/trading-api/price-alerts/modify-price-alert/pricealerts\_modifypricealerttrigger.md)
 
-     * [Watchlists](web-api/trading-api/watchlists/README.md)
+* [Watchlists](web-api/trading-api/watchlists/README.md)
     * [Add Security to Watchlist by ID](web-api/trading-api/watchlists/add-security-to-watchlist-by-id/README.md)
       * [Syntax](web-api/trading-api/watchlists/add-security-to-watchlist-by-id/watchlists\_addsecuritybyid.md)
     * [Add Security to Watchlist by Ticker](web-api/trading-api/watchlists/add-security-to-watchlist-by-ticker/README.md)
@@ -149,7 +151,6 @@
     * [Get News for a Security](web-api/trading-api/news/get-news-for-a-security.md)
     * [Get Corporate Actions for a Security](web-api/trading-api/news/get-corporate-actions-for-a-security.md)
   
-  *  [Onboarding Accounts(coming soon)]
   *  [Webhooks and SDKs]
   
   * [Terms and Definitions](web-api/trading-api/definitions/README.md)
