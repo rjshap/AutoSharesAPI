@@ -77,8 +77,8 @@
       * [Get a Wire Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-wire-transfers-info.md)
       * [Get All Transfers](web-api/trading-api/account-funding/get-all-transfers.md) 
 
-* [Streaming Data and Quotes](web-api/trading-api/streaming-data/README.md)
-  * [Streaming API Endpoints](web-api/trading-api/streaming-data/api-endpoints/README.md)
+* [Streaming API Endpoints](web-api/trading-api/streaming-data/api-endpoints/README.md)
+    * [Streaming Data and Quotes](web-api/trading-api/streaming-data/README.md)  
       * [Get Streamers' Info](web-api/trading-api/streaming-data/api-endpoints/get-streamers-info.md)
       * [Recover a Streamer Session](web-api/trading-api/streaming-data/api-endpoints/recover-a-streamer-session.md)
   * [Quotes](web-api/trading-api/streaming-data/quotes.md)
