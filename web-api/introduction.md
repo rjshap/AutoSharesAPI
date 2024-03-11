@@ -1,7 +1,3 @@
----
-Description: Quick Start Guide
----
-
 # Quick Start Guide
 ### Overview
 
@@ -31,12 +27,11 @@ Each API request is described on two pages; the first page introduces you to the
 ![](../../.gitbook/assets/screenshot-2019-04-29-at-15.29.22.png)
 
 
-
 ### Authentication
 
 Every call to AutoShares API must include an API secret key. After you create an AutoShares account, we generate API keys for you. To start working with the API with your keys, you need to activate your account.
 
-### Adding User Accounts
+### Add User Accounts
 
 This API endpoint enables you to bind a new or an existing trading account to an existing user.
 
