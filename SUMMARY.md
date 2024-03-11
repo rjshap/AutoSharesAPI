@@ -58,7 +58,7 @@
     * [Get Transactions](web-api/trading-api/managing-transactions/get-transactions/README.md)
       * [Syntax](web-api/trading-api/managing-transactions/get-transactions/transactions\_getactionspage.md)
 
-* [ACH, Wires, and Account Transfers](web-api/trading-api/account-funding/README.md)
+ * [ACH, Wires, and Account Transfers](web-api/trading-api/account-funding/README.md)
       * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
       * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
       * [Get an ACH Relationship](web-api/trading-api/account-funding/get-an-ach-relationship.md)
