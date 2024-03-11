@@ -26,9 +26,9 @@ We use Auth0's 2.0 protocol for authentication and authorization. Publicly we su
 This API endpoint enables you to bind a new or an existing trading account to an existing user.
 
 
-### Sign Required Agreements
+### Sign Access Agreements
 
-All users on the system must sign agreements. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
+All users on the system must sign access agreements. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
 
 ### The Flow
 In its most basic form, you will register your application with AutoShares, redirect a browser to a URL, parse a token from the responding redirect, and send the token to whichever AutoSharesAPI you wish to access.
