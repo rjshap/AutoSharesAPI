@@ -13,14 +13,14 @@
 * [Accounts and Transactions](web-api/trading-api/managing-users/README.md)
   
    *  [Onboarding Accounts(coming soon)]
-       * [Get User's Info](web-api/trading-api/managing-users/get-users-info/README.md)
+      * [Get User's Info](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
       * [Get User's Trading Settings](web-api/trading-api/managing-users/get-users-settings.md)
       * [Get User's Exchanges](web-api/trading-api/managing-users/get-users-exchanges.md)
       * [Get Balance Information For A User](web-api/trading-api/managing-users/get-balance-information-for-a-user.md)
  
     * [ACH Wires and Account Transfers](web-api/trading-api/account-funding/README.md)
-    * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
+      * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
       * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
       * [Get an ACH Relationship](web-api/trading-api/account-funding/get-an-ach-relationship.md)
       * [Get All ACH Relationships](web-api/trading-api/account-funding/get-all-ach-relationships.md)
