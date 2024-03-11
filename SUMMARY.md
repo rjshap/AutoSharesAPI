@@ -12,7 +12,7 @@
 
 * [Onboarding Users](web-api/trading-api/managing-users/README.md)  
    * [Account Application]((coming soon)
-   * [Add Accounts and Users](web-api/trading-api/managing-users/get-users-info/README.md)
+   * [Account Setup](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
       * [Add Account To User](web-api/trading-api/user-accounts/list-users-accounts-6.md)
       * [Add Account To User By Username](web-api/trading-api/user-accounts/list-users-accounts-7.md)
@@ -25,7 +25,7 @@
       * [Get User's Exchanges](web-api/trading-api/managing-users/get-users-exchanges.md)
   * [Sign Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
       
-* [Accounts Balances and Buying Power](web-api/trading-api/user-accounts/README.md)
+* [Account Balances and Buying Power](web-api/trading-api/user-accounts/README.md)
     * [Get Balance Information For A User](web-api/trading-api/managing-users/get-balance-information-for-a-user.md)
     * [Get Account's Balance Info](web-api/trading-api/user-accounts/get-accounts-balance-info.md)
     * [Get Historical Account Value](web-api/trading-api/user-accounts/list-users-accounts-3.md)
