@@ -59,27 +59,6 @@
     * [Get Transactions](web-api/trading-api/managing-transactions/get-transactions/README.md)
       * [Syntax](web-api/trading-api/managing-transactions/get-transactions/transactions\_getactionspage.md)
 
-  * [ACH Wires and Account Transfers](web-api/trading-api/account-funding/README.md)
-    * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
-    * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
-    * [Get an ACH Relationship](web-api/trading-api/account-funding/get-an-ach-relationship.md)
-    * [Get All ACH Relationships](web-api/trading-api/account-funding/get-all-ach-relationships.md)
-    * [Get the Default ACH Relationship](web-api/trading-api/account-funding/get-the-default-ach-relationship.md)
-    * [Modify an ACH Relationship](web-api/trading-api/account-funding/modify-an-ach-relationship.md)
-    * [Remove an ACH Relationship](web-api/trading-api/account-funding/delete-an-ach-relationship.md)
-    * [Approve an ACH Relationship](web-api/trading-api/account-funding/approve-an-ach-relationship.md)
-    * [Deposit / Withdraw Funds](web-api/trading-api/account-funding/deposit-withdraw-funds-1/README.md)
-      * [Deposit / Withdraw Funds via ACH](web-api/trading-api/account-funding/deposit-withdraw-funds-1/deposit-withdraw-funds.md)
-      * [Withdraw Funds via Checks](web-api/trading-api/account-funding/deposit-withdraw-funds-1/withdraw-funds-via-check.md)
-      * [Withdraw Funds via Wire Transfers](web-api/trading-api/account-funding/deposit-withdraw-funds-1/withdraw-funds-via-wire-transfers.md)
-    * [Cancel a Transfer](web-api/trading-api/account-funding/cancel-an-ach-transfer.md)
-    * [Get a Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/README.md)
-      * [Get an ACH Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-an-ach-transfers-info.md)
-      * [Get a Wire Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-wire-transfers-info.md)
-      * [Get a Check Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-check-transfers-info.md)
-    * [Get All Transfers](web-api/trading-api/account-funding/get-all-transfers.md)
-   
-
  * [Streaming Data and Quotes](web-api/trading-api/streaming-data/README.md)
     * [API Endpoints](web-api/trading-api/streaming-data/api-endpoints/README.md)
       * [Get Streamers' Info](web-api/trading-api/streaming-data/api-endpoints/get-streamers-info.md)
@@ -109,9 +88,7 @@
     * [Get Filtered Options](web-api/trading-api/securities/get-filtered-options/README.md)
       * [Syntax](web-api/trading-api/securities/get-filtered-options/securities\_getoptions.md)
     * [Get Company Logo By Symbol](web-api/trading-api/securities/get-company-logo-by-symbol.md)
- 
-  
-  * [Historical Data](web-api/trading-api/historical-data/README.md)
+      * [Historical Data](web-api/trading-api/historical-data/README.md)
     * [Get Comparison Chart Data](web-api/trading-api/historical-data/get-chart-data/README.md)
       * [Syntax](web-api/trading-api/historical-data/get-chart-data/historicaltradedata\_getchartcomparedata.md)
     * [Get Candles and Indicators for a Security](web-api/trading-api/historical-data/get-candles-and-indicators-for-charts/README.md)
@@ -119,7 +96,7 @@
     * [Get Chart Data in the Excel Format](web-api/trading-api/historical-data/get-chart-data-in-the-excel-format/README.md)
       * [Syntax](web-api/trading-api/historical-data/get-chart-data-in-the-excel-format/historicaltradedata\_exporttoexcel.md)
 
-  * [Price Alerts](web-api/trading-api/price-alerts/README.md)
+    * [Price Alerts](web-api/trading-api/price-alerts/README.md)
     * [Create Price Alert](web-api/trading-api/price-alerts/create-price-alert/README.md)
       * [Syntax](web-api/trading-api/price-alerts/create-price-alert/pricealerts\_createpricealert.md)
     * [Delete Price Alert](web-api/trading-api/price-alerts/delete-price-alert/README.md)
@@ -151,10 +128,32 @@
     * [Rename Watchlist](web-api/trading-api/watchlists/rename-watchlist/README.md)
       * [Syntax](web-api/trading-api/watchlists/rename-watchlist/watchlists\_editwatchlistname.md)
 
-  * [News](web-api/trading-api/news/README.md)
+    * [News](web-api/trading-api/news/README.md)
     * [Get News for a Security](web-api/trading-api/news/get-news-for-a-security.md)
     * [Get Corporate Actions for a Security](web-api/trading-api/news/get-corporate-actions-for-a-security.md)
 
+ * [ACH Wires and Account Transfers](web-api/trading-api/account-funding/README.md)
+    * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
+    * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
+    * [Get an ACH Relationship](web-api/trading-api/account-funding/get-an-ach-relationship.md)
+    * [Get All ACH Relationships](web-api/trading-api/account-funding/get-all-ach-relationships.md)
+    * [Get the Default ACH Relationship](web-api/trading-api/account-funding/get-the-default-ach-relationship.md)
+    * [Modify an ACH Relationship](web-api/trading-api/account-funding/modify-an-ach-relationship.md)
+    * [Remove an ACH Relationship](web-api/trading-api/account-funding/delete-an-ach-relationship.md)
+    * [Approve an ACH Relationship](web-api/trading-api/account-funding/approve-an-ach-relationship.md)
+    * [Deposit / Withdraw Funds](web-api/trading-api/account-funding/deposit-withdraw-funds-1/README.md)
+      * [Deposit / Withdraw Funds via ACH](web-api/trading-api/account-funding/deposit-withdraw-funds-1/deposit-withdraw-funds.md)
+      * [Withdraw Funds via Checks](web-api/trading-api/account-funding/deposit-withdraw-funds-1/withdraw-funds-via-check.md)
+      * [Withdraw Funds via Wire Transfers](web-api/trading-api/account-funding/deposit-withdraw-funds-1/withdraw-funds-via-wire-transfers.md)
+    * [Cancel a Transfer](web-api/trading-api/account-funding/cancel-an-ach-transfer.md)
+    * [Get a Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/README.md)
+      * [Get an ACH Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-an-ach-transfers-info.md)
+      * [Get a Wire Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-wire-transfers-info.md)
+      * [Get a Check Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-check-transfers-info.md)
+    * [Get All Transfers](web-api/trading-api/account-funding/get-all-transfers.md) 
+  
+  *  [Onboarding Accounts(coming soon)]
+  *  [Working with Webhooks]
   
   * [Terms and Definitions](web-api/trading-api/definitions/README.md)
     * [Part I](web-api/trading-api/definitions/part-i.md)
