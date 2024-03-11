@@ -12,10 +12,7 @@
 
 * [Onboarding Users](web-api/trading-api/managing-users/README.md)  
    * [Account Application]((coming soon)
-    * [Sign Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
-      
-* [Accounts, Balances and Buying Power](web-api/trading-api/user-accounts/README.md)
-    * [Account Info](web-api/trading-api/managing-users/get-users-info/README.md)
+   * [Add Accounts and Users](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
       * [Add Account To User](web-api/trading-api/user-accounts/list-users-accounts-6.md)
       * [Add Account To User By Username](web-api/trading-api/user-accounts/list-users-accounts-7.md)
@@ -23,7 +20,10 @@
       * [Remove Account From User](web-api/trading-api/user-accounts/list-users-accounts-5.md)  
       * [Get User's Trading Settings](web-api/trading-api/managing-users/get-users-settings.md)
       * [Get User's Exchanges](web-api/trading-api/managing-users/get-users-exchanges.md)
-      * [Get Balance Information For A User](web-api/trading-api/managing-users/get-balance-information-for-a-user.md)
+  * [Sign Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
+      
+* [Accounts Balances and Buying Power](web-api/trading-api/user-accounts/README.md)
+    * [Get Balance Information For A User](web-api/trading-api/managing-users/get-balance-information-for-a-user.md)
     * [Get All Accounts Of A User](web-api/trading-api/user-accounts/list-users-accounts.md)
     * [Get All Users Of An Account](web-api/trading-api/user-accounts/list-users-accounts-1.md)
     * [Get Account Info](web-api/trading-api/user-accounts/list-users-accounts-2.md)
