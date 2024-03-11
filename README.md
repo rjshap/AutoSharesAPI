@@ -7,7 +7,6 @@ AutoShares integrated vendors and trading APIs can be used as a whole turn-key t
 Features include:
 
 * Trade equities, options \(including multi-legs\), and ETFs.
-* Customizable layout 
 * Web-based custom widgets and tabs designer - "trading browser within a web browser" 
 * Market Analytics with streaming market data \(LI and LII\)
 * Charts, including technical indicators and drawing tools
@@ -16,5 +15,6 @@ Features include:
 * Customizable Price Alerts Engine
 * Trade from any where functionality
 * Paper trading/simulated trading mode 
+* Customizable layout 
 
 Find more information about the features of AutoShares here: https://autoshares.com/api
