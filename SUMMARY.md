@@ -78,8 +78,8 @@
     * [Get Transactions](web-api/trading-api/managing-transactions/get-transactions/README.md)
       * [Syntax](web-api/trading-api/managing-transactions/get-transactions/transactions\_getactionspage.md)
 
-  * [Streaming Data and Quotes](web-api/trading-api/streaming-data/README.md)
-    * [API Endpoints](web-api/trading-api/streaming-data/api-endpoints/README.md)
+* [Streaming Data and Quotes](web-api/trading-api/streaming-data/README.md)
+* [API Endpoints](web-api/trading-api/streaming-data/api-endpoints/README.md)
       * [Get Streamers' Info](web-api/trading-api/streaming-data/api-endpoints/get-streamers-info.md)
       * [Recover a Streamer Session](web-api/trading-api/streaming-data/api-endpoints/recover-a-streamer-session.md)
     * [Quotes](web-api/trading-api/streaming-data/quotes.md)
@@ -88,7 +88,8 @@
     * [Watchlists](web-api/trading-api/streaming-data/watchlists.md)
     * [Account Balances](web-api/trading-api/streaming-data/account-balances.md)
     * [User Balance](web-api/trading-api/streaming-data/user-balance.md)
-  * [Securities](web-api/trading-api/securities/README.md)
+  
+* [Securities](web-api/trading-api/securities/README.md)
     * [Get Equity Info by Internal ID](web-api/trading-api/securities/get-securitys-info-by-internal-id/README.md)
       * [Syntax](web-api/trading-api/securities/get-securitys-info-by-internal-id/securities\_getequitybyid.md)
     * [Get Equity Info by Ticker](web-api/trading-api/securities/get-securitys-info-by-ticker/README.md)
@@ -107,6 +108,7 @@
     * [Get Filtered Options](web-api/trading-api/securities/get-filtered-options/README.md)
       * [Syntax](web-api/trading-api/securities/get-filtered-options/securities\_getoptions.md)
     * [Get Company Logo By Symbol](web-api/trading-api/securities/get-company-logo-by-symbol.md)
+
 * [Historical Data](web-api/trading-api/historical-data/README.md)
     * [Get Comparison Chart Data](web-api/trading-api/historical-data/get-chart-data/README.md)
       * [Syntax](web-api/trading-api/historical-data/get-chart-data/historicaltradedata\_getchartcomparedata.md)
@@ -151,9 +153,9 @@
       * [Get News for a Security](web-api/trading-api/news/get-news-for-a-security.md)
       * [Get Corporate Actions for a Security](web-api/trading-api/news/get-corporate-actions-for-a-security.md)
   
-  *  [Webhooks and SDKs]
+*  [Webhooks and SDKs]
   
-  * [Terms and Definitions](web-api/trading-api/definitions/README.md)
+* [Terms and Definitions](web-api/trading-api/definitions/README.md)
     * [Part I](web-api/trading-api/definitions/part-i.md)
     * [Part II](web-api/trading-api/definitions/part-ii.md)
     * [Part III](web-api/trading-api/definitions/part-iii.md)
