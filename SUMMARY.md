@@ -12,7 +12,10 @@
 
 * [Onboarding Users](web-api/trading-api/managing-users/README.md)  
    * [Account Application]((coming soon)
-   * [Add Users](web-api/trading-api/managing-users/get-users-info/README.md)
+    * [Sign Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
+      
+* [Accounts, Balances, and Buying Power](web-api/trading-api/user-accounts/README.md)
+ * [Add Users](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
       * [Add Account To User](web-api/trading-api/user-accounts/list-users-accounts-6.md)
       * [Add Account To User By Username](web-api/trading-api/user-accounts/list-users-accounts-7.md)
@@ -21,8 +24,12 @@
       * [Get User's Trading Settings](web-api/trading-api/managing-users/get-users-settings.md)
       * [Get User's Exchanges](web-api/trading-api/managing-users/get-users-exchanges.md)
       * [Get Balance Information For A User](web-api/trading-api/managing-users/get-balance-information-for-a-user.md)
-    * [Sign Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
-
+    * [Get Account's Balance Info](web-api/trading-api/user-accounts/get-accounts-balance-info.md)
+    * [Get All Accounts Of A User](web-api/trading-api/user-accounts/list-users-accounts.md)
+    * [Get All Users Of An Account](web-api/trading-api/user-accounts/list-users-accounts-1.md)
+    * [Get Account Info](web-api/trading-api/user-accounts/list-users-accounts-2.md)
+    * [Get Historical Account Value](web-api/trading-api/user-accounts/list-users-accounts-3.md)
+  
  * [ACH, Wires, and Account Transfers](web-api/trading-api/account-funding/README.md)
       * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
       * [Approve an ACH Relationship](web-api/trading-api/account-funding/approve-an-ach-relationship.md)
@@ -42,12 +49,6 @@
       * [Get a Wire Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-wire-transfers-info.md)
       * [Get All Transfers](web-api/trading-api/account-funding/get-all-transfers.md) 
  
-* [Account Balances and Buying Power](web-api/trading-api/user-accounts/README.md)
-    * [Get Account's Balance Info](web-api/trading-api/user-accounts/get-accounts-balance-info.md)
-    * [Get All Accounts Of A User](web-api/trading-api/user-accounts/list-users-accounts.md)
-    * [Get All Users Of An Account](web-api/trading-api/user-accounts/list-users-accounts-1.md)
-    * [Get Account Info](web-api/trading-api/user-accounts/list-users-accounts-2.md)
-    * [Get Historical Account Value](web-api/trading-api/user-accounts/list-users-accounts-3.md)
 
 * [Order Processing and Trading](web-api/trading-api/orders/README.md)
     * [Place Order](web-api/trading-api/orders/place-order/README.md)
