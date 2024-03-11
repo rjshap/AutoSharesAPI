@@ -148,8 +148,8 @@
       * [Syntax](web-api/trading-api/watchlists/rename-watchlist/watchlists\_editwatchlistname.md)
 
     * [News](web-api/trading-api/news/README.md)
-    * [Get News for a Security](web-api/trading-api/news/get-news-for-a-security.md)
-    * [Get Corporate Actions for a Security](web-api/trading-api/news/get-corporate-actions-for-a-security.md)
+      * [Get News for a Security](web-api/trading-api/news/get-news-for-a-security.md)
+      * [Get Corporate Actions for a Security](web-api/trading-api/news/get-corporate-actions-for-a-security.md)
   
   *  [Webhooks and SDKs]
   
