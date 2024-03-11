@@ -10,8 +10,9 @@
 * [API Overview](web-api/trading-api/overview.md)
 * Authentication
 
-* [Accounts and Transactions](web-api/trading-api/managing-users/README.md)
-    * [Add Users](web-api/trading-api/managing-users/get-users-info/README.md)
+* [Accounts and Onboarding](web-api/trading-api/managing-users/README.md)  
+    * [Account Application](web-api/trading-api/managing-users/get-users-info/README.md)
+    * [Add User](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
       * [Add Account To User](web-api/trading-api/user-accounts/list-users-accounts-6.md)
       * [Add Account To User By Username](web-api/trading-api/user-accounts/list-users-accounts-7.md)
@@ -29,7 +30,7 @@
       * [Get Historical Account Value](web-api/trading-api/user-accounts/list-users-accounts-3.md)
       
 
-  * [Orders](web-api/trading-api/orders/README.md)
+* [Order Processing and Transactions](web-api/trading-api/orders/README.md)
     * [Place Order](web-api/trading-api/orders/place-order/README.md)
       * [Syntax](web-api/trading-api/orders/place-order/orders\_placeorder.md)
     * [Verify Order Placement](web-api/trading-api/orders/validate-order-placement/README.md)
