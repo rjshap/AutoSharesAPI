@@ -13,3 +13,21 @@ Another frequent use-case of our API is to augment the existing functionality of
 This is the trader's API that invokes actions typically performed by trader's widgets: placing orders, getting quotes, configuring price alerts, and so forth. This API can be called from anywhere simply using your app's API key and a user's credentials. 
 
 {% page-ref page="trading-api/" %}
+
+### Authentication
+
+Every call to AutoShares API must include an API secret key. After you create an AutoShares account, we generate API keys for you. To start working with the API with your keys, you need to activate your account.
+
+### Add User Account
+
+This API endpoint enables you to bind a new or an existing trading account to an existing user.
+
+
+### Sign Market Data Agreements
+
+All users on the system must sign agreements. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
+
+### Begin Testing
+
+
+
