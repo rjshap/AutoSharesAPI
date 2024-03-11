@@ -79,7 +79,7 @@
       * [Syntax](web-api/trading-api/managing-transactions/get-transactions/transactions\_getactionspage.md)
 
 * [Streaming Data and Quotes](web-api/trading-api/streaming-data/README.md)
-    * [API Endpoints](web-api/trading-api/streaming-data/api-endpoints/README.md)
+  * [Streaming API Endpoints](web-api/trading-api/streaming-data/api-endpoints/README.md)
       * [Get Streamers' Info](web-api/trading-api/streaming-data/api-endpoints/get-streamers-info.md)
       * [Recover a Streamer Session](web-api/trading-api/streaming-data/api-endpoints/recover-a-streamer-session.md)
     * [Quotes](web-api/trading-api/streaming-data/quotes.md)
@@ -88,8 +88,7 @@
     * [Watchlists](web-api/trading-api/streaming-data/watchlists.md)
     * [Account Balances](web-api/trading-api/streaming-data/account-balances.md)
     * [User Balance](web-api/trading-api/streaming-data/user-balance.md)
-  
-* [Securities](web-api/trading-api/securities/README.md)
+  * [Securities](web-api/trading-api/securities/README.md)
     * [Get Equity Info by Internal ID](web-api/trading-api/securities/get-securitys-info-by-internal-id/README.md)
       * [Syntax](web-api/trading-api/securities/get-securitys-info-by-internal-id/securities\_getequitybyid.md)
     * [Get Equity Info by Ticker](web-api/trading-api/securities/get-securitys-info-by-ticker/README.md)
