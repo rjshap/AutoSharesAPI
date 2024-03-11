@@ -12,14 +12,14 @@
 * [Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
 * [Accounts and Transactions](web-api/trading-api/managing-users/README.md)
   
-*  [Onboarding Accounts(coming soon)]
+   *  [Onboarding Accounts(coming soon)]
     * [Get User's Info](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
     * [Get User's Trading Settings](web-api/trading-api/managing-users/get-users-settings.md)
     * [Get User's Exchanges](web-api/trading-api/managing-users/get-users-exchanges.md)
     * [Get Balance Information For A User](web-api/trading-api/managing-users/get-balance-information-for-a-user.md)
  
-  * [ACH Wires and Account Transfers](web-api/trading-api/account-funding/README.md)
+   * [ACH Wires and Account Transfers](web-api/trading-api/account-funding/README.md)
     * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
     * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
     * [Get an ACH Relationship](web-api/trading-api/account-funding/get-an-ach-relationship.md)
@@ -78,7 +78,7 @@
     * [Get Transactions](web-api/trading-api/managing-transactions/get-transactions/README.md)
       * [Syntax](web-api/trading-api/managing-transactions/get-transactions/transactions\_getactionspage.md)
 
- * [Streaming Data and Quotes](web-api/trading-api/streaming-data/README.md)
+  * [Streaming Data and Quotes](web-api/trading-api/streaming-data/README.md)
     * [API Endpoints](web-api/trading-api/streaming-data/api-endpoints/README.md)
       * [Get Streamers' Info](web-api/trading-api/streaming-data/api-endpoints/get-streamers-info.md)
       * [Recover a Streamer Session](web-api/trading-api/streaming-data/api-endpoints/recover-a-streamer-session.md)
@@ -88,7 +88,7 @@
     * [Watchlists](web-api/trading-api/streaming-data/watchlists.md)
     * [Account Balances](web-api/trading-api/streaming-data/account-balances.md)
     * [User Balance](web-api/trading-api/streaming-data/user-balance.md)
- * [Securities](web-api/trading-api/securities/README.md)
+  * [Securities](web-api/trading-api/securities/README.md)
     * [Get Equity Info by Internal ID](web-api/trading-api/securities/get-securitys-info-by-internal-id/README.md)
       * [Syntax](web-api/trading-api/securities/get-securitys-info-by-internal-id/securities\_getequitybyid.md)
     * [Get Equity Info by Ticker](web-api/trading-api/securities/get-securitys-info-by-ticker/README.md)
