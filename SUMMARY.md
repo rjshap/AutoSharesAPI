@@ -79,7 +79,7 @@
       * [Syntax](web-api/trading-api/managing-transactions/get-transactions/transactions\_getactionspage.md)
 
 * [Streaming Data and Quotes](web-api/trading-api/streaming-data/README.md)
-* [API Endpoints](web-api/trading-api/streaming-data/api-endpoints/README.md)
+    * [API Endpoints](web-api/trading-api/streaming-data/api-endpoints/README.md)
       * [Get Streamers' Info](web-api/trading-api/streaming-data/api-endpoints/get-streamers-info.md)
       * [Recover a Streamer Session](web-api/trading-api/streaming-data/api-endpoints/recover-a-streamer-session.md)
     * [Quotes](web-api/trading-api/streaming-data/quotes.md)
