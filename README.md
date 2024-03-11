@@ -15,6 +15,6 @@ Features include:
 * Customizable Price Alerts Engine
 * Trade from any where functionality
 * Paper trading/simulated trading mode 
-* Customizable layout 
+* Customizable layouts 
 
 Find more information about the features of AutoShares here: https://autoshares.com/api
