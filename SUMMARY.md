@@ -11,8 +11,8 @@
 * Authentication
 
 * [Accounts and Onboarding](web-api/trading-api/managing-users/README.md)  
-    * [Account Application](web-api/trading-api/managing-users/get-users-info/README.md)
-    * [Add User](web-api/trading-api/managing-users/get-users-info/README.md)
+   * [Account Application]((coming soon)
+   * [Add Users](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
       * [Add Account To User](web-api/trading-api/user-accounts/list-users-accounts-6.md)
       * [Add Account To User By Username](web-api/trading-api/user-accounts/list-users-accounts-7.md)
