@@ -20,8 +20,7 @@
       * [Get User's Trading Settings](web-api/trading-api/managing-users/get-users-settings.md)
       * [Get User's Exchanges](web-api/trading-api/managing-users/get-users-exchanges.md)
       * [Get Balance Information For A User](web-api/trading-api/managing-users/get-balance-information-for-a-user.md)
-    * Sign Access Agreements
-      * [Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
+    * [Sign Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
     * [Account Balances and Buying Power](web-api/trading-api/user-accounts/README.md)
       * [Get Account's Balance Info](web-api/trading-api/user-accounts/get-accounts-balance-info.md)
       * [Get All Accounts Of A User](web-api/trading-api/user-accounts/list-users-accounts.md)
@@ -31,10 +30,10 @@
       
 
   * [Orders](web-api/trading-api/orders/README.md)
-    * [Verify Order Placement](web-api/trading-api/orders/validate-order-placement/README.md)
-      * [Syntax](web-api/trading-api/orders/validate-order-placement/orders\_previewcreateorder.md)
     * [Place Order](web-api/trading-api/orders/place-order/README.md)
       * [Syntax](web-api/trading-api/orders/place-order/orders\_placeorder.md)
+    * [Verify Order Placement](web-api/trading-api/orders/validate-order-placement/README.md)
+      * [Syntax](web-api/trading-api/orders/validate-order-placement/orders\_previewcreateorder.md)
     * [Verify Order Replacement](web-api/trading-api/orders/validate-order-replacement/README.md)
       * [Syntax](web-api/trading-api/orders/validate-order-replacement/orders\_previewmodifyorder.md)
     * [Replace Order](web-api/trading-api/orders/replace-order/README.md)
