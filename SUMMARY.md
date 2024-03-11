@@ -7,11 +7,9 @@
 ## AutoShares API
 
 * [Quick Start Guide](web-api/introduction.md)
-* [API Overview](web-api/trading-api/README.md)
-  * [Working with the APIs](web-api/trading-api/overview.md)
-* [Authentication(coming soon)]
-* [Agreements](web-api/trading-api/agreements/README.md)
-  * [Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
+* [API Overview](web-api/trading-api/overview.md)
+* [Authentication]
+* [Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
 * [Accounts and Transactions](web-api/trading-api/managing-users/README.md)
     * [Get User's Info](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
@@ -30,6 +28,25 @@
     * [Add Account To User By Username](web-api/trading-api/user-accounts/list-users-accounts-7.md)
     * [Update Alias Account For Current User](web-api/trading-api/user-accounts/list-users-accounts-8.md)
   
+  * [ACH Wires and Account Transfers](web-api/trading-api/account-funding/README.md)
+    * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
+    * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
+    * [Get an ACH Relationship](web-api/trading-api/account-funding/get-an-ach-relationship.md)
+    * [Get All ACH Relationships](web-api/trading-api/account-funding/get-all-ach-relationships.md)
+    * [Get the Default ACH Relationship](web-api/trading-api/account-funding/get-the-default-ach-relationship.md)
+    * [Modify an ACH Relationship](web-api/trading-api/account-funding/modify-an-ach-relationship.md)
+    * [Remove an ACH Relationship](web-api/trading-api/account-funding/delete-an-ach-relationship.md)
+    * [Approve an ACH Relationship](web-api/trading-api/account-funding/approve-an-ach-relationship.md)
+    * [Deposit / Withdraw Funds](web-api/trading-api/account-funding/deposit-withdraw-funds-1/README.md)
+      * [Deposit / Withdraw Funds via ACH](web-api/trading-api/account-funding/deposit-withdraw-funds-1/deposit-withdraw-funds.md)
+      * [Withdraw Funds via Checks](web-api/trading-api/account-funding/deposit-withdraw-funds-1/withdraw-funds-via-check.md)
+      * [Withdraw Funds via Wire Transfers](web-api/trading-api/account-funding/deposit-withdraw-funds-1/withdraw-funds-via-wire-transfers.md)
+    * [Cancel a Transfer](web-api/trading-api/account-funding/cancel-an-ach-transfer.md)
+    * [Get a Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/README.md)
+      * [Get an ACH Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-an-ach-transfers-info.md)
+      * [Get a Wire Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-wire-transfers-info.md)
+      * [Get a Check Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-check-transfers-info.md)
+    * [Get All Transfers](web-api/trading-api/account-funding/get-all-transfers.md) 
   
   * [Orders](web-api/trading-api/orders/README.md)
     * [Verify Order Placement](web-api/trading-api/orders/validate-order-placement/README.md)
@@ -131,29 +148,9 @@
     * [News](web-api/trading-api/news/README.md)
     * [Get News for a Security](web-api/trading-api/news/get-news-for-a-security.md)
     * [Get Corporate Actions for a Security](web-api/trading-api/news/get-corporate-actions-for-a-security.md)
-
- * [ACH Wires and Account Transfers](web-api/trading-api/account-funding/README.md)
-    * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
-    * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
-    * [Get an ACH Relationship](web-api/trading-api/account-funding/get-an-ach-relationship.md)
-    * [Get All ACH Relationships](web-api/trading-api/account-funding/get-all-ach-relationships.md)
-    * [Get the Default ACH Relationship](web-api/trading-api/account-funding/get-the-default-ach-relationship.md)
-    * [Modify an ACH Relationship](web-api/trading-api/account-funding/modify-an-ach-relationship.md)
-    * [Remove an ACH Relationship](web-api/trading-api/account-funding/delete-an-ach-relationship.md)
-    * [Approve an ACH Relationship](web-api/trading-api/account-funding/approve-an-ach-relationship.md)
-    * [Deposit / Withdraw Funds](web-api/trading-api/account-funding/deposit-withdraw-funds-1/README.md)
-      * [Deposit / Withdraw Funds via ACH](web-api/trading-api/account-funding/deposit-withdraw-funds-1/deposit-withdraw-funds.md)
-      * [Withdraw Funds via Checks](web-api/trading-api/account-funding/deposit-withdraw-funds-1/withdraw-funds-via-check.md)
-      * [Withdraw Funds via Wire Transfers](web-api/trading-api/account-funding/deposit-withdraw-funds-1/withdraw-funds-via-wire-transfers.md)
-    * [Cancel a Transfer](web-api/trading-api/account-funding/cancel-an-ach-transfer.md)
-    * [Get a Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/README.md)
-      * [Get an ACH Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-an-ach-transfers-info.md)
-      * [Get a Wire Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-wire-transfers-info.md)
-      * [Get a Check Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-check-transfers-info.md)
-    * [Get All Transfers](web-api/trading-api/account-funding/get-all-transfers.md) 
   
   *  [Onboarding Accounts(coming soon)]
-  *  [Working with Webhooks]
+  *  [Webhooks and SDKs]
   
   * [Terms and Definitions](web-api/trading-api/definitions/README.md)
     * [Part I](web-api/trading-api/definitions/part-i.md)
