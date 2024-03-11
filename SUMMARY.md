@@ -15,7 +15,7 @@
     * [Sign Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
       
 * [Accounts, Balances, and Buying Power](web-api/trading-api/user-accounts/README.md)
- * [Add Users](web-api/trading-api/managing-users/get-users-info/README.md)
+    * [Add Users](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
       * [Add Account To User](web-api/trading-api/user-accounts/list-users-accounts-6.md)
       * [Add Account To User By Username](web-api/trading-api/user-accounts/list-users-accounts-7.md)
