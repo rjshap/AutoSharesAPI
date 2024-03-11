@@ -60,13 +60,14 @@
 
  * [ACH, Wires, and Account Transfers](web-api/trading-api/account-funding/README.md)
       * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
+      * [Approve an ACH Relationship](web-api/trading-api/account-funding/approve-an-ach-relationship.md)
       * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
       * [Get an ACH Relationship](web-api/trading-api/account-funding/get-an-ach-relationship.md)
       * [Get All ACH Relationships](web-api/trading-api/account-funding/get-all-ach-relationships.md)
       * [Get the Default ACH Relationship](web-api/trading-api/account-funding/get-the-default-ach-relationship.md)
       * [Modify an ACH Relationship](web-api/trading-api/account-funding/modify-an-ach-relationship.md)
       * [Remove an ACH Relationship](web-api/trading-api/account-funding/delete-an-ach-relationship.md)
-      * [Approve an ACH Relationship](web-api/trading-api/account-funding/approve-an-ach-relationship.md)
+      
     * [Deposit / Withdraw Funds](web-api/trading-api/account-funding/deposit-withdraw-funds-1/README.md)
       * [Deposit / Withdraw Funds via ACH](web-api/trading-api/account-funding/deposit-withdraw-funds-1/deposit-withdraw-funds.md)
       * [Withdraw Funds via Wire Transfers](web-api/trading-api/account-funding/deposit-withdraw-funds-1/withdraw-funds-via-wire-transfers.md)
