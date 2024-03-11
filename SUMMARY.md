@@ -12,17 +12,17 @@
 * [Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
 * [Accounts and Transactions](web-api/trading-api/managing-users/README.md)
   
-   *  [Onboarding Accounts]
+   *  [Onboarding Users]
    * [Get User's Info](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
+      * [Add Account To User](web-api/trading-api/user-accounts/list-users-accounts-6.md)
+      * [Add Account To User By Username](web-api/trading-api/user-accounts/list-users-accounts-7.md)
+      * [Update Alias Account For Current User](web-api/trading-api/user-accounts/list-users-accounts-8.md)
       * [Get User's Trading Settings](web-api/trading-api/managing-users/get-users-settings.md)
       * [Get User's Exchanges](web-api/trading-api/managing-users/get-users-exchanges.md)
       * [Get Balance Information For A User](web-api/trading-api/managing-users/get-balance-information-for-a-user.md)
 
   * [Accounts, Balances, and Buying Power](web-api/trading-api/user-accounts/README.md)
-    * [Add Account To User](web-api/trading-api/user-accounts/list-users-accounts-6.md)
-    * [Add Account To User By Username](web-api/trading-api/user-accounts/list-users-accounts-7.md)
-    * [Update Alias Account For Current User](web-api/trading-api/user-accounts/list-users-accounts-8.md)
     * [Get Account's Balance Info](web-api/trading-api/user-accounts/get-accounts-balance-info.md)
     * [Get All Accounts Of A User](web-api/trading-api/user-accounts/list-users-accounts.md)
     * [Get All Users Of An Account](web-api/trading-api/user-accounts/list-users-accounts-1.md)
