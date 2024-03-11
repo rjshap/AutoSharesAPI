@@ -10,7 +10,7 @@
 * [API Overview](web-api/trading-api/overview.md)
 * Authentication
 
-* [Account Onboarding](web-api/trading-api/managing-users/README.md)  
+* [Onboarding Users](web-api/trading-api/managing-users/README.md)  
    * [Account Application]((coming soon)
    * [Add Users](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
@@ -24,13 +24,13 @@
     * [Sign Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
 
  * [Account Balances and Buying Power](web-api/trading-api/user-accounts/README.md)
-      * [Get Account's Balance Info](web-api/trading-api/user-accounts/get-accounts-balance-info.md)
-      * [Get All Accounts Of A User](web-api/trading-api/user-accounts/list-users-accounts.md)
-      * [Get All Users Of An Account](web-api/trading-api/user-accounts/list-users-accounts-1.md)
-      * [Get Account Info](web-api/trading-api/user-accounts/list-users-accounts-2.md)
-      * [Get Historical Account Value](web-api/trading-api/user-accounts/list-users-accounts-3.md)
+    * [Get Account's Balance Info](web-api/trading-api/user-accounts/get-accounts-balance-info.md)
+    * [Get All Accounts Of A User](web-api/trading-api/user-accounts/list-users-accounts.md)
+    * [Get All Users Of An Account](web-api/trading-api/user-accounts/list-users-accounts-1.md)
+    * [Get Account Info](web-api/trading-api/user-accounts/list-users-accounts-2.md)
+    * [Get Historical Account Value](web-api/trading-api/user-accounts/list-users-accounts-3.md)
 
-* [Order Processing and Transactions](web-api/trading-api/orders/README.md)
+* [Order Processing and Trading](web-api/trading-api/orders/README.md)
     * [Place Order](web-api/trading-api/orders/place-order/README.md)
       * [Syntax](web-api/trading-api/orders/place-order/orders\_placeorder.md)
     * [Verify Order Placement](web-api/trading-api/orders/validate-order-placement/README.md)
