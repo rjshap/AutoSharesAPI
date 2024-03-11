@@ -12,7 +12,7 @@
 * [Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
 * [Accounts and Transactions](web-api/trading-api/managing-users/README.md)
   
-   *  [Onboarding Accounts(coming soon)]
+   *  [Onboarding Accounts]
    * [Get User's Info](web-api/trading-api/managing-users/get-users-info/README.md)
       * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
       * [Get User's Trading Settings](web-api/trading-api/managing-users/get-users-settings.md)
