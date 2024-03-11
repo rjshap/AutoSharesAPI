@@ -1,3 +1,5 @@
+# Quick Start Guide
+
 ### Overview
 
 AutoShares is a cross-platform online trading solution for Stocks, Options, and ETFs with all-encompassing trading functionality. Even though AutoShares provides both the web and the mobile interfaces for executing trades and analyzing markets, some users opt to implement their own custom interfaces that suit their requirements. For this purpose, AutoShares offers a trading platform as well as extended REST API that can be invoked to perform various trading operations like creating users, getting quotes, and placing orders. 
@@ -10,20 +12,7 @@ Another frequent use-case of our API is to augment the existing functionality of
 
 This is the trader's API that invokes actions typically performed by trader's widgets: placing orders, getting quotes, configuring price alerts, and so forth. This API can be called from anywhere simply using your app's API key and a user's credentials. 
 
----
-
 # Working with the APIs
-
-### Introduction
-
-The APIs are designed to perform operations like placing orders and trading, streaming buying power and account values, positions, charts, price alerts, and transactions. 
-
-The documentation for the APIs are structured by categories, each representing a different set of functionality. The first section — **Authentication** — covers the process of generating authentication tokens that must be provided in the header of all other requests. All subsequent sections cover different aspects of AutoSharesthe APIs, ranging from order placement to working with self-directed trading accounts.
-
-Each API request is described on two pages; the first page introduces you to the API request and explains how to properly use the request parameters and the typical mistakes to avoid; the second page is strictly technical, outlining all of the header and body parameters along with their types, the range of request status codes, as well as all possible responses:
-
-
-![](../../.gitbook/assets/screenshot-2019-04-29-at-15.29.22.png)
 
 ### Authentication
 
@@ -53,7 +42,7 @@ Access tokens (or Bearer tokens) are provided after a successful authorization c
 ### Refresh Tokens
 Once refresh tokens are enabled for your application, you will receive the refresh token alongside every access token. You can exchange a refresh token for a new access token. Refresh tokens do not expire.
 
-### Onboarding Accounts
+### Onboarding Users
 
 Applicants must follow the workflow determined by the AutoShares implementation team. Otherwise, you may initiate account signup using the following instructions with our development application (currently available for development use only). 
 
