@@ -106,7 +106,7 @@
       * [Syntax](web-api/trading-api/securities/get-filtered-options/securities\_getoptions.md)
     * [Get Company Logo By Symbol](web-api/trading-api/securities/get-company-logo-by-symbol.md)
 
-* [Historical Data](web-api/trading-api/historical-data/README.md)
+* [Historical Chart Data](web-api/trading-api/historical-data/README.md)
     * [Get Comparison Chart Data](web-api/trading-api/historical-data/get-chart-data/README.md)
       * [Syntax](web-api/trading-api/historical-data/get-chart-data/historicaltradedata\_getchartcomparedata.md)
     * [Get Candles and Indicators for a Security](web-api/trading-api/historical-data/get-candles-and-indicators-for-charts/README.md)
