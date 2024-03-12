@@ -23,7 +23,7 @@
       * [Remove Account From User](web-api/trading-api/user-accounts/list-users-accounts-5.md)  
       * [Get User's Trading Settings](web-api/trading-api/managing-users/get-users-settings.md)
       * [Get User's Exchanges](web-api/trading-api/managing-users/get-users-exchanges.md)
-  * [Sign Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
+  * [Access Agreements](web-api/trading-api/agreements/get-a-traders-agreements.md)
       
 * [Account Balances and Buying Power](web-api/trading-api/user-accounts/README.md)
     * [Get Balance Information For A User](web-api/trading-api/managing-users/get-balance-information-for-a-user.md)
