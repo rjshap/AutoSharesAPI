@@ -6,7 +6,7 @@ description: Working with the APIs
 
 ### Introduction
 
-The APIs are designed to perform operations like placing orders and trading, streaming buying power and account values, poaitions, charts, price alerts, and transactions. 
+The APIs are designed to perform operations like placing orders and trading, streaming buying power and account values, positions, charts, price alerts, and transactions. 
 
 The documentation for the APIs are structured by categories, each representing a different set of functionality. The first section — **Authentication** — covers the process of generating authentication tokens that must be provided in the header of all other requests. All subsequent sections cover different aspects of AutoSharesthe APIs, ranging from order placement to working with self-directed trading accounts.
 
