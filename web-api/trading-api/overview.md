@@ -1,7 +1,3 @@
----
-description: Working with the APIs
----
-
 # Working with the API Documents
 
 ### Introduction
