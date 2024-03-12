@@ -1,5 +1,3 @@
-# Quick Start Guide
-
 ### Overview
 
 AutoShares is a cross-platform online trading solution for Stocks, Options, and ETFs with all-encompassing trading functionality. Even though AutoShares provides both the web and the mobile interfaces for executing trades and analyzing markets, some users opt to implement their own custom interfaces that suit their requirements. For this purpose, AutoShares offers a trading platform as well as extended REST API that can be invoked to perform various trading operations like creating users, getting quotes, and placing orders. 
@@ -11,8 +9,6 @@ Another frequent use-case of our API is to augment the existing functionality of
 ### Trading APIs
 
 This is the trader's API that invokes actions typically performed by trader's widgets: placing orders, getting quotes, configuring price alerts, and so forth. This API can be called from anywhere simply using your app's API key and a user's credentials. 
-
-# Working with the APIs
 
 ### Authentication
 
