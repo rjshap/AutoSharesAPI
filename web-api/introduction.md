@@ -20,7 +20,7 @@ We use Auth0's 2.0 protocol for authentication and authorization. Publicly we su
 
 This API endpoint enables you to bind a new or an existing trading account to an existing user.
 
-### Sign Access Agreements
+### Access Agreements
 
 All users on the system must sign access agreements. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
 
