@@ -1,4 +1,4 @@
-### Overview
+### Working with the APIs
 
 AutoShares is a cross-platform online trading solution for Stocks, Options, and ETFs with all-encompassing trading functionality. Even though AutoShares provides both the web and the mobile interfaces for executing trades and analyzing markets, some users opt to implement their own custom interfaces that suit their requirements. For this purpose, AutoShares offers a trading platform as well as extended REST API that can be invoked to perform various trading operations like creating users, getting quotes, and placing orders. 
 
@@ -16,11 +16,9 @@ Every call to AutoShares API must include an API secret key. After you create an
 
 We use Auth0's 2.0 protocol for authentication and authorization. Publicly we support the Authorization Code flow (server-side application). OAuth 2.0 is a simple protocol and a developer can integrate with AutoShares’ Auth0 2.0 endpoints easily, especially using client libraries.
 
-
 ### Adding User Accounts
 
 This API endpoint enables you to bind a new or an existing trading account to an existing user.
-
 
 ### Sign Access Agreements
 
