@@ -2,7 +2,7 @@
 description: Working with the APIs
 ---
 
-# Working with the APIs
+# Working with the API Documentation
 
 ### Introduction
 
