@@ -6,10 +6,6 @@ In this scenario AutoShares serves as the backend platform for your own custom-m
 
 Another frequent use-case of our API is to augment the existing functionality of AutoShares trading platform by designing custom widgets. In this scenario you create your own custom JavaScript-based widgets that can load various information about the user's positions, place new orders, and perform just about any other action. For example, you can create a widget that displays the user's most frequently traded securities; or a widget that displays the list of users' positions with the highest profit or highest loss.
 
-### Trading APIs
-
-This is the trader's API that invokes actions typically performed by trader's widgets: placing orders, getting quotes, configuring price alerts, and so forth. This API can be called from anywhere simply using your app's API key and a user's credentials. 
-
 ### Authentication
 
 Every call to AutoShares API must include an API secret key. After you create an AutoShares account, we generate API keys for you. To start working with the API with your keys, you need to activate your account. 
@@ -43,6 +39,10 @@ Applicants must follow the workflow determined by the AutoShares implementation 
 Signup for onboarding development http://devgapp.autoshares.com:8080/gapp/auth0/createUserAccount 
 
 You will be directed to an Auth0 login page and can either Sign-in or Sign-up
+
+### Trading APIs
+
+This is the trader's API that invokes actions typically performed by trader's widgets: placing orders, getting quotes, configuring price alerts, and so forth. This API can be called from anywhere simply using your app's API key and a user's credentials. 
 
 ### Have Questions?
 
