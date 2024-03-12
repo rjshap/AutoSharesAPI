@@ -20,4 +20,4 @@ The API offers methods to create, submit, cancel, and retrieve pending account t
    * If the user wishes to cancel a pending transfer request for any reason, they can use the **Cancel Account Transfer Request** endpoint.
    * This allows the user to manage their transfer requests and make necessary adjustments if needed.
 
-The Account Transfer API provides users with a seamless and efficient process for initiating and managing account transfers. Users can create, submit, and monitor their transfer requests, while also having the option to cancel pending requests if necessary. This streamlines the transfer process and ensures a smooth experience for investors when transferring assets between brokerage firms. 
+The Account Transfer API provides users with a seamless and efficient process for initiating and managing account transfers. Users can create, submit, and monitor their transfer requests, while also having the option to cancel pending requests if necessary. This streamlines the transfer process and ensures a smooth experience for investors when transferring assets between brokerage firms.
