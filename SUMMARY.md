@@ -31,7 +31,7 @@
     * [Get Historical Account Value](web-api/trading-api/user-accounts/list-users-accounts-3.md)
   
  * [ACH, Wires, and Account Transfers](web-api/trading-api/account-funding/README.md)
-    * [ACH Transfers](web-api/trading-api/account-funding/README.md)
+    * [ACH Transfers]
       * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
       * [Approve an ACH Relationship](web-api/trading-api/account-funding/approve-an-ach-relationship.md)
       * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
