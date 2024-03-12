@@ -46,7 +46,7 @@ You will be directed to an Auth0 login page and can either Sign-in or Sign-up
 
 ### Have Questions?
 
-Our seasoned team of experts in brokerage operations and fintech are available to discuss your interest in connecting, integrating, and embedding functionality into your workflow using our API-based technology.
+Our seasoned team of experts in brokerage operations and fintech are available to discuss your interest in connecting, integrating, and embedding functionality using our API-based technology.
 
 If you have any questions or need support, please don't hesitate to contact us at https://autoshares.com/support.
 
