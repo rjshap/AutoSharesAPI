@@ -48,7 +48,7 @@
       * [Get an ACH Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-an-ach-transfers-info.md)
       * [Get a Wire Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-wire-transfers-info.md)
       * [Get All Transfers](web-api/trading-api/account-funding/get-all-transfers.md) 
-    * [Account Transfers - ACATs](web-api/trading-api/account-transfers/README.md)
+    * [Account Transfers - ACATS](web-api/trading-api/account-transfers/README.md)
       * [Create Account Transfer Request](web-api/trading-api/account-transfers/create-account-transfer-request.md)
       * [Submit Account Transfer Request](web-api/trading-api/account-transfers/submit-account-transfer-request.md)
       * [Get User's Pending Account Transfer Requests](web-api/trading-api/account-transfers/get-users-pending-account-transfer-requests.md)
