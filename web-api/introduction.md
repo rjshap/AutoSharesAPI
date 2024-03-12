@@ -48,7 +48,7 @@ This is the trader's API that invokes actions typically performed by trader's wi
 
 Our seasoned team of experts in brokerage operations and fintech are available to discuss your interest in connecting, integrating, and embedding functionality using our API-based technology.
 
-If you have any questions or need support, please don't hesitate to contact us at https://autoshares.com/support.
+If you have any questions or need support, please don't hesitate to contact us at https://autoshares.com/support
 
 ### Get Started, Today. 
 
