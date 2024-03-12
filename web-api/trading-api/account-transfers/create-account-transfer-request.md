@@ -14,7 +14,7 @@ The version of API. By default, set it to `1.0`.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="accountId" required="true" type="Integer" %}
-Internal ETNA Trader ID of the trading account that needs to be transferred.
+Internal AutoShares Trader ID of the trading account that needs to be transferred.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="header" name="Authorization" required="true" type="String" %}
@@ -22,7 +22,7 @@ This is the authorization token from the token request. The value of this header
 {% endswagger-parameter %}
 
 {% swagger-parameter in="header" name="Et-App-Key" required="true" type="String" %}
-This is your app’s unique key that can be retrieved from the BO Companies widget in ETNA Trader.
+This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares Trader.
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Successful request, the account transfer request was successfully created." %}
