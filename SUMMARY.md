@@ -80,8 +80,6 @@
     * [Get User's Pending Account Transfer Requests](web-api/trading-api/account-transfers/get-users-pending-account-transfer-requests.md)
     * [Cancel Account Transfer Request](web-api/trading-api/account-transfers/cancel-account-transfer-request.md)
 * [Order Processing and Trading]
-  
-  * 
   * [Validate Order by ID](web-api/trading-api/orders/validate-order-by-id.md)
   * [Positions]
   * [Managing Transactions](web-api/trading-api/managing-transactions/README.md)
@@ -91,10 +89,8 @@
   * [Streaming API Endpoints](web-api/trading-api/streaming-data/README.md)
     * [Get Streamers' Info](web-api/trading-api/streaming-data/api-endpoints/get-streamers-info.md)
     * [Recover a Streamer Session](web-api/trading-api/streaming-data/api-endpoints/recover-a-streamer-session.md)
-  
   * [Orders](web-api/trading-api/streaming-data/orders.md)
   * [Positions](web-api/trading-api/streaming-data/positions.md)
-  * 
   * [Account Balances](web-api/trading-api/streaming-data/account-balances.md)
   * [User Balance](web-api/trading-api/streaming-data/user-balance.md)
   * [Securities](web-api/trading-api/securities/README.md)
