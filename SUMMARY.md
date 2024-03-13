@@ -4,7 +4,7 @@
 
 ## User guide
 
-## AutoShares API
+## Trading API
 
 * [Quick Start Guide](web-api/introduction.md)
 * [API Overview](web-api/trading-api/overview.md)
