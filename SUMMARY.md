@@ -8,7 +8,7 @@
 
 * [Quick Start Guide](web-api/introduction.md)
 * [API Overview](web-api/trading-api/overview.md)
-* Authentication
+* [Authentication](web-api/trading-api/authentication/README.md)
 
 * [Onboarding Users](web-api/trading-api/managing-users/README.md)  
    * [Account Application](coming soon)
