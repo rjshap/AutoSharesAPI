@@ -1,2 +1,2 @@
-# Trading API
+# API Documentation
 
