@@ -4,7 +4,7 @@
 
 ## User guide
 
-## Trading API
+## API Documentation
 
 * [Quick Start Guide](web-api/introduction.md)
 * [API Overview](web-api/trading-api/overview.md)
