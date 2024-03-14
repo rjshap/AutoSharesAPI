@@ -2,7 +2,6 @@
 
 * [What is AutoShares?](README.md)
 
-
 ## API Documentation
 
 * [Quick Start Guide](web-api/introduction.md)
@@ -29,7 +28,6 @@
     * [Get Account's Balance Info](web-api/trading-api/user-accounts/get-accounts-balance-info.md)
     * [Get Historical Account Value](web-api/trading-api/user-accounts/list-users-accounts-3.md)
   
-
 * [Order Processing and Trading](web-api/trading-api/orders/README.md)
     * [Place Order](web-api/trading-api/orders/place-order/README.md)
       * [Syntax](web-api/trading-api/orders/place-order/orders\_placeorder.md)
@@ -160,7 +158,3 @@
     * [Part I](web-api/trading-api/definitions/part-i.md)
     * [Part II](web-api/trading-api/definitions/part-ii.md)
     * [Part III](web-api/trading-api/definitions/part-iii.md)
-* [Terms and Definitions](web-api/trading-api/definitions/README.md)
-  * [Part I](web-api/trading-api/definitions/part-i.md)
-  * [Part II](web-api/trading-api/definitions/part-ii.md)
-  * [Part III](web-api/trading-api/definitions/part-iii.md)
