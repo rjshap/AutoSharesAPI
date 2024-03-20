@@ -10,11 +10,12 @@ This GET endpoint enables you to list all positions in a particular security of 
 
 There are five required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **Trading Account ID** (path). This is the numeric ID of the trading account whose positions in a particular security must be listed.
-4. **API version** (path). Unless necessary, leave it at "1.0".
-5. **Ticker Symbol** (path). This is the ticker symbol of the security whose positions you'd like to list.
+
+
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **Trading Account ID** (path). This is the numeric ID of the trading account whose positions in a particular security must be listed.
+3. **API version** (path). Unless necessary, leave it at "1.0".
+4. **Ticker Symbol** (path). This is the ticker symbol of the security whose positions you'd like to list.
 
 Here's the final template for this API request:
 
@@ -134,15 +135,7 @@ Unit                                  = 40
 
 Here are some of the common mistakes that developers make when attempting to list a user's positions in a particular security.
 
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
+###
 
 ### Specifying the User ID Instead of the Trading Account ID
 

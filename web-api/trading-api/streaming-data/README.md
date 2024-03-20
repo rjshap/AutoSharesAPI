@@ -2,7 +2,7 @@
 description: Subscribe to quote streamers
 ---
 
-# Streaming Data
+# Streaming API Endpoints
 
 ### Introduction
 
@@ -22,18 +22,18 @@ To create a new connection to the streamer following conditions must be satisfie
 
 **GET** <**URL>СreateSession.txt**?User=**\<UserLogin>**\&Password=**\<UserPassword>**\&HttpClientType=**WebSocket**
 
-**Example**: wss://trader-demo-prod.etnasoft.us:9999/CreateSession.txt?User=trader\&Password=trader\&HttpClientType=WebSocket
+**Example**: wss://apidevportal.autoshares.dev:9999/CreateSession.txt?User=trader\&Password=trader\&HttpClientType=WebSocket
 
-| Param            | Description                   |
-| ---------------- | ----------------------------- |
-| **UserLogin**    | The is the user's login.      |
-| **UserPassword** | This is the user's password.  |
+| Param            | Description                  |
+| ---------------- | ---------------------------- |
+| **UserLogin**    | The is the user's login.     |
+| **UserPassword** | This is the user's password. |
 
 #### Option 2: Via Streamer Session ID
 
 **GET** <**URL>**?User=**\<UserID>**:**\<SessionID>**\&Password=**\<StreamerSessionID>**\&HttpClientType=**WebSocket**
 
-**Example:** wss://trader-demo-prod.etnasoft.us:9999/CreateSession.txt?User=**someUser:sessionID**\&Password=**StreamerSessionID**\&HttpClientType=**WebSocket**
+**Example:** wss://apidevportal.autoshares.dev:9999/CreateSession.txt?User=**someUser:sessionID**\&Password=**StreamerSessionID**\&HttpClientType=**WebSocket**
 
 | Param                 | JSON Key                                                                                                                      | Description                                 |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
@@ -67,9 +67,9 @@ Used for start/stop receiving data changes. Once applications subscribe to a str
 
 ### Streamer Types
 
-AutoShares provides two types of streamers:&#x20;
+AutoShares provides two types of streamers:
 
-1. Quote data streamer&#x20;
+1. Quote data streamer
 2. Trade data streamer.
 
 Each streamer is accessible through its own separate port in your environment. Quote data streamer is responsible for streaming quotes, trades, and market depth. Trade data streamer, on the other hand, is responsible for streaming other data like watchlists, positions, orders, account balances, price alerts, etc.

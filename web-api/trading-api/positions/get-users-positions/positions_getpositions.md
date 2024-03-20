@@ -12,17 +12,16 @@ This API endpoint enables you to retrieve all outstanding positions of a particu
 
 ### Parameters
 
-| Type       | Name                                                         | Description                                                                                                                           | Schema          | Default |
-| ---------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ------- |
-| **Header** | <p><strong>Authorization</strong>  <br><em>required</em></p> | This is the authorization token that you retrieved from the first endpoint (/token).                                                  | string          |         |
-| **Header** | <p><strong>Et-App-Key</strong>  <br><em>required</em></p>    | This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.                                      | string          |         |
-| **Path**   | <p><strong>accountId</strong>  <br><em>required</em></p>     | This is the unique identifier of the trading account whose outstanding positions need to be retrieved.                                | integer (int32) |         |
-| **Path**   | <p><strong>version</strong>  <br><em>required</em></p>       | This is the version of the API. Unless you have multiple versions of AutoShares’s API deployed in your environment, leave it at 1.0. | string          | `"1"`   |
-| **Query**  | <p><strong>desc</strong>  <br><em>required</em></p>          | Is descendant                                                                                                                         | boolean         |         |
-| **Query**  | <p><strong>filter</strong>  <br><em>optional</em></p>        | Positions filter query                                                                                                                | string (String) |         |
-| **Query**  | <p><strong>pageNumber</strong>  <br><em>required</em></p>    | Page number                                                                                                                           | integer (int32) |         |
-| **Query**  | <p><strong>pageSize</strong>  <br><em>required</em></p>      | Page size                                                                                                                             | integer (int32) |         |
-| **Query**  | <p><strong>sortField</strong>  <br><em>required</em></p>     | Sort collection by field                                                                                                              | string          |         |
+| Type       | Name                                                       | Description                                                                                                                          | Schema          | Default |
+| ---------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------- | ------- |
+| **Header** | <p><strong>Authorization</strong><br><em>required</em></p> | This is the authorization token that you retrieved from the first endpoint (/token).                                                 | string          |         |
+| **Path**   | <p><strong>accountId</strong><br><em>required</em></p>     | This is the unique identifier of the trading account whose outstanding positions need to be retrieved.                               | integer (int32) |         |
+| **Path**   | <p><strong>version</strong><br><em>required</em></p>       | This is the version of the API. Unless you have multiple versions of AutoShares’s API deployed in your environment, leave it at 1.0. | string          | `"1"`   |
+| **Query**  | <p><strong>desc</strong><br><em>required</em></p>          | Is descendant                                                                                                                        | boolean         |         |
+| **Query**  | <p><strong>filter</strong><br><em>optional</em></p>        | Positions filter query                                                                                                               | string (String) |         |
+| **Query**  | <p><strong>pageNumber</strong><br><em>required</em></p>    | Page number                                                                                                                          | integer (int32) |         |
+| **Query**  | <p><strong>pageSize</strong><br><em>required</em></p>      | Page size                                                                                                                            | integer (int32) |         |
+| **Query**  | <p><strong>sortField</strong><br><em>required</em></p>     | Sort collection by field                                                                                                             | string          |         |
 
 ### Responses
 

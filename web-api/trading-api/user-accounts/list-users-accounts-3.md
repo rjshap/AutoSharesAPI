@@ -34,7 +34,6 @@ It is an ISO 8601 timestamp representing a date and time in Coordinated Universa
 | Name                                            | Type   | Description                                                                                                                                                             |
 | ----------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Authorization<mark style="color:red;">\*</mark> | String | This is the authorization token from the token request. The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token). |
-| Et-App-Key<mark style="color:red;">\*</mark>    | String | This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.                                                                         |
 
 {% tabs %}
 {% tab title="200: OK Successful request." %}

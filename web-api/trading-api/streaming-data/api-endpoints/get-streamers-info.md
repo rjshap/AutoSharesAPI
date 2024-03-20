@@ -4,11 +4,12 @@
 
 This GET endpoint enables you to retrieve information that might be required to initiate a streaming session.
 
-There are three required parameters that must be provided in the request:
+There are few required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. It can be found it in the **BO Companies** widget. When editing the company's settings, navigate to the **WebApi** tab and look for the required key (it could be a key for the web terminal, the mobile app, or a custom key).
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
+
+
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference/). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
 
 Here's the final template for this API request:
 
@@ -40,11 +41,11 @@ In response to this API request, you will receive a JSON dictionary containing t
 
 where:
 
-| Parameter | Description                             |
-| --------- | --------------------------------------- |
-| URL       | This is the URL of the streamer.        |
-| Type      | This is the type of the retrieve data.  |
-| SessionId | This is the ID of the session.          |
+| Parameter | Description                            |
+| --------- | -------------------------------------- |
+| URL       | This is the URL of the streamer.       |
+| Type      | This is the type of the retrieve data. |
+| SessionId | This is the ID of the session.         |
 
 ### Common Mistakes
 

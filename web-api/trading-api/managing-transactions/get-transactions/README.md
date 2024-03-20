@@ -10,14 +10,15 @@ This GET endpoint enables you to retrieve a list of transactions that the have b
 
 There are eight required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **accountId** (query). This is the ID of the trading account whose transactions need to be retrieved.
-5. **pageSize** (query). This field indicates the number of transactions that needs to be retrieved per page.
-6. **pageNumber** (query). This field indicates the number of the page that needs to be retrieved (all transactions are split into a set of pages that can be loaded one by one).
-7. **sortBy** (query). This is the field by which the retrieved transactions ought to be sorted. For example, if you the value of this parameter is set to **Quantity**, the retrieved alerts will be sorted by the number of shares involved in the transaction.
-8. **isDesc** (query). This field indicates if the list of retrieved transactions should be sorted in the descending order (true) or ascending order (false).
+
+
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **accountId** (query). This is the ID of the trading account whose transactions need to be retrieved.
+4. **pageSize** (query). This field indicates the number of transactions that needs to be retrieved per page.
+5. **pageNumber** (query). This field indicates the number of the page that needs to be retrieved (all transactions are split into a set of pages that can be loaded one by one).
+6. **sortBy** (query). This is the field by which the retrieved transactions ought to be sorted. For example, if you the value of this parameter is set to **Quantity**, the retrieved alerts will be sorted by the number of shares involved in the transaction.
+7. **isDesc** (query). This field indicates if the list of retrieved transactions should be sorted in the descending order (true) or ascending order (false).
 
 There's also one optional parameter worth examining:
 
@@ -155,15 +156,7 @@ where:
 
 Here are some of the common mistakes that developers make when attempting to retrieve the list of transactions made on a particular trading account.
 
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
+###
 
 ### Failing to Specify the Query Parameters
 

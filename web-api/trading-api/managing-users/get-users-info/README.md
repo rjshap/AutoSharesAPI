@@ -8,12 +8,13 @@ description: Get a user's information by their AutoShares identifier
 
 This endpoint enables you to request a user's information by supplying their unique AutoShares identifier in the header. In response, you'll receive a JSON file with the user's information.
 
-There are four required parameters that must be provided in the request:
+There are few required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **Internal user ID** (path). This is the numeric ID of the user whose information you'd like to receive.
-4. **API version** (path). Unless necessary, leave it at "1.0"
+
+
+1. **Authorization** (header). This is the authorization token from the very first token request. The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **Internal user ID** (path). This is the numeric ID of the user whose information you'd like to receive.
+3. **API version** (path). Unless necessary, leave it at "1.0"
 
 The user information request must be sent to the following URL:
 
@@ -57,15 +58,7 @@ where:
 
 Here are some of the common mistakes that developers make when requesting a user's information:
 
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
+###
 
 ### Specifying a Non-Existent User ID Instead of the Internal One
 

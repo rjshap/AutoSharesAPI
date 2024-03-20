@@ -8,13 +8,14 @@ description: Place a new order
 
 This POST endpoint enables you to place a new order in AutoShares. The order is sent in the JSON format to our service which turns it into a new outstanding order that should eventually be fulfilled.
 
-There are five required parameters that must be provided in the request:
+There are the required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **Trading Account ID** (path). This is the numeric ID of the trading account on which a new order must be placed.&#x20;
-4. **API version** (path). Unless necessary, leave it at "1.0".
-5. **body** (body of the request). This is a JSON file that contains the order's characteristics.&#x20;
+
+
+1. **Authorization** (header). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **Trading Account ID** (path). This is the numeric ID of the trading account on which a new order must be placed.
+3. **API version** (path). Unless necessary, leave it at "1.0".
+4. **body** (body of the request). This is a JSON file that contains the order's characteristics.
 
 Here's the final template for this API request:
 
@@ -52,7 +53,7 @@ The body of this request represents the information about the to-be-created orde
 | TrailingLimitAmountType | This is the type of the trailing limit (**Absolute** or **Persentage**).                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | TrailingLimitAmount     | This is the trailing amount (in percentage terms or in the currency units).                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ExtendedHours           | Indicates if the order should be placed during the extended hours (pre-market session, post-market session).                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| ExecutionInstructions   | <p></p><p>Execution instructions of the order. May include the following data:</p><ul><li><code>"PerTradeCommission": "1"</code>. Specified in <strong>dollars</strong> ($1 per trade).</li><li><code>"PerContractCommission":"1"</code>. Specified in <strong>cents</strong> (1 cent per contract).</li></ul>                                                                                                                                                                                                                    |
+| ExecutionInstructions   | <p>Execution instructions of the order. May include the following data:</p><ul><li><code>"PerTradeCommission": "1"</code>. Specified in <strong>dollars</strong> ($1 per trade).</li><li><code>"PerContractCommission":"1"</code>. Specified in <strong>cents</strong> (1 cent per contract).</li></ul>                                                                                                                                                                                                                           |
 | Legs                    | These are the legs of a multi-leg order.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 ```javascript
@@ -140,7 +141,7 @@ The body of this request represents the information about the to-be-created orde
 
 ### Multi-Leg Order Sample (Option + Option)
 
-All legs of a multi-leg order should contain only three parameters:&#x20;
+All legs of a multi-leg order should contain only three parameters:
 
 1. Ticker symbol
 2. Quantity
@@ -517,4 +518,3 @@ An attempt to place a stop-loss order without specifying its price will result i
   "MarginChange": 0
 }
 ```
-

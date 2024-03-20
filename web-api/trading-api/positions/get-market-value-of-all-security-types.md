@@ -10,10 +10,9 @@ This GET endpoint enables you to retrieve the collective market value of differe
 
 There are five required parameters that must be provided in the request:‌
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to retrieve this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **accountID** (path). This is the internal ID of the trading account whose market value of different security groups must be listed.‌
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **accountID** (path). This is the internal ID of the trading account whose market value of different security groups must be listed.‌
 
 Here's the final template for this API request:
 
@@ -68,13 +67,7 @@ The following table lists security types that populate each security group:
 
 Here are some of the common mistakes that developers make when attempting to fetch the collective market value of different security groups in a specific trading account.‌
 
-### Failing to Specify the Et-App-Key Parameter <a href="#failing-to-specify-the-et-app-key-parameter" id="failing-to-specify-the-et-app-key-parameter"></a>
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```
-{    "error": "Application key is not defined or does not exist"}
-```
+### &#x20;<a href="#failing-to-specify-the-et-app-key-parameter" id="failing-to-specify-the-et-app-key-parameter"></a>
 
 ### Specifying the User ID Instead of the Trading Account ID <a href="#specifying-the-user-id-instead-of-the-trading-account-id" id="specifying-the-user-id-instead-of-the-trading-account-id"></a>
 

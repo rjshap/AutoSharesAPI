@@ -2,39 +2,32 @@
 
 ## Overview
 
-This endpoint enables users to add or update an alias for a trading account.&#x20;
+This endpoint enables users to add or update an alias for a trading account.
 
-An alias serves as a nickname or custom label for the account, providing an alternative name for easier identification and navigation.&#x20;
+An alias serves as a nickname or custom label for the account, providing an alternative name for easier identification and navigation.
 
 For instance, if a client shares an account with their spouse, they can add an alias like "Family Account" to refer to it instead of using the account number.
 
-{% swagger method="put" path="/v{version}/accounts/{accountId}/alias/{alias}" baseUrl="baseURL" summary="Update Alias Account For Current User" %}
-{% swagger-description %}
+## Update Alias Account For Current User
 
-{% endswagger-description %}
+<mark style="color:orange;">`PUT`</mark> `baseURL/v{version}/accounts/{accountId}/alias/{alias}`
 
-{% swagger-parameter in="path" name="apiVersion" type="" required="true" %}
-The version of API. By default, set it to `1.0`.
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="accountId" required="true" type="integer" %}
-The internal ID of the trading account to which the alias will be assigned.
-{% endswagger-parameter %}
+| Name                                         | Type    | Description                                                                     |
+| -------------------------------------------- | ------- | ------------------------------------------------------------------------------- |
+| apiVersion<mark style="color:red;">\*</mark> |         | The version of API. By default, set it to `1.0`.                                |
+| accountId<mark style="color:red;">\*</mark>  | integer | The internal ID of the trading account to which the alias will be assigned.     |
+| alias<mark style="color:red;">\*</mark>      | String  | The custom name (alias) that the user wants to assign to the trading account.\\ |
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-This is the authorization token from the token request. The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="header" name="Et-App-Key" required="true" %}
-This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.
-{% endswagger-parameter %}
+| Name                                            | Type   | Description                                                                                                                                                             |
+| ----------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | This is the authorization token from the token request. The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token). |
 
-{% swagger-parameter in="path" required="true" name="alias" %}
-The custom name (alias) that the user wants to assign to the trading account.\
+{% tabs %}
+{% tab title="200: OK Successful request, the alias is assigned to the specified account." %}
 
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Successful request, the alias is assigned to the specified account." %}
-
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

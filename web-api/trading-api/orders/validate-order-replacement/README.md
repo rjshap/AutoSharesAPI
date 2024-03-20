@@ -10,12 +10,13 @@ This PUT endpoint enables you to verify an order replacement before using it to 
 
 There are six required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **Trading Account ID** (path). This is the numeric ID of the trading account on which an existing order replacement must be verified.
-5. **orderId** (path). This is the id of the order which parameter replacement must be verified. You can retrieve IDs of orders of a particular trading account using this [API request](../get-filtered-orders/).
-6. **modifyParams** (body). This is a JSON file that contains the parameters that need to be modified in an existing order.
+
+
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **Trading Account ID** (path). This is the numeric ID of the trading account on which an existing order replacement must be verified.
+4. **orderId** (path). This is the id of the order which parameter replacement must be verified. You can retrieve IDs of orders of a particular trading account using this [API request](../get-filtered-orders/).
+5. **modifyParams** (body). This is a JSON file that contains the parameters that need to be modified in an existing order.
 
 Optionally, you may add another header that will return localized error messages in the required language:
 
@@ -137,15 +138,9 @@ One of the most common mistakes that developers make when making this API reques
 
 So be sure to use the authorization token generated with an administrator's credentials.
 
-### Failing to Specify the Et-App-Key Parameter
+###
 
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
 
 ### Providing an Incorrect Set of Parameters
 

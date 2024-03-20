@@ -27,7 +27,6 @@ This API endpoint enables you to bind a new or an existing trading account to an
 | Name                                            | Type   | Description                                                                                                                                                             |
 | ----------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Authorization<mark style="color:red;">\*</mark> | String | This is the authorization token from the token request. The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token). |
-| Et-App-Key<mark style="color:red;">\*</mark>    | String | This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.                                                                         |
 
 {% tabs %}
 {% tab title="200: OK Successful request, JSON data is returned, containing updated information about the user and trading accounts." %}

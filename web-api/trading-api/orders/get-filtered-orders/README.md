@@ -10,12 +10,13 @@ This GET endpoint enables to you list all outstanding and executed orders of the
 
 There are six required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **Trading Account ID** (path). This is the numeric ID of the trading account whose orders must be retrieved.
-4. **API version** (path). Unless necessary, leave it at "1.0".
-5. **pageNumber** (query). Because there can be dozens of outstanding orders, we split them into pages which you can individually retrieve by specifying this parameter.
-6. **pageSize** (query). This parameter indicates the number of orders from a particular page that must be returned in the response. The maximum value for this parameter is 100.
+
+
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **Trading Account ID** (path). This is the numeric ID of the trading account whose orders must be retrieved.
+3. **API version** (path). Unless necessary, leave it at "1.0".
+4. **pageNumber** (query). Because there can be dozens of outstanding orders, we split them into pages which you can individually retrieve by specifying this parameter.
+5. **pageSize** (query). This parameter indicates the number of orders from a particular page that must be returned in the response. The maximum value for this parameter is 100.
 
 There's also three optional parameters worth examining:
 
@@ -186,16 +187,6 @@ where:
 ## Common Mistakes
 
 Here are some of the common mistakes that developers make when requesting the list of all outstanding and executed orders.
-
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
 
 ### Specifying the User ID Instead of the Trading Account ID
 

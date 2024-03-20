@@ -10,14 +10,15 @@ This GET endpoint enables you to list all existing positions of the user whose a
 
 There are eight required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **accountId** (path). This is the numeric ID of the trading account whose positions must be listed.
-5. **pageNumber** (query). This is the number of the page (all positions are split in pages).
-6. **pageSize** (query). This is the preferable size of the page (maximum value is 99).
-7. **sortField** (query). This is a position parameter by which all returned positions must be sorted.
-8. **desc** (query). This boolean parameter indicates if the returned positions should be sorted in ascending (false) or descending (true) order.
+
+
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **accountId** (path). This is the numeric ID of the trading account whose positions must be listed.
+4. **pageNumber** (query). This is the number of the page (all positions are split in pages).
+5. **pageSize** (query). This is the preferable size of the page (maximum value is 99).
+6. **sortField** (query). This is a position parameter by which all returned positions must be sorted.
+7. **desc** (query). This boolean parameter indicates if the returned positions should be sorted in ascending (false) or descending (true) order.
 
 There's also one optional parameter worth examining:
 
@@ -151,15 +152,7 @@ Unit                                  = 40
 
 Here are some of the common mistakes that developers make when attempting to list the existing positions.
 
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
+###
 
 ### Specifying the User ID Instead of the Trading Account ID
 

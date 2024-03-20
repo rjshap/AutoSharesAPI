@@ -4,28 +4,25 @@
 
 This endpoint enables you to list all trading accounts associated with the provided user id.
 
-{% swagger method="get" path="/v{version}/users/{userId}/accounts" baseUrl="baseURL" summary="Get All Accounts Of A User" %}
-{% swagger-description %}
+## Get All Accounts Of A User
 
-{% endswagger-description %}
+<mark style="color:blue;">`GET`</mark> `baseURL/v{version}/users/{userId}/accounts`
 
-{% swagger-parameter in="path" name="apiVersion" type="" required="true" %}
-The version of API. By default, set it to `1.0`.
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="userID" required="true" %}
-Internal AutoShares ID of the user.
-{% endswagger-parameter %}
+| Name                                         | Type   | Description                                      |
+| -------------------------------------------- | ------ | ------------------------------------------------ |
+| apiVersion<mark style="color:red;">\*</mark> |        | The version of API. By default, set it to `1.0`. |
+| userID<mark style="color:red;">\*</mark>     | String | Internal AutoShares ID of the user.              |
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-This is the authorization token from the token request. The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="header" name="Et-App-Key" required="true" %}
-This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.
-{% endswagger-parameter %}
+| Name                                            | Type   | Description                                                                                                                                                             |
+| ----------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | This is the authorization token from the token request. The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token). |
 
-{% swagger-response status="200: OK" description="Successful request." %}
+{% tabs %}
+{% tab title="200: OK Successful request." %}
 ```javascript
 [
   {
@@ -54,5 +51,5 @@ This is your app’s unique key that can be retrieved from the BO Companies widg
   }
 ]
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
