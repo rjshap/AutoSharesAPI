@@ -11,7 +11,6 @@
   * [Triggering authentication with /login](api-documentation/authentication/triggering-authentication-with-login.md)
   * [For logout scenario](api-documentation/authentication/for-logout-scenario.md)
 * [Onboarding Users](web-api/trading-api/managing-users/README.md)
-  * [\[Account Application\](coming soon)](api-documentation/managing-users/account-application-coming-soon.md)
   * [Account Setup](web-api/trading-api/managing-users/get-users-info/README.md)
     * [Syntax](web-api/trading-api/managing-users/get-users-info/users\_getuserinfo.md)
     * [Add Account To User](web-api/trading-api/user-accounts/list-users-accounts-6.md)

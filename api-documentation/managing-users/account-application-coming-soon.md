@@ -1,2 +1,0 @@
-# \[Account Application]\(coming soon)
-
