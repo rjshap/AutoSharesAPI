@@ -8,61 +8,17 @@ As an example
 
 ```
 # 👆 We're continuing from the steps above. Append this to your /views.py file.
-```
-
-```
- 
-```
-
-```
 def logout(request):
-```
-
-```
     request.session.clear()
-```
-
-```
- 
-```
-
-```
-    return redirect(
-```
-
-```
+     return redirect(
         f"https://{settings.AUTH0_DOMAIN}/v2/logout?"
-```
-
-```
         + urlencode(
-```
-
-```
             {
-```
-
-```
                 "returnTo": request.build_absolute_uri(reverse("index")),
-```
-
-```
                 "client_id": settings.AUTH0_CLIENT_ID,
-```
-
-```
             },
-```
-
-```
             quote_via=quote_plus,
-```
-
-```
         ),
-```
-
-```
     )
 ```
 
