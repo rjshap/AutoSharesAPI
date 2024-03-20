@@ -2,7 +2,7 @@
 description: Get a user's information by their AutoShares identifier
 ---
 
-# Get User's Info
+# Account Setup
 
 ## Overview
 
@@ -10,14 +10,14 @@ This endpoint enables you to request a user's information by supplying their uni
 
 There are four required parameters that must be provided in the request:
 
-1. **Et-App-Key** \(header\). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** \(header\). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` \(`Bearer` + 1 space + the token\).
-3. **Internal user ID** \(path\). This is the numeric ID of the user  whose information you'd like to receive. 
-4. **API version** \(path\). Unless necessary, leave it at "1.0"
+1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+3. **Internal user ID** (path). This is the numeric ID of the user whose information you'd like to receive.
+4. **API version** (path). Unless necessary, leave it at "1.0"
 
 The user information request must be sent to the following URL:
 
-```text
+```
 apiURL/v1.0/users/644(userID)/info
 ```
 
@@ -41,17 +41,17 @@ In response, you'll receive a JSON file with the information about this user:
 
 where:
 
-| Parameter | Description |
-| :--- | :--- |
-| UserId | This is the internal ID of the user in AutoShares. |
-| FirstName | This is the first name of the user. |
-| MiddleName | This is the middle name of the user. |
-| LastName | This is the last name of the user. |
-| Login | This is the user's login in AutoShares. |
-| Email | This is the email address of the user in AutoShares. |
-| AddedDate | This is the date on which this user account was added to AutoShares. |
-| Salutation | This is a special salutation used to address this user in emails. |
-| Suffix | This is the suffix used when addressing the user \(Jr, Sr, I, II, III, etc.\) |
+| Parameter  | Description                                                                 |
+| ---------- | --------------------------------------------------------------------------- |
+| UserId     | This is the internal ID of the user in AutoShares.                          |
+| FirstName  | This is the first name of the user.                                         |
+| MiddleName | This is the middle name of the user.                                        |
+| LastName   | This is the last name of the user.                                          |
+| Login      | This is the user's login in AutoShares.                                     |
+| Email      | This is the email address of the user in AutoShares.                        |
+| AddedDate  | This is the date on which this user account was added to AutoShares.        |
+| Salutation | This is a special salutation used to address this user in emails.           |
+| Suffix     | This is the suffix used when addressing the user (Jr, Sr, I, II, III, etc.) |
 
 ## Common Mistakes
 
@@ -83,4 +83,3 @@ Another common mistake when making this request is specifying a non-existent use
 ```
 
 In the following article we provide in-depth coverage of the syntax for this API request.
-

@@ -10,12 +10,12 @@ This POST endpoint enables you to create a new watchlist for a user whose intern
 
 There are six required parameters that must be provided in the request:
 
-1. **Et-App-Key** \(header\). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** \(header\). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` \(`Bearer` + 1 space + the token\).
-3. **API version** \(path\). Unless necessary, leave it at "1.0".
-4. **userID** \(path\). This is the ID of the user for whom a new watchlist will be created.
-5. **resultIncludeSecurities** \(query\). This field indicates if the retrieved watchlist should include its corresponding stocks.
-6. **watchlist** \(body\). This is the new watchlist.
+1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+3. **API version** (path). Unless necessary, leave it at "1.0".
+4. **userID** (path). This is the ID of the user for whom a new watchlist will be created.
+5. **resultIncludeSecurities** (query). This field indicates if the retrieved watchlist should include its corresponding stocks.
+6. **watchlist** (body). This is the new watchlist.
 
 ### New Watchlist Template
 
@@ -44,7 +44,7 @@ Internal ID of the required securities can be fetched using [this API request](.
 
 Here's the final template for this API request:
 
-```text
+```
 POST apiURL/v1.0/users/{userID}/watchlists/?resultIncludeSecurities=true
 ```
 
@@ -111,15 +111,15 @@ In response to this API request, you'll receive a JSON file with the information
 
 where:
 
-| Parameter | Description |
-| :--- | :--- |
-| Id | This is the internal identifier of the watchlist in AutoShares. |
-| Name | This is the name of the watchlist in AutoShares. |
-| Type | This is the type of the watchlist. It could either be a user-created watchlist or a default watchlist provided by the system. |
-| CreateDate | This is the date on which the watchlist was created. |
-| ModifyDate | This is the date on which the watchlist was last modified. |
-| ReadOnly | This field indicates if the watchlist is modifiable. |
-| SecurityList | This is a collection of securities in the watchlist. |
+| Parameter    | Description                                                                                                                   |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Id           | This is the internal identifier of the watchlist in AutoShares.                                                               |
+| Name         | This is the name of the watchlist in AutoShares.                                                                              |
+| Type         | This is the type of the watchlist. It could either be a user-created watchlist or a default watchlist provided by the system. |
+| CreateDate   | This is the date on which the watchlist was created.                                                                          |
+| ModifyDate   | This is the date on which the watchlist was last modified.                                                                    |
+| ReadOnly     | This field indicates if the watchlist is modifiable.                                                                          |
+| SecurityList | This is a collection of securities in the watchlist.                                                                          |
 
 ## Common Mistakes
 
@@ -147,4 +147,3 @@ It's critical that you precisely follow the watchlist template at the beginning 
 ```
 
 The following article covers the syntax for this API request in detail.
-

@@ -11,15 +11,15 @@ This PUT endpoint enables you to verify an order replacement before using it to 
 There are six required parameters that must be provided in the request:
 
 1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
 3. **API version** (path). Unless necessary, leave it at "1.0".
 4. **Trading Account ID** (path). This is the numeric ID of the trading account on which an existing order replacement must be verified.
 5. **orderId** (path). This is the id of the order which parameter replacement must be verified. You can retrieve IDs of orders of a particular trading account using this [API request](../get-filtered-orders/).
-6. **modifyParams** (body). This is a JSON file that contains the parameters that need to be modified in an existing order.&#x20;
+6. **modifyParams** (body). This is a JSON file that contains the parameters that need to be modified in an existing order.
 
 Optionally, you may add another header that will return localized error messages in the required language:
 
-* **language**. Possible values: `en-US`, `ja-JP`, `ru-RU`, `zh-CN`, `zh-TW`.  For example: `'language': 'ja-JP'`
+* **language**. Possible values: `en-US`, `ja-JP`, `ru-RU`, `zh-CN`, `zh-TW`. For example: `'language': 'ja-JP'`
 
 Here's the final template for this API request:
 
@@ -110,16 +110,16 @@ In response to this request, you'll receive a JSON file confirming (or rejecting
 
 where:
 
-| Parameter    | Description                                                                                                                                                    |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IsSuccessful | This field indicates if the order replacement has been successfully executed.                                                                                  |
-| Commission   | This is the total commission applicable to the order.                                                                                                          |
-| Commissions  | This is an array that breaks down the applicable commissions.                                                                                                  |
-| Cost         | This is the total cost of the order (including commission).                                                                                                    |
-| NetCost      | This is the cost of the order less commission.                                                                                                                 |
-| TotalCost    | This is the gross commission applied to the order (including all other commissions).                                                                           |
+| Parameter    | Description                                                                                                                                                   |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IsSuccessful | This field indicates if the order replacement has been successfully executed.                                                                                 |
+| Commission   | This is the total commission applicable to the order.                                                                                                         |
+| Commissions  | This is an array that breaks down the applicable commissions.                                                                                                 |
+| Cost         | This is the total cost of the order (including commission).                                                                                                   |
+| NetCost      | This is the cost of the order less commission.                                                                                                                |
+| TotalCost    | This is the gross commission applied to the order (including all other commissions).                                                                          |
 | Quotes       | This is the last batch of quotes for this security (includes the security's ticker symbol, its internal identifier in AutoShares, and the quote's timestamp). |
-| MarginChange | This is the amount by which the trading account margin requirements will be affected once this order is filled.                                                |
+| MarginChange | This is the amount by which the trading account margin requirements will be affected once this order is filled.                                               |
 
 ## Common Mistakes
 

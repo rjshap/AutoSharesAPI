@@ -12,16 +12,16 @@ This DELETE endpoint enables you to remove a particular security from a particul
 
 There are six required parameters that must be provided in the request:
 
-1. **Et-App-Key** \(header\). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** \(header\). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` \(`Bearer` + 1 space + the token\).
-3. **API version** \(path\). Unless necessary, leave it at "1.0".
-4. **watchlistID** \(path\). This is the ID of the watchlist from which a security must be removed.
-5. **userID** \(path\). This is the ID of the user whose particular watchlist should have the specified security removed.
-6. **securityID** \(path\). This is the ID of the security that must be removed from a particular watchlist. You can fetch the ID of a particular security with [this method](../../securities/get-securitys-info-by-ticker/).
+1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+3. **API version** (path). Unless necessary, leave it at "1.0".
+4. **watchlistID** (path). This is the ID of the watchlist from which a security must be removed.
+5. **userID** (path). This is the ID of the user whose particular watchlist should have the specified security removed.
+6. **securityID** (path). This is the ID of the security that must be removed from a particular watchlist. You can fetch the ID of a particular security with [this method](../../securities/get-securitys-info-by-ticker/).
 
 The final template for this request is as follows:
 
-```text
+```
 DELETE apiURL/v1.0/users/{userID}/watchlists/{watchlistID}/securities/{securityID}
 ```
 
@@ -108,15 +108,15 @@ In response to this API request, you'll receive the updated watchlist with the s
 
 ### Watchlist Parameters
 
-| Parameter | Description |
-| :--- | :--- |
-| Id | This is the internal identifier of the watchlist in AutoShares. |
-| Name | This is the name of the watchlist in AutoShares. |
-| Type | This is the type of the watchlist. It could either be a user-created watchlist or a default watchlist provided by the system. |
-| CreateDate | This is the date on which the watchlist was created. |
-| ModifyDate | This is the date on which the watchlist was last modified. |
-| ReadOnly | This field indicates if the watchlist is modifiable. |
-| SecurityList | This is a collection of securities in the watchlist. |
+| Parameter    | Description                                                                                                                   |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Id           | This is the internal identifier of the watchlist in AutoShares.                                                               |
+| Name         | This is the name of the watchlist in AutoShares.                                                                              |
+| Type         | This is the type of the watchlist. It could either be a user-created watchlist or a default watchlist provided by the system. |
+| CreateDate   | This is the date on which the watchlist was created.                                                                          |
+| ModifyDate   | This is the date on which the watchlist was last modified.                                                                    |
+| ReadOnly     | This field indicates if the watchlist is modifiable.                                                                          |
+| SecurityList | This is a collection of securities in the watchlist.                                                                          |
 
 ## Common Mistakes
 
@@ -132,7 +132,7 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 }
 ```
 
-### Specifying  the Security's Ticker Symbol Instead of its Internal ID
+### Specifying the Security's Ticker Symbol Instead of its Internal ID
 
 Another common mistake when making this API request is specifying the ticker symbol of the to-be-added security instead of its internal ID — for this purpose, there's a [separate API request](../remove-security-from-watchlist-by-ticker/). If you specify the security's ticker symbol in this request, you'll receive the 400 status code and the following error message:
 
@@ -143,4 +143,3 @@ Another common mistake when making this API request is specifying the ticker sym
 ```
 
 The following article covers the syntax for this API request in detail.
-

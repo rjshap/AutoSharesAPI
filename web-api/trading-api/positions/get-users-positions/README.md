@@ -11,7 +11,7 @@ This GET endpoint enables you to list all existing positions of the user whose a
 There are eight required parameters that must be provided in the request:
 
 1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
 3. **API version** (path). Unless necessary, leave it at "1.0".
 4. **accountId** (path). This is the numeric ID of the trading account whose positions must be listed.
 5. **pageNumber** (query). This is the number of the page (all positions are split in pages).
@@ -84,7 +84,7 @@ where:
 | Name                 | In most cases this field is identical to Symbol                                                                                                                                                                  |
 | CompanyName          | This is the full name of the listed company                                                                                                                                                                      |
 | SecurityCurrency     | This is the currency in which the security is denominated                                                                                                                                                        |
-| SecurityType         | This is the type of the security.  The range of possible values is listed in the following table.                                                                                                                |
+| SecurityType         | This is the type of the security. The range of possible values is listed in the following table.                                                                                                                 |
 | ContractSize         | This is the minimum contract size for this financial instrument.                                                                                                                                                 |
 | CostBasis            | This is the average execution price multiplied by the number of shares                                                                                                                                           |
 | DailyCostBasis       | This is the gross market value of all transactions in this order                                                                                                                                                 |

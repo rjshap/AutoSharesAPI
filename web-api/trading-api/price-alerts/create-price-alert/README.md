@@ -10,11 +10,11 @@ This POST endpoint enables you to create a new price alert for the user whose ID
 
 There are five required parameters that must be provided in the request:
 
-1. **Et-App-Key** \(header\). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** \(header\). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` \(`Bearer` + 1 space + the token\).
-3. **API version** \(path\). Unless necessary, leave it at "1.0".
-4. **userID** \(path\). This is the ID of the user to whose account a new price alert should be added.
-5. **model** \(body\). This is a JSON dictionary that contains information about the new price alert.
+1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+3. **API version** (path). Unless necessary, leave it at "1.0".
+4. **userID** (path). This is the ID of the user to whose account a new price alert should be added.
+5. **model** (body). This is a JSON dictionary that contains information about the new price alert.
 
 ### Body Syntax
 
@@ -37,7 +37,7 @@ All six parameters must be indicated in the body JSON; otherwise the price alert
 
 Here's the final template for this API request:
 
-```text
+```
 POST apiURL/v1.0/users/{userID}/pricealerts
 ```
 
@@ -60,16 +60,16 @@ In response to this API request, you'll receive a JSON file with a more detailed
 
 where:
 
-| Parameter | Description |
-| :--- | :--- |
-| Id | This is the internal identifier of the price alert. |
-| State | This is the state of the price alert. Possible values: New, Expired, Completed, Stopped. |
-| CreatedDate | This is the date on which the price alert was created \(in ticks\). |
-| Operator | This is the condition of the price alert. Possible values: GTEQ \(greater or equal to\), LTEQ \(less than or equal to\). |
-| SecurityId | This is the ID of the security for which the price alert is configured. |
-| Field | This is the referent price for the price alert. Possible values: Ask, Bid, Last. |
-| Argument | This is the price point at which the price alert will be triggered and the user will be notified. |
-| ExpirationDate | This is the expiration date of the price alert \(in ticks\). |
+| Parameter      | Description                                                                                                          |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Id             | This is the internal identifier of the price alert.                                                                  |
+| State          | This is the state of the price alert. Possible values: New, Expired, Completed, Stopped.                             |
+| CreatedDate    | This is the date on which the price alert was created (in ticks).                                                    |
+| Operator       | This is the condition of the price alert. Possible values: GTEQ (greater or equal to), LTEQ (less than or equal to). |
+| SecurityId     | This is the ID of the security for which the price alert is configured.                                              |
+| Field          | This is the referent price for the price alert. Possible values: Ask, Bid, Last.                                     |
+| Argument       | This is the price point at which the price alert will be triggered and the user will be notified.                    |
+| ExpirationDate | This is the expiration date of the price alert (in ticks).                                                           |
 
 ## Common Mistakes
 
@@ -86,4 +86,3 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 ```
 
 The following article covers the syntax for this API request in detail.
-

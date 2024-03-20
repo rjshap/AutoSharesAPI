@@ -11,10 +11,10 @@ This GET endpoint enables you to retrieve equites sorted by a specified field.
 There are seven required parameters that must be provided in the request:
 
 1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
 3. **API version** (path). Unless necessary, leave it at "1.0".
 4. **pageNumber** (query). This is the page number (there are thousands of equities split into pages).
-5. **pageSize** (query). This is the number of equities that should be retrieved from this page.&#x20;
+5. **pageSize** (query). This is the number of equities that should be retrieved from this page.
 6. **sortField** (query). This is the field by which all equities should be sorted. For example, if you specify **Type**, first you'll receive stocks, then ETFs, etc.
 7. **Desc** (query). This is a boolean field that indicates if the returned equities should be sorted in the descending order.
 
@@ -119,7 +119,7 @@ where:
 
 | Parameter        | Description                                                                                                                                                                                                                                                                 |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Id               | This is the internal ID of the security in AutoShares.                                                                                                                                                                                                                     |
+| Id               | This is the internal ID of the security in AutoShares.                                                                                                                                                                                                                      |
 | Symbol           | This is the ticker symbol under which the security is listed on the exchange.                                                                                                                                                                                               |
 | Description      | Usually this is the full name of the underlying company.                                                                                                                                                                                                                    |
 | Exchange         | This is the exchange on which the security is listed.                                                                                                                                                                                                                       |

@@ -4,38 +4,33 @@
 
 This API endpoint enables you to bind a new or an existing trading account to an existing user.
 
+## Add Account To User
 
+<mark style="color:orange;">`PUT`</mark> `baseURL/v{version}/accounts/{accountId}/users/{userId}`
 
-{% swagger method="put" path="/v{version}/accounts/{accountId}/users/{userId}" baseUrl="baseURL" summary="Add Account To User" %}
-{% swagger-description %}
+#### Path Parameters
 
-{% endswagger-description %}
+| Name                                         | Type    | Description                                                                                      |
+| -------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------ |
+| apiVersion<mark style="color:red;">\*</mark> |         | The version of API. By default, set it to `1.0`.                                                 |
+| accountId<mark style="color:red;">\*</mark>  | integer | This is the internal identifier of the trading account which is to be bound to an existing user. |
+| userId	<mark style="color:red;">\*</mark>    | String  | This is the internal identifier of the user to whom an existing trading account must be bound.   |
 
-{% swagger-parameter in="path" name="apiVersion" type="" required="true" %}
-The version of API. By default, set it to `1.0`.
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="path" name="accountId" required="true" type="integer" %}
-This is the internal identifier of the trading account which is to be bound to an existing user.
-{% endswagger-parameter %}
+| Name                                         | Type   | Description                                                                                                                         |
+| -------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| accessType<mark style="color:red;">\*</mark> | String | This is the access level the user should have to this trading account. Available values: Full, ReadOnly, ClosePositionsOnly, Owner. |
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-This is the authorization token from the token request. The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="header" name="Et-App-Key" required="true" %}
-This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.
-{% endswagger-parameter %}
+| Name                                            | Type   | Description                                                                                                                                                             |
+| ----------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | This is the authorization token from the token request. The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token). |
+| Et-App-Key<mark style="color:red;">\*</mark>    | String | This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.                                                                         |
 
-{% swagger-parameter in="path" required="true" name="userId	" %}
-This is the internal identifier of the user to whom an existing trading account must be bound.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" required="true" name="accessType" %}
-This is the access level the user should have to this trading account. Available values: Full, ReadOnly, ClosePositionsOnly, Owner.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Successful request, JSON data is returned, containing updated information about the user and trading accounts." %}
+{% tabs %}
+{% tab title="200: OK Successful request, JSON data is returned, containing updated information about the user and trading accounts." %}
 ```javascript
 {
   "UserModel": {
@@ -53,5 +48,5 @@ This is the access level the user should have to this trading account. Available
   "AccountAccessType": "Full"
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

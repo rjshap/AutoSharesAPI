@@ -10,24 +10,24 @@ This PUT endpoint enables you to replace an existing order in AutoShares. The or
 
 There are six required parameters that must be provided in the request:
 
-1. **Et-App-Key** \(header\). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** \(header\). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` \(`Bearer` + 1 space + the token\).
-3. **API version** \(path\). Unless necessary, leave it at "1.0".
-4. **Trading Account ID** \(path\). This is the numeric ID of the trading account on which an existing order must be modified.
-5. **existingOrderID** \(path\). This is the internal ID of the replaced order.
-6. **body** \(body of the request\). This is a JSON file that contains the parameters that must be modified in an existing order. 
+1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+3. **API version** (path). Unless necessary, leave it at "1.0".
+4. **Trading Account ID** (path). This is the numeric ID of the trading account on which an existing order must be modified.
+5. **existingOrderID** (path). This is the internal ID of the replaced order.
+6. **body** (body of the request). This is a JSON file that contains the parameters that must be modified in an existing order.
 
 Here's the final template for this API request:
 
-* For orders that will only be verified by the API but not the execution venue \(quick\):
+* For orders that will only be verified by the API but not the execution venue (quick):
 
-```text
+```
 PUT apiURL/v1.0/accounts/{accountID}/orders/{existingOrderID}
 ```
 
-* For orders that will be verified by the API and the execution venue too \(slow\):
+* For orders that will be verified by the API and the execution venue too (slow):
 
-```text
+```
 PUT apiURL/v1.0/accounts/{accountID}/syncorders/{existingOrderID}
 ```
 
@@ -148,4 +148,3 @@ It's critical to understand that when you use the authorization token of a parti
 ```
 
 The following article covers the syntax for this API request in detail.
-

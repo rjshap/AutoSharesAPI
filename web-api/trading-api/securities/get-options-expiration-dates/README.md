@@ -10,14 +10,14 @@ This endpoint enables you to retrieve the expiration dates of all options in whi
 
 There are four required parameters that must be provided in the request's header and query:
 
-1. **Et-App-Key** \(header\). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** \(header\). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` \(`Bearer` + 1 space + the token\).
-3. **API version** \(path\). Unless necessary, leave it at "1.0".
-4. **underlying** \(query\). This is the ticker symbol of the option's underlying security.
+1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+3. **API version** (path). Unless necessary, leave it at "1.0".
+4. **underlying** (query). This is the ticker symbol of the option's underlying security.
 
 Here's the final template for this API request:
 
-```text
+```
 GET apiURL/v1.0/options/expirations?underlying=AAPL
 ```
 
@@ -56,11 +56,11 @@ In response to this API request, you'll receive a list of expiration dates for o
 
 where:
 
-| Parameter | Description |
-| :--- | :--- |
-| SeriesId | This is the internal identifier of the option series to which this option belongs. |
-| SeriesType | This is the type of option series. Possible values: Standard, NonStandard, Binary, Flex, Undefined. |
-| ExpirationDate | This is the expiration date of the option. |
+| Parameter      | Description                                                                                                                 |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| SeriesId       | This is the internal identifier of the option series to which this option belongs.                                          |
+| SeriesType     | This is the type of option series. Possible values: Standard, NonStandard, Binary, Flex, Undefined.                         |
+| ExpirationDate | This is the expiration date of the option.                                                                                  |
 | ExpirationType | This is the expiration type of the option. Possible values: Regular, Quarterly, Weekly, Flex, Undefined, Mini, NonStandard. |
 
 ## Common Mistakes
@@ -88,4 +88,3 @@ It's crucial to understand that the _**underlying**_ query parameter must be ind
 ```
 
 The following article covers the syntax for this API request in detail.
-

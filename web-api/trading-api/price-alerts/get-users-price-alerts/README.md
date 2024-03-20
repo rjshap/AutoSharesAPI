@@ -10,18 +10,18 @@ This GET endpoint enables you to retrieve the list of a user's price alerts. Pri
 
 There are eight required parameters that must be provided in the request:
 
-1. **Et-App-Key** \(header\). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** \(header\). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` \(`Bearer` + 1 space + the token\).
-3. **API version** \(path\). Unless necessary, leave it at "1.0".
-4. **userID** \(path\). This is the ID of the user whose particular watchlist needs to be have one security removed.
-5. **pageSize** \(query\). This field indicates the number of price alerts that needs to be retrieved per page.
-6. **pageNumber** \(query\). This field indicates the number of the page that needs to be retrieved \(all price alerts are split into a set of pages that can be loaded one by one\).
-7. **sortBy** \(query\). This is the field by which the retrieved alerts should be sorted. For example, if you the value of this parameter is set to **State**, the retrieved alerts will be sorted by their state.
-8. **isDesc** \(query\). This field indicates if the list of retrieved price alerts should be sorted in the descending \(true\) or ascending \(false\) order.
+1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+3. **API version** (path). Unless necessary, leave it at "1.0".
+4. **userID** (path). This is the ID of the user whose particular watchlist needs to be have one security removed.
+5. **pageSize** (query). This field indicates the number of price alerts that needs to be retrieved per page.
+6. **pageNumber** (query). This field indicates the number of the page that needs to be retrieved (all price alerts are split into a set of pages that can be loaded one by one).
+7. **sortBy** (query). This is the field by which the retrieved alerts should be sorted. For example, if you the value of this parameter is set to **State**, the retrieved alerts will be sorted by their state.
+8. **isDesc** (query). This field indicates if the list of retrieved price alerts should be sorted in the descending (true) or ascending (false) order.
 
 Here's the final template for this API request:
 
-```text
+```
 GET apiURL/v1.0/users/@me/pricealerts?pageSize=10&pageNumber=0&sortBy=State&isDesc=true
 ```
 
@@ -63,17 +63,17 @@ In response to this API request, you'll receive a JSON file with the list of the
 
 where:
 
-| Parameter | Description |
-| :--- | :--- |
-| Id | This is the internal identifier of the price alert. |
-| State | This is the state of the price alert. Possible values: New, Expired, Completed, Stopped. |
-| CreatedDate | This is the date on which the price alert was created \(in ticks\). |
-| Operator | This is the condition of the price alert. Possible values: GTEQ \(greater or equal to\), LTEQ \(less than or equal to\). |
-| SecurityId | This is the ID of the security for which the price alert is configured. |
-| Symbol | This is the ticker symbol of the security for which the price alert is configured. |
-| Field | This is the referent price for the price alert. Possible values: Ask, Bid, Last. |
-| Argument | This is the price point at which the price alert will be triggered and the user will be notified. |
-| ExpirationDate | This is the expiration date of the price alert \(in ticks\). |
+| Parameter      | Description                                                                                                          |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Id             | This is the internal identifier of the price alert.                                                                  |
+| State          | This is the state of the price alert. Possible values: New, Expired, Completed, Stopped.                             |
+| CreatedDate    | This is the date on which the price alert was created (in ticks).                                                    |
+| Operator       | This is the condition of the price alert. Possible values: GTEQ (greater or equal to), LTEQ (less than or equal to). |
+| SecurityId     | This is the ID of the security for which the price alert is configured.                                              |
+| Symbol         | This is the ticker symbol of the security for which the price alert is configured.                                   |
+| Field          | This is the referent price for the price alert. Possible values: Ask, Bid, Last.                                     |
+| Argument       | This is the price point at which the price alert will be triggered and the user will be notified.                    |
+| ExpirationDate | This is the expiration date of the price alert (in ticks).                                                           |
 
 ## Common Mistakes
 
@@ -103,4 +103,3 @@ It's crucial to understand that the _**pageSize, pageNumber, isDesc, and sortBy*
 ```
 
 The following article covers the syntax for this API request in detail.
-

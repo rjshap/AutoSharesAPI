@@ -2,91 +2,28 @@
 
 ## Overview
 
-This GET endpoint enables you to retrieve an option chain for a specific security.  An option chain is a series of options with a fixed number of options with the strike price above and below a center strike price. For instance, if you want an option chain with `Range` set to `1`, you will receive two pairs \(Call + Put\) of options: one above the center strike price and another below the center strike price. 
+This GET endpoint enables you to retrieve an option chain for a specific security. An option chain is a series of options with a fixed number of options with the strike price above and below a center strike price. For instance, if you want an option chain with `Range` set to `1`, you will receive two pairs (Call + Put) of options: one above the center strike price and another below the center strike price.
 
 There are four required parameters that must be provided in the request's header and query:
 
-1. **Et-App-Key** \(header\). This is the unique key of your app that identifies your app when communicating with our service. It can be found it in the **BO Companies** widget. When editing the company's settings, navigate to the **WebApi** tab and look for the required key \(it could be a key for the web terminal, the mobile app, or a custom key\). 
-2. **Authorization** \(header\). This is the authorization token from the very first [token request](../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` \(`Bearer` + 1 space + the token\).
-3. **API version** \(path\). Unless necessary, leave it at "1.0".
-4. **symbol** \(path\). This is the ticker symbol of the underlying security for which the option series must be fetched.
+1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. It can be found it in the **BO Companies** widget. When editing the company's settings, navigate to the **WebApi** tab and look for the required key (it could be a key for the web terminal, the mobile app, or a custom key).
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+3. **API version** (path). Unless necessary, leave it at "1.0".
+4. **symbol** (path). This is the ticker symbol of the underlying security for which the option series must be fetched.
 
 There's also one optional parameter worth examining:
 
-* filter \(query\). This is an SQL query used to retrieve only those options that satisfy the conditions of the query. The following table outlines the parameter's syntax.
+* filter (query). This is an SQL query used to retrieve only those options that satisfy the conditions of the query. The following table outlines the parameter's syntax.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Syntax</th>
-      <th style="text-align:left">Description</th>
-      <th style="text-align:left">Example</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <ul>
-          <li>Expiration = {Date}</li>
-        </ul>
-      </td>
-      <td style="text-align:left">This query enables you to retrieve options with a specific expiration
-        date.</td>
-      <td style="text-align:left">
-        <ul>
-          <li>Expiration = #2020-01-17T00:00:00Z#</li>
-        </ul>
-        <p></p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <ul>
-          <li>Range = {integer}</li>
-        </ul>
-      </td>
-      <td style="text-align:left">This query enables you to retrieve the specified number of options below
-        and above the center strike price. For instance, if you want an option
-        chain with <code>Range</code> set to <code>1</code>, you will receive two
-        pairs (Call + Put) of options: one above the center strike price and another
-        below the center strike price.</td>
-      <td style="text-align:left">
-        <ul>
-          <li>Range = 1</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <ul>
-          <li>ExpirationType</li>
-        </ul>
-      </td>
-      <td style="text-align:left">
-        <p>This query enables you to retrieve options of the specified expiration
-          type.</p>
-        <ul>
-          <li>Regular = 0</li>
-          <li>Quarterly = 1</li>
-          <li>Weekly = 2</li>
-          <li>Flex = 3</li>
-          <li>Undefined = 4</li>
-          <li>Mini = 5</li>
-          <li>NonStandard = 6</li>
-        </ul>
-      </td>
-      <td style="text-align:left">
-        <ul>
-          <li>ExpirationType = 0</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Syntax                                | Description                                                                                                                                                                                                                                                                                                     | Example                                               |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| <ul><li>Expiration = {Date}</li></ul> | This query enables you to retrieve options with a specific expiration date.                                                                                                                                                                                                                                     | <ul><li>Expiration = #2020-01-17T00:00:00Z#</li></ul> |
+| <ul><li>Range = {integer}</li></ul>   | This query enables you to retrieve the specified number of options below and above the center strike price. For instance, if you want an option chain with `Range` set to `1`, you will receive two pairs (Call + Put) of options: one above the center strike price and another below the center strike price. | <ul><li>Range = 1</li></ul>                           |
+| <ul><li>ExpirationType</li></ul>      | <p>This query enables you to retrieve options of the specified expiration type.</p><ul><li>Regular = 0</li><li>Quarterly = 1</li><li>Weekly = 2</li><li>Flex = 3</li><li>Undefined = 4</li><li>Mini = 5</li><li>NonStandard = 6</li></ul>                                                                       | <ul><li>ExpirationType = 0</li></ul>                  |
 
 Here's the final template for this API request:
 
-```text
+```
 GET apiURL/v1.0/options/optionChain/AAPL?filter=Range%20%3D%201%20
 ```
 
@@ -94,7 +31,7 @@ GET apiURL/v1.0/options/optionChain/AAPL?filter=Range%20%3D%201%20
 
 In response to this API request, you will receive an option chain filtered according to the specified query:
 
-```text
+```
 {
   "Expirations": [
     {
@@ -308,4 +245,3 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
     "error": "Application key is not defined or does not exist"
 }
 ```
-

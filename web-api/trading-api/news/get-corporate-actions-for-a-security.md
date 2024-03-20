@@ -6,12 +6,12 @@ description: Fetch all impending corporate actions for a specific security
 
 ### Introduction
 
-This GET endpoint enables you to fetch the list of all impending corporate actions of a specific security by providing its ticker symbol.&#x20;
+This GET endpoint enables you to fetch the list of all impending corporate actions of a specific security by providing its ticker symbol.
 
 There are four required parameters that must be provided in the request:
 
 1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
 3. **API version** (path). Unless necessary, leave it at "1.0".
 4. **symbol** (query). This is the ticker symbol of the security for which corporate actions must be fetched.
 

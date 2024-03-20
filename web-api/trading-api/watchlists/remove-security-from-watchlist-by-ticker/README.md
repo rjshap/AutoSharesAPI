@@ -8,16 +8,16 @@ description: >-
 
 ## Overview
 
-This DELETE endpoint enables you to remove a specific security \(by its ticker symbol\) from a specific watchlist of the user whose id is provided in the request's path.
+This DELETE endpoint enables you to remove a specific security (by its ticker symbol) from a specific watchlist of the user whose id is provided in the request's path.
 
 There are six required parameters that must be provided in the request:
 
-1. **Et-App-Key** \(header\). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** \(header\). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` \(`Bearer` + 1 space + the token\).
-3. **API version** \(path\). Unless necessary, leave it at "1.0".
-4. **userID** \(path\). This is the ID of the user whose particular watchlist needs to be have one security removed.
-5. **watchlistID** \(path\). This is the internal identifier of the watchlist from which a security must be removed. You can retrieve the list of a user's watchlists with [this method](../remove-security-from-watchlist-by-id/).
-6. **symbolToExchange** \(body\). This is a dictionary that contains the ticker symbol of the security that must be removed from the specified watchlist. 
+1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+3. **API version** (path). Unless necessary, leave it at "1.0".
+4. **userID** (path). This is the ID of the user whose particular watchlist needs to be have one security removed.
+5. **watchlistID** (path). This is the internal identifier of the watchlist from which a security must be removed. You can retrieve the list of a user's watchlists with [this method](../remove-security-from-watchlist-by-id/).
+6. **symbolToExchange** (body). This is a dictionary that contains the ticker symbol of the security that must be removed from the specified watchlist.
 
 ### Request Body Syntax
 
@@ -31,7 +31,7 @@ To remove a security from a watchlist by its ticker symbol, specify the followin
 
 Here's the final template for this API request:
 
-```text
+```
 DELETE apiURL/v1.0/users/{userID}/watchlists/{watchlistID}/securities/{securityId}
 ```
 
@@ -131,9 +131,8 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 }
 ```
 
-### Specifying  the Security's Internal ID Instead of its Ticker Symbol
+### Specifying the Security's Internal ID Instead of its Ticker Symbol
 
 Another common mistake when making this API request is specifying the internal ID of the added security instead of its ticker symbol — for this purpose, there's a [separate API request](../remove-security-from-watchlist-by-id/). If you specify the security's internal ID in this request, you'll receive the 409 status code.
 
 The following article covers the syntax for this API request in detail.
-

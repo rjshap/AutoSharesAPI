@@ -8,16 +8,16 @@ description: >-
 
 ## Overview
 
-This PUT endpoint enables you to add a specific security \(by its ticker symbol\) to a specific watchlist of the user whose id is provided in the request's path.
+This PUT endpoint enables you to add a specific security (by its ticker symbol) to a specific watchlist of the user whose id is provided in the request's path.
 
 There are six required parameters that must be provided in the request:
 
-1. **Et-App-Key** \(header\). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** \(header\). This is the authorization token from the very first [token request](../../authentication/requesting-tokens/). The value of this header must have the following format: `Bearer BQ898r9fefi` \(`Bearer` + 1 space + the token\).
-3. **API version** \(path\). Unless necessary, leave it at "1.0".
-4. **userID** \(path\). This is the ID of the user whose particular watchlist needs to be appended by a new security.
-5. **watchlistID** \(path\). This is the internal identifier of the watchlist that needs to be appended by a new security. You can retrieve the list of a user's watchlists with [this method](../get-users-watchlist/).
-6. **symbolToExchange** \(body\). This is a dictionary that contains the ticker symbol of the security. 
+1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
+2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+3. **API version** (path). Unless necessary, leave it at "1.0".
+4. **userID** (path). This is the ID of the user whose particular watchlist needs to be appended by a new security.
+5. **watchlistID** (path). This is the internal identifier of the watchlist that needs to be appended by a new security. You can retrieve the list of a user's watchlists with [this method](../get-users-watchlist/).
+6. **symbolToExchange** (body). This is a dictionary that contains the ticker symbol of the security.
 
 ### Request Body Syntax
 
@@ -31,7 +31,7 @@ To add a new security by its ticker symbol, specify the following parameter in t
 
 Here's the final template for this API request:
 
-```text
+```
 PUT apiURL/v1.0/users/{userID}/watchlists/{watchlistID}/securities/{securityId}
 ```
 
@@ -133,9 +133,8 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 }
 ```
 
-### Specifying  the Security's Internal ID Instead of its Ticker Symbol
+### Specifying the Security's Internal ID Instead of its Ticker Symbol
 
 Another common mistake when making this API request is specifying the internal ID of the added security instead of its ticker symbol — for this purpose, there's a [separate API request](../add-security-to-watchlist-by-id/). If you specify the security's internal ID in this request, you'll receive the 409 status code.
 
 The following article covers the syntax for this API request in detail.
-
