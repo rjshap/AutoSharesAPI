@@ -61,7 +61,9 @@ Once refresh tokens are enabled for your application, you will receive the refre
 
 Applicants must follow the workflow determined by the AutoShares implementation team. Otherwise, you may initiate account signup using the following instructions with our development application (currently available for development use only).
 
-Signup for onboarding development http://devgapp.autoshares.com:8080/gapp/auth0/createUserAccount
+Signup for onboarding development [http://devgapp.autoshares.com:8080/gapp/auth0/createUserAccount](https://dev-s2lge48ro4vtrqmv.us.auth0.com/login?state=hKFo2SBJM1Q3SFBWZndpUWVSaVplSHBsR0xFWnIwb2RLMzRyb6FupWxvZ2luo3RpZNkgTU1hMWQ2WHBCSkNCbnFhZWNkY3pFWnNzVjRaWkRVNWyjY2lk2SBxb3A0UmdtbHBqQXQyRlk4bXpUQ1Zyd0ppdllCN3FOZg\&client=qop4RgmlpjAt2FY8mzTCVrwJivYB7qNf\&protocol=oauth2\&response\_type=code\&scope=profile%20email%20openid\&redirect\_uri=http%3A%2F%2F70.32.0.72%3A8080%2Fgapp%2Flogin%2Foauth2%2Fcode%2Fokta\&nonce=qCCbdTMlCCNgAF1XC3mam4t9ozf6213tt7zWI12ObzY)
+
+
 
 You will be directed to an Auth0 login page and can either Sign-in or Sign-up
 
