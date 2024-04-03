@@ -2,57 +2,38 @@
 
 This endpoint enables you to modify a bank name of the existing ACH relationship.
 
-{% swagger baseUrl="baseURL" path="/v{version}/accounts/{accountId}/ach-relationships/{id}" method="put" summary="Update An ACH Relationship" %}
-{% swagger-description %}
+## Update An ACH Relationship
 
-{% endswagger-description %}
+<mark style="color:orange;">`POST`</mark> https://apidev.autoshares.dev/cashiering/GetACHProfiles\[\&acct\_no]\[\&acct\_type]\[\&Cashiering\_Profile]
 
-{% swagger-parameter in="path" name="apiVersion" type="String" required="true" %}
-The version of the API. By default it's `1.0`.
-{% endswagger-parameter %}
+This endpoint enables you to update existing ACH relationship profile.
 
-{% swagger-parameter in="path" name="accountId" type="Integer" required="true" %}
-ID of the trading account.
-{% endswagger-parameter %}
+## Get A Specific ACH Relationship
 
-{% swagger-parameter in="header" name="Et-App-Key" type="String" required="true" %}
-The unique key of your app that identifies it when communicating with our service. Contact your administrator to get this key.
-{% endswagger-parameter %}
+<mark style="color:blue;">`GET`</mark> https://apidev.autoshares.dev/cashiering/UpdateACHProfile
 
-{% swagger-parameter in="header" name="Authorization" type="String" required="true" %}
-Authorization token. Must be provided in the following format: `Bearer token` (`Bearer` + 1 space + the token)
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="id" type="String" required="true" %}
-This is the ID of the ACH relationship in AutoShares.
-{% endswagger-parameter %}
+| Name                     | Type    | Description                                                                                                                                                                                                                      |
+| ------------------------ | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| acct\_no                 | String  | account number tied to the logged in profile                                                                                                                                                                                     |
+| acct\_type               | String  | <p>Single character :  C or M etc., </p><p>Types of accounts</p><ul><li>C: Cash</li><li>M: Margin</li><li>P: Portfolio Margin</li><li>G: General Ledger</li><li>D: DVP/RVP</li><li>F: Corr. Flip</li><li>H: House/Firm</li></ul> |
+| Cashiering\_Profile      | String  | account id : Ex: "CHECKING-USD"                                                                                                                                                                                                  |
+| correspondentFirmEnabled | boolean | true or false Set the status of the profile as enabled (true) or disabled (false). When profiles are created, they are set as enabled by default.                                                                                |
 
-{% swagger-parameter in="body" name="model" type="String" required="true" %}
-JSON object containing the new name of the linked bank.
+#### Response
 
-
-
-{ "Name": "string" }
-{% endswagger-parameter %}
-
-{% swagger-response status="200" description="Successful request, updated ACH relationship is returned." %}
+{% tabs %}
+{% tab title="200 Successful request, JSON object containing information about the ACH relationship is returned." %}
 ```javascript
-{
-  "Id": "00000000-0000-0000-0000-000000000000",
-  "AccountId": 0, // Internal id of the account on ETNA platform
-  "ExternalId": "string", // An id of the relationship in APEX
-  "RoutingNumber": "string",
-  "AccountNumber": "string",
-  "AccountOwnerName": "string",
-  "Name": "string", // A new name of the bank
-  "Status": "string", // Status of the ACH relationship
-  "CreatedAt": "2023-08-04T10:18:52.957Z",
-  "CancelDate": "2023-08-04T10:18:52.957Z",
-  "CancelReason": "string",
-  "ApprovalMethod": "string", // Can be instant (Plaid) or Manual (Micro deposits)
-  "Default": true, // Whether the ACH relationship is the default one for this trading account
-  "BankAccountType": "string"
-}
+
+[{
+    
+    "requestID": "string",
+    "responseStatus": "OK",
+    "responseMessage": "string"
+}]
+
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
