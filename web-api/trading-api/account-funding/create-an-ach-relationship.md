@@ -16,74 +16,36 @@ Note that some clearing firms put limitations on the number of ACH relationships
 Establishment of ACH relationships is available only for real trading accounts. If you attempt to establish an ACH relationship for a paper trading account, the request will fall through.
 {% endhint %}
 
-{% swagger baseUrl="baseURL" path="/v{version}/accounts/{accountId}/ach-relationships" method="post" summary="Create A New ACH Relationship" %}
-{% swagger-description %}
+## Create A New ACH Relationship
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark> `baseURL/v{version}/accounts/{accountId}/ach-relationships`
 
-{% swagger-parameter in="path" name="apiVersion" type="String" required="true" %}
-The version of the API. By default it's `1.0`.
-{% endswagger-parameter %}
+<mark style="color:green;">`POST`</mark>  https://apidev.autoshares.dev/cashiering/AddACHProfileByPlaidToken
 
-{% swagger-parameter in="path" name="accountId" type="Integer" required="true" %}
-ID of the trading account to which the new ACH relationship will be bound.
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="header" name="Et-App-Key" type="String" required="true" %}
-The unique key of your app that identifies it when communicating with our service. Contact your administrator to get this key.
-{% endswagger-parameter %}
+| Name                                         | Type   | Description                                                                                          |
+| -------------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------- |
+| acct\_no<mark style="color:red;">\*</mark>   | String | This is the account number tied to the login profile                                                 |
+| acct\_type<mark style="color:red;">\*</mark> | String | This is account type that distinguishes whether it is cash, margin etc., (valid values C , M ..etc,) |
+| cashiering\_profile                          | String | ex: "CHECKING-USD"                                                                                   |
+| accountName                                  | String | ex: "John Doe"                                                                                       |
+| plaidToken                                   | String | Assumes you already established relation with plaid and obtained a token                             |
+| thirdpartyverification                       | boolen | true or false                                                                                        |
+| thirdpartyverificationReviewer               | String | name of reviewer                                                                                     |
 
-{% swagger-parameter in="header" name="Authorization" type="String" required="true" %}
-Authorization token. Must be provided in the following format: `Bearer token` (`Bearer` + 1 space + the token)
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="body" name="model" type="String" required="true" %}
-JSON object containing all parameters required for a new ACH relationship.
-{% endswagger-parameter %}
+| Name         | Type   | Description                |
+| ------------ | ------ | -------------------------- |
+| Corr, Office | String | These are sent via gateway |
 
-{% swagger-response status="200" description="Successful request, a new ACH relationship has been created." %}
-```javascript
-{
-  "Id": "00000000-0000-0000-0000-000000000000",
-  "AccountId": 0, // Internal id of the account on ETNA platform
-  "ExternalId": "string", // An id of the relationship in APEX
-  "RoutingNumber": "string",
-  "AccountNumber": "string",
-  "AccountOwnerName": "string",
-  "Name": "string", // A name of the target bank
-  "Status": "string", // Status of the ACH relationship
-  "CreatedAt": "2023-08-04T10:18:52.957Z",
-  "CancelDate": "2023-08-04T10:18:52.957Z",
-  "CancelReason": "string",
-  "ApprovalMethod": "string", // Can be instant (Plaid) or Manual (Micro deposits)
-  "Default": true, // Whether the ACH relationship is the default one for this trading account
-  "BankAccountType": "string"
-}
-```
-{% endswagger-response %}
-{% endswagger %}
+#### Response
+
+{ "requestID": "string", "responseStatus": "OK", "responseMessage": "string" }
 
 ### Request Body
 
-The body of this request represents the information about the to-be-established ACH relationship. It must be sent in the JSON format with the parameters described in the following table:
+The body of this request represents the information about the to-be-established ACH relationship. It must be sent in the JSON format with the parameters described in the following example:
 
-| Parameter        | Description                                                                                                                                                                                   |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| RoutingNumber    | This is the routing number of the bank who opened the banking account. You can view sample routing number on [this page](https://bankorganizer.com/list-of-routing-numbers/#bank-of-america). |
-| AccountNumber    | This is the number of the banking account in the target bank. For example: **987654321222**. The number of digits must not be lower than ten.                                                 |
-| AccountOwnerName | This is the name of the banking account owner. For example: **Robert**.                                                                                                                       |
-| Name             | This is the name of the target bank. For example: **Citi Bank**.                                                                                                                              |
-| ApprovalMethod   | This is the approval method. The value of this parameter can be either **Instant** (Plaid) or **Manual** (Micro deposits).                                                                    |
-| BankAccountType  | The type of a bank account. It can have one of two possible values: **Checking** or **Savings**.                                                                                              |
-
-```javascript
-{
-  "RoutingNumber": "051000017",
-  "AccountNumber": "987654321222",
-  "AccountOwnerName": "Eugeny",
-  "Name": "Citi Bank",
-  "ApprovalMethod": "Instant",
-  "BankAccountType": "Checking"
-}
-```
-
+{ "corr": "VLNT", "office": "001", "acct\_no": "ABC123", "acct\_type": "C", "cashiering\_Profile": "CHECKING-USD", "accountName": "John Smith", "plaidToken": "processor-sandbox-f0758e12-9ce7-4bf9-b46f-6a9adfbf4df4", "thirdPartyVerification": true, "thirdPartyVerificationReviewer": "string" }
