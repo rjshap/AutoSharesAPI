@@ -131,7 +131,6 @@
     * [Deposit / Withdraw Funds via ACH](web-api/trading-api/account-funding/deposit-withdraw-funds-1/deposit-withdraw-funds.md)
   * [Get a Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/README.md)
     * [Get an ACH Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-an-ach-transfers-info.md)
-    * [Get a Wire Transfer's Info](web-api/trading-api/account-funding/get-a-transfers-info/get-a-wire-transfers-info.md)
     * [Get All Transfers](web-api/trading-api/account-funding/get-all-transfers.md)
   * [Account Transfers - ACATS](web-api/trading-api/account-transfers/README.md)
     * [Create Account Transfer Request](web-api/trading-api/account-transfers/create-account-transfer-request.md)
