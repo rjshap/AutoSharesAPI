@@ -18,7 +18,7 @@ Establishment of ACH relationships is available only for real trading accounts. 
 
 ## Create A New ACH Relationship
 
-<mark style="color:green;">`POST`</mark> `baseURL/v{version}/accounts/{accountId}/ach-relationships`
+
 
 <mark style="color:green;">`POST`</mark>  https://apidev.autoshares.dev/cashiering/AddACHProfileByPlaidToken
 

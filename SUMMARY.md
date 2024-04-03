@@ -126,7 +126,6 @@
   * [ACH Setup](api-documentation/account-funding/ach-setup/README.md)
     * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
     * [Get an ACH Relationship](web-api/trading-api/account-funding/get-an-ach-relationship.md)
-    * [Get All ACH Relationships](web-api/trading-api/account-funding/get-all-ach-relationships.md)
     * [Get the Default ACH Relationship](web-api/trading-api/account-funding/get-the-default-ach-relationship.md)
     * [Modify an ACH Relationship](web-api/trading-api/account-funding/modify-an-ach-relationship.md)
     * [Remove an ACH Relationship](web-api/trading-api/account-funding/delete-an-ach-relationship.md)
