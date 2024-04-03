@@ -125,8 +125,6 @@
 * [Wires, ACH, and Account Transfers](web-api/trading-api/account-funding/README.md)
   * [ACH Setup](api-documentation/account-funding/ach-setup/README.md)
     * [Create A New ACH Relationship](web-api/trading-api/account-funding/create-an-ach-relationship.md)
-    * [Approve an ACH Relationship](web-api/trading-api/account-funding/approve-an-ach-relationship.md)
-    * [Create an ACH Relationship via Plaid](web-api/trading-api/account-funding/create-an-ach-relationship-via-plaid.md)
     * [Get an ACH Relationship](web-api/trading-api/account-funding/get-an-ach-relationship.md)
     * [Get All ACH Relationships](web-api/trading-api/account-funding/get-all-ach-relationships.md)
     * [Get the Default ACH Relationship](web-api/trading-api/account-funding/get-the-default-ach-relationship.md)
