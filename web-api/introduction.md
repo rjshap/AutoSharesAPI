@@ -15,7 +15,7 @@ Upon API development access approval, we will generate two sets of API keys for 
 
 Every call to AutoShares API must include an API secret key. To start with your live-connection keys, you must activate your AutoShares account.
 
-**Step 2:   Sign Access Agreements - Detailed api and steps can be accessed via this** [**link**](https://app.gitbook.com/o/98CslZBwm7GhDXJlZ61s/s/r6cJApBOHOctALc3yh3F/autoshares-api/trading-api/agreements/get-a-traders-agreements)
+**Step 2:   Sign Developer Registration Form - Setup Your Sandbox and UAT Keys** [**link**](https://onboarding.autoshares.com/app/241146432165147)
 
 #### Working with the APIs
 
@@ -30,8 +30,6 @@ Another frequent use-case of our API is to augment the existing functionality of
 Every call to AutoShares API must include an API secret key. After you create an AutoShares account, we generate API keys for you. To start working with the API with your keys, you need to activate your account.
 
 We use Auth0's 2.0 protocol for authentication and authorization. Publicly we support the Authorization Code flow (server-side application). OAuth 2.0 is a simple protocol and a developer can integrate with AutoShares’ Auth0 2.0 endpoints easily, especially using client libraries.
-
-For more details access our Authentication section of the documentation [here](introduction.md#authentication)
 
 #### Adding User Accounts
 
@@ -60,12 +58,6 @@ Once refresh tokens are enabled for your application, you will receive the refre
 #### Onboarding Users
 
 Applicants must follow the workflow determined by the AutoShares implementation team. Otherwise, you may initiate account signup using the following instructions with our development application (currently available for development use only).
-
-Signup for onboarding development [http://devgapp.autoshares.com:8080/gapp/auth0/createUserAccount](https://dev-s2lge48ro4vtrqmv.us.auth0.com/login?state=hKFo2SBJM1Q3SFBWZndpUWVSaVplSHBsR0xFWnIwb2RLMzRyb6FupWxvZ2luo3RpZNkgTU1hMWQ2WHBCSkNCbnFhZWNkY3pFWnNzVjRaWkRVNWyjY2lk2SBxb3A0UmdtbHBqQXQyRlk4bXpUQ1Zyd0ppdllCN3FOZg\&client=qop4RgmlpjAt2FY8mzTCVrwJivYB7qNf\&protocol=oauth2\&response\_type=code\&scope=profile%20email%20openid\&redirect\_uri=http%3A%2F%2F70.32.0.72%3A8080%2Fgapp%2Flogin%2Foauth2%2Fcode%2Fokta\&nonce=qCCbdTMlCCNgAF1XC3mam4t9ozf6213tt7zWI12ObzY)
-
-
-
-You will be directed to an Auth0 login page and can either Sign-in or Sign-up
 
 #### Trading APIs
 
