@@ -13,9 +13,9 @@ Getting Started:
 
 Upon API development access approval, we will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections.
 
-Every call to AutoShares API must include an API secret key. To start with your live-connection keys, you must activate your AutoShares account.
+Every call to AutoShares API must include an API secret key. To obtain your connection keys, you must setup a developer environment on AutoShares.
 
-**Step 2:   Sign Developer Registration Form - Setup Your Sandbox and UAT Keys** [**link**](https://onboarding.autoshares.com/app/241146432165147)
+**Step 2:   Sign Developer Registration Form - Setup Your Sandbox/UAT Environment on AutoShares** [**link**](https://onboarding.autoshares.com/app/241146432165147)
 
 #### Working with the APIs
 
