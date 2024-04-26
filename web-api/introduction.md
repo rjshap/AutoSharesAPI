@@ -6,7 +6,7 @@ We have made AutoShares APIs as easy as possible to work with. There are some es
 
 ## Getting Started: Working with the APIs <a href="#afeb7" id="afeb7"></a>
 
-Getting Started:\
+Getting Started:
 
 
 **Step 1 :** [**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) **to the AutoShares Developer API**
