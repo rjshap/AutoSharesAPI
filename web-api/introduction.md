@@ -15,7 +15,11 @@ Upon API development access approval, we will generate two sets of API keys for 
 
 Every call to AutoShares API must include an API secret key. To obtain your connection keys, you must setup a developer environment on AutoShares.
 
-**Step 2:   Sign Developer Registration Form - Setup Your Sandbox/UAT Environment on AutoShares** [**link**](https://onboarding.autoshares.com/app/241146432165147)
+**Step 2:   Wehn you are ready to setup an environment to start coding, complete the Developer registration form and setup your Sandbox/UAT environment on AutoShares** [**link**](https://onboarding.autoshares.com/app/241146432165147)
+
+AutoShares will set up your UAT developer environment and provide your connection keys within 1-2 business days.
+
+**Step 3:   After you receive your connection keys, follow the process on the AUTHENTICATION section** [**link**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
 #### Working with the APIs
 
@@ -30,6 +34,8 @@ Another frequent use-case of our API is to augment the existing functionality of
 Every call to AutoShares API must include an API secret key. After you create an AutoShares account, we generate API keys for you. To start working with the API with your keys, you need to activate your account.
 
 We use Auth0's 2.0 protocol for authentication and authorization. Publicly we support the Authorization Code flow (server-side application). OAuth 2.0 is a simple protocol and a developer can integrate with AutoShares’ Auth0 2.0 endpoints easily, especially using client libraries.
+
+Read more here: [**link**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
 #### Adding User Accounts
 
