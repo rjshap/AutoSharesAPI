@@ -8,16 +8,15 @@ We have made AutoShares APIs as easy as possible to work with. There are some es
 
 Getting Started:
 
-
-**Step 1 :** [**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) **to the AutoShares API Documentation Portal*
+**Step 1 :** [**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) \*_to the AutoShares API Documentation Portal_
 
 Please review the API documentation. To begin developing, follow the process in step 2 to set up connection keys.
 
-**Step 2:   Complete the Developer Registration Form to setup a UAT environment** [**Register for UAT Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
- 
+**Step 2: Complete the Developer Registration Form to setup a UAT environment** [**Register for UAT Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
+
 After you submit the developer registration form, AutoShares will set up your UAT developer environment and provide connection keys within 1-2 business days. We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections.
 
-**Step 3:   Follow the Authentication process after your receive your connection keys** [**Authentication Instructions**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
+**Step 3: Follow the Authentication process after your receive your connection keys** [**Authentication Instructions**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
 #### Working with the APIs
 
@@ -74,3 +73,41 @@ Our seasoned team of experts in brokerage operations and fintech are available t
 If you have any questions or need support, please don't hesitate to contact us at https://autoshares.com/support
 
 #### Get Started, Today.
+
+
+
+## New to coding and development or never worked with API based systems before? Read below for how the process works...
+
+| <p><br>Upon signing up, you get an email like the one below</p>                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Dear \<aspiring developer>,                                                                                                                                                                                                                                                                                                                                  |
+| <p>Access to your AutoShares API developer account is now ready for you to review the API documentation. <br><br>API Documentation: <a href="https://documentation.autoshares.dev">https://documentation.autoshares.dev</a></p>                                                                                                                              |
+| <p>When you are ready to set up a UAT environment and begin developing, you must register for a UAT Development environment at an additional cost. Please email us at support@autoshares.dev to get setup</p><p></p><p>Upon approval, </p><p>Your UAT environment will be set up and you'll receive credentials within 1-2 business days.</p><p></p><p> </p> |
+
+### Once you  register for  Developer Access Token and Key
+
+
+
+You will receive an email with auth0 login and password reset upon signup.
+
+| These are the credentials you must use to access API gateway and for further development. |
+| ----------------------------------------------------------------------------------------- |
+|                                                                                           |
+
+&#x20;
+
+If you are integrating to present login page to authentication platform, the following page details the process using auth0(existing authentication platform). Note that your login page needs to be redirected to this login module. This is to enable single signon and you must be familiar with how authentication platforms and single signon works before you go further. We highly recommend reading up few resources on internet before attempting to do that.
+
+&#x20;
+
+1\. [https://documentation.autoshares.dev/api-documentation/authentication](https://documentation.autoshares.dev/api-documentation/authentication)
+
+2\. [https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
+
+3.[https://documentation.autoshares.dev/api-documentation/authentication/triggering-authentication-with-login](https://documentation.autoshares.dev/api-documentation/authentication/triggering-authentication-with-login)
+
+&#x20;
+
+
+
+&#x20;
