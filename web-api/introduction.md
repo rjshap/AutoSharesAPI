@@ -17,7 +17,7 @@ Please review the API documentation. To begin developing, follow the process in 
  
 After you submit the developer registration form, AutoShares will set up your UAT developer environment and provide connection keys within 1-2 business days. We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections.
 
-**Step 3:   Follow the AUTHENTICATION process** [**Authentication Instructions**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
+**Step 3:   Follow the Authentication process after your receive your connection keys** [**Authentication Instructions**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
 #### Working with the APIs
 
