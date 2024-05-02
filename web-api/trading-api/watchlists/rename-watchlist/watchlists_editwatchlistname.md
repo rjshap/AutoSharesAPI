@@ -12,14 +12,13 @@ This API endpoint enables you to rename an existing watchlist
 
 ### Parameters
 
-| Type       | Name                                                         | Description                                                                                                                           | Schema          | Default |
-| ---------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ------- |
-| **Header** | <p><strong>Authorization</strong>  <br><em>required</em></p> | This is the authorization token that you retrieved from the first endpoint (/token).                                                  | string          |         |
-| **Header** | <p><strong>Et-App-Key</strong>  <br><em>required</em></p>    | This is your app’s unique key that can be retrieved from the BO Companies widget in AutoShares.                                      | string          |         |
-| **Path**   | <p><strong>userId</strong>  <br><em>required</em></p>        | This is the internal identifier of the user whose watchlist needs to be renamed.                                                      | integer (int32) |         |
-| **Path**   | <p><strong>version</strong>  <br><em>required</em></p>       | This is the version of the API. Unless you have multiple versions of AutoShares’s API deployed in your environment, leave it at 1.0. | string          | `"1"`   |
-| **Path**   | <p><strong>watchlistId</strong>  <br><em>required</em></p>   | This is the internal identifier of the watchlist that must be renamed.                                                                | integer (int32) |         |
-| **Query**  | <p><strong>name</strong>  <br><em>required</em></p>          | This is the new name of the modified watchlist.                                                                                       | string          |         |
+| Type       | Name                                                       | Description                                                                                                                          | Schema          | Default |
+| ---------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------- | ------- |
+| **Header** | <p><strong>Authorization</strong><br><em>required</em></p> | This is the authorization token that you retrieved from the first endpoint (/token).                                                 | string          |         |
+| **Path**   | <p><strong>userId</strong><br><em>required</em></p>        | This is the internal identifier of the user whose watchlist needs to be renamed.                                                     | integer (int32) |         |
+| **Path**   | <p><strong>version</strong><br><em>required</em></p>       | This is the version of the API. Unless you have multiple versions of AutoShares’s API deployed in your environment, leave it at 1.0. | string          | `"1"`   |
+| **Path**   | <p><strong>watchlistId</strong><br><em>required</em></p>   | This is the internal identifier of the watchlist that must be renamed.                                                               | integer (int32) |         |
+| **Query**  | <p><strong>name</strong><br><em>required</em></p>          | This is the new name of the modified watchlist.                                                                                      | string          |         |
 
 ### Responses
 

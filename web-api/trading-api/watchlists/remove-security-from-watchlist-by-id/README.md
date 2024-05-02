@@ -12,12 +12,11 @@ This DELETE endpoint enables you to remove a particular security from a particul
 
 There are six required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **watchlistID** (path). This is the ID of the watchlist from which a security must be removed.
-5. **userID** (path). This is the ID of the user whose particular watchlist should have the specified security removed.
-6. **securityID** (path). This is the ID of the security that must be removed from a particular watchlist. You can fetch the ID of a particular security with [this method](../../securities/get-securitys-info-by-ticker/).
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **watchlistID** (path). This is the ID of the watchlist from which a security must be removed.
+4. **userID** (path). This is the ID of the user whose particular watchlist should have the specified security removed.
+5. **securityID** (path). This is the ID of the security that must be removed from a particular watchlist. You can fetch the ID of a particular security with [this method](../../securities/get-securitys-info-by-ticker/).
 
 The final template for this request is as follows:
 
@@ -121,16 +120,6 @@ In response to this API request, you'll receive the updated watchlist with the s
 ## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to remove a particular security from a watchlist.
-
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
 
 ### Specifying the Security's Ticker Symbol Instead of its Internal ID
 

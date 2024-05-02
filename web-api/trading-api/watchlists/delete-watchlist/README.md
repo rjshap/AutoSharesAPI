@@ -30,10 +30,6 @@ This API request does not return any messages from the server. In case of succes
 
 Here are some of the common mistakes that developers make when attempting to delete a specific watchlist.
 
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
 ```javascript
 {
     "error": "Application key is not defined or does not exist"

@@ -10,11 +10,10 @@ This GET endpoint enables you to retrieve the list of watchlists of a user whose
 
 There are five required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **userID** (path). This is the ID of the user whose watchlists need to be retrieved.
-5. **includeSecurities** (query). This field indicates if the retrieved watchlists should include their corresponding stocks.
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **userID** (path). This is the ID of the user whose watchlists need to be retrieved.
+4. **includeSecurities** (query). This field indicates if the retrieved watchlists should include their corresponding stocks.
 
 Here's the final template for this API request:
 
@@ -132,16 +131,6 @@ If the _**includeSecurities**_ query parameter is set to true, the retrieved wat
 ## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to retrieve a user's watchlists.
-
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
 
 ### Failing to Specify the Query Parameter
 
