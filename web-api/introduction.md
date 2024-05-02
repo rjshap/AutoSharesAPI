@@ -9,17 +9,15 @@ We have made AutoShares APIs as easy as possible to work with. There are some es
 Getting Started:
 
 
-**Step 1 :** [**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) **to the AutoShares Developer API**
-
-Upon API development access approval, we will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections.
+**Step 1 :** [**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) **to the AutoShares API Documentation Portal*
 
 Every call to AutoShares API must include an API secret key. To obtain your connection keys, you must setup a developer environment on AutoShares.
 
 **Step 2:   When you are ready to strt developing, complete the Developer registration form and setup your AutoShares Sandbox/UAT environments** [**link**](https://onboarding.autoshares.com/app/241146432165147)
+ 
+AutoShares will set up your UAT developer environment and provide your connection keys within 1-2 business days. We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections.
 
-AutoShares will set up your UAT developer environment and provide your connection keys within 1-2 business days.
-
-**Step 3:   After you receive your connection keys, follow the process on the AUTHENTICATION section** [**link**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
+**Step 3:   After you receive your connection keys, follow the AUTHENTICATION process** [**link**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
 #### Working with the APIs
 
