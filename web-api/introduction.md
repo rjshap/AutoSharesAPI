@@ -15,7 +15,7 @@ Upon API development access approval, we will generate two sets of API keys for 
 
 Every call to AutoShares API must include an API secret key. To obtain your connection keys, you must setup a developer environment on AutoShares.
 
-**Step 2:   Wehn you are ready to setup an environment to start coding, complete the Developer registration form and setup your Sandbox/UAT environment on AutoShares** [**link**](https://onboarding.autoshares.com/app/241146432165147)
+**Step 2:   When you are ready to strt developing, complete the Developer registration form and setup your AutoShares Sandbox/UAT environments** [**link**](https://onboarding.autoshares.com/app/241146432165147)
 
 AutoShares will set up your UAT developer environment and provide your connection keys within 1-2 business days.
 
