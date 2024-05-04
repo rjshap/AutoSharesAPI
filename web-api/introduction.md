@@ -44,9 +44,9 @@ Access tokens (or Bearer tokens) are provided after a successful authorization c
 
 Once refresh tokens are enabled for your application, you will receive the refresh token alongside every access token. You can exchange a refresh token for a new access token. Refresh tokens do not expire.
 
-#### Access Agreements
+#### Signed Required Access Agreements
 
-All users on the system must sign access agreements to stream data. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
+All users on the system must sign required access agreements to stream data. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
 
 #### Onboarding Accounts
 
@@ -58,7 +58,13 @@ This API endpoint enables you to bind a new or an existing trading account to an
 
 #### Trading APIs
 
-This is the trader's API that invokes actions typically performed by trader's widgets: placing orders, getting quotes, configuring price alerts, and so forth. This API can be called from anywhere simply using your app's API key and a user's credentials.
+AutoShares is a cross-platform online trading solution for Stocks, Options, and ETFs with all-encompassing trading functionality. Even though AutoShares provides both the web and the mobile interfaces for executing trades and analyzing markets, some users opt to implement their own custom interfaces that suit their requirements. For this purpose, AutoShares offers a trading platform as well as extended REST API that can be invoked to perform various trading operations like creating users, getting quotes, and placing orders.
+
+The trader's API that invokes actions typically performed by trader's widgets: placing orders, getting quotes, configuring price alerts, and so forth. This API can be called from anywhere simply using your app's API key and a user's credentials.
+
+The APIs are designed to perform operations like placing orders and trading, streaming buying power and account values, positions, charts, watchlists, price alerts, and transactions.
+
+Each API request is described on two pages; the first page introduces you to the API request and explains how to properly use the request parameters and the typical mistakes to avoid; the second page is strictly technical, outlining all of the header and body parameters along with their types, the range of request status codes, as well as all possible responses.
 
 ## New to coding and development or never worked with API based systems before? Read below for how the process works...
 
