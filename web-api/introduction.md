@@ -29,16 +29,16 @@ AutoShares integrated vendors and trading APIs can be used as a whole turn-key t
 * Paper trading/simulated trading mode 
 * Customizable layouts
 
-To learn more about AutoShares Comprehensive Brokerage and Technology Solutions:* [**Go here**](https://autoshares.com/api)
+For an overview of AutoShares Comprehensive Brokerage and Technology Solutions:[**Go here**](https://autoshares.com/api)
 
 # Lets Get Started 
-Get Started:
+### Get Started
 
-[**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) **to the AutoShares API Documentation Portal.**
+[**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) **to AutoShares API Documentation Portal.**
 
 Review the API documentation.
 
-**To begin developing with AutoShares, you must register for developer connection keys.**
+**To start developing, register for developer connection keys.**
 
 [**Register for Developer Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
 
