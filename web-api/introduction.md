@@ -44,7 +44,7 @@ This API endpoint enables you to bind a new or an existing trading account to an
 
 #### Access Agreements
 
-All users on the system must sign access agreements for market data. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
+All users on the system must sign access agreements to stream data. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
 
 #### The Flow
 
