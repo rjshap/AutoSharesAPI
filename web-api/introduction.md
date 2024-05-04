@@ -26,6 +26,11 @@ The trader's API that invokes actions typically performed by trader's widgets: p
 * Trade from any where functionality
 * Paper trading/simulated trading mode 
 * Customizable layouts
+* Automation
+* APIs, Single or Multiple Endpoints
+* Custom Integrations and Development Services
+* Hosting Solutions
+* Brokerage Account Custody Solutions
 
 For an overview of AutoShares Comprehensive Brokerage and Technology Solutions: [**Go here**](https://autoshares.com/api)
 
