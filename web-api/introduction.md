@@ -22,9 +22,9 @@ We will generate two sets of API keys for you—a publishable client-side key an
 
 ### Authentication
 
-We use Auth0's 2.0 protocol for authentication and authorization. Publicly we support the Authorization Code flow (server-side application). OAuth 2.0 is a simple protocol and a developer can integrate with AutoShares’ Auth0 2.0 endpoints easily, especially using client libraries.
-
 Every call to AutoShares API must include an API secret key. After you create an AutoShares developer account, we generate API keys for you. To start working with the API with your keys, you need to activate your account.
+
+We use Auth0's 2.0 protocol for authentication and authorization. Publicly we support the Authorization Code flow (server-side application). OAuth 2.0 is a simple protocol and a developer can integrate with AutoShares’ Auth0 2.0 endpoints easily, especially using client libraries.
 
 Follow the [**Authentication Instructions**] after your receive your connection keys** 
 
