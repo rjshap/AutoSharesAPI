@@ -4,8 +4,6 @@ AutoShares cloud-based API infrastructure was built for fintech developers and t
 
 We have made AutoShares APIs as easy as possible to work with. There are some essential concepts to understand having to do with a trading flow, but the calls themselves are very straightforward.
 
-## Getting Started: Working with the APIs <a href="#afeb7" id="afeb7"></a>
-
 **Lets Get Started:**
 
 [**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) \*_to the AutoShares API Documentation Portal_
@@ -30,14 +28,6 @@ Follow the [**Authentication Instructions**] after your receive your connection 
 
 Read more here: [**Authenticate with AutoShares SSO/Auth0**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
-#### Working with the APIs
-
-AutoShares is a cross-platform online trading solution for Stocks, Options, and ETFs with all-encompassing trading functionality. Even though AutoShares provides both the web and the mobile interfaces for executing trades and analyzing markets, some users opt to implement their own custom interfaces that suit their requirements. For this purpose, AutoShares offers a trading platform as well as extended REST API that can be invoked to perform various trading operations like creating users, getting quotes, and placing orders.
-
-In this scenario AutoShares serves as the backend platform for your own custom-made web terminal or mobile app. Your task is to develop the mobile and web UI that invokes our API to perform all of the trading operations. On our side, we will execute your customers' orders on the required exchange, settle all transactions with the clearing firm, and take care of all of behind-the-scenes technicalities.
-
-Another frequent use-case of our API is to augment the existing functionality of AutoShares trading platform by designing custom widgets. In this scenario you create your own custom JavaScript-based widgets that can load various information about the user's positions, place new orders, and perform just about any other action. For example, you can create a widget that displays the user's most frequently traded securities; or a widget that displays the list of users' positions with the highest profit or highest loss.
-
 #### Adding User Accounts
 
 This API endpoint enables you to bind a new or an existing trading account to an existing user.
@@ -50,7 +40,7 @@ All users on the system must sign access agreements to stream data. This GET end
 
 In its most basic form, you will register your application with AutoShares, redirect a browser to a URL, parse a token from the responding redirect, and send the token to whichever AutoSharesAPI you wish to access.
 
-#### Authorization Codes
+#### Authorization Code
 
 Authorization codes are short-lived (they expire in 10 minutes). A code is provided after an investor authorizes your application for access to their account. These codes are exchanged for access tokens which can be used to make API requests.
 
@@ -75,10 +65,6 @@ This is the trader's API that invokes actions typically performed by trader's wi
 Our seasoned team of experts in brokerage operations and fintech are available to discuss your interest in connecting, integrating, and embedding functionality using our API-based technology.
 
 If you have any questions or need support, please don't hesitate to contact us at https://autoshares.com/support
-
-#### Get Started, Today.
-
-
 
 ## New to coding and development or never worked with API based systems before? Read below for how the process works...
 
