@@ -12,7 +12,7 @@ We have made AutoShares APIs as easy as possible to work with. There are some es
 
 Please review the API documentation. 
 
-**To get started in the developer environment, you will need to obtain connection keys.**
+**To get started in the development environment, you will need to obtain connection keys.**
 
 [**Register for Developer Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
 
@@ -94,7 +94,7 @@ If you have any questions or need support, please don't hesitate to contact us a
 
 You will receive an email with auth0 login and password reset upon signup.
 
-| These are the credentials you must use to access API gateway and for further development. |
+| These are the credentials you must use to access the API gateway and for further development. |
 | ----------------------------------------------------------------------------------------- |
 |                                                                                           |
 
