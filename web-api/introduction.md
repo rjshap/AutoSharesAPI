@@ -12,7 +12,7 @@ Getting Started:
 
 Please review the API documentation. To begin developing, you'll need to register for developer connection keys.
 
-**Step 2: Complete the Developer Registration Form to request your keys:** [**Register for Developer Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
+**Step 2: Complete the Developer Registration Form:** [**Register for Developer Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
 
 After you submit the developer registration form, AutoShares will set up your developer environment and provide connection keys within 1-2 business days. We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections.
 
@@ -81,8 +81,8 @@ If you have any questions or need support, please don't hesitate to contact us a
 | <p><br>Upon signing up, you get an email like the one below</p>                                                                                                                                                                                                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Dear \<aspiring developer>,                                                                                                                                                                                                                                                                                                                                  |
-| <p>Access to your AutoShares API developer account is now ready for you to review the API documentation. <br><br>API Documentation: <a href="https://documentation.autoshares.dev">https://documentation.autoshares.dev</a></p>                                                                                                                              |
-| <p>When you are ready to set up a UAT environment and begin developing, you must register for a Development environment at no additional cost. Please email us at support@autoshares.dev to get setup</p><p></p><p>Upon approval, </p><p>Your UAT environment will be set up and you'll receive credentials within 1-2 business days.</p><p></p><p> </p> |
+| <p>Access to your AutoShares API is now ready for you to review the API documentation. <br><br>API Documentation: <a href="https://documentation.autoshares.dev">https://documentation.autoshares.dev</a></p>                                                                                                                              |
+| <p>When you are ready to begin developing, you must register for a development connection key. Please email us at support@autoshares.dev to get setup</p><p></p><p>Upon approval, </p><p>Your developer environment will be set up and you'll receive credentials within 1-2 business days.</p><p></p><p> </p> |
 
 ### Once you register for Developer Access Token and Key
 
