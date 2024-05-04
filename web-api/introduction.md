@@ -6,13 +6,15 @@ We have made AutoShares APIs as easy as possible to work with. There are some es
 
 ## Getting Started: Working with the APIs <a href="#afeb7" id="afeb7"></a>
 
-Getting Started:
+**Lets Get Started:**
 
-**Step 1 :** [**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) \*_to the AutoShares API Documentation Portal_
+[**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) \*_to the AutoShares API Documentation Portal_
 
-Please review the API documentation. When you are ready to begin developing, you'll need to register for developer connection keys.
+Please review the API documentation. 
 
-**Step 2: Ready to Begin Developing?** [**Register for Developer Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
+**Prior to starting development, you will need to obtain developer keys.**
+
+[**Register for Developer Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
 
 After you submit the developer registration form, AutoShares will set up your developer environment and provide connection keys within 1-2 business days. We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections.
 
@@ -82,7 +84,7 @@ If you have any questions or need support, please don't hesitate to contact us a
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Dear \<aspiring developer>,                                                                                                                                                                                                                                                                                                                                  |
 | <p>Access to your AutoShares API is now ready for you to review the API documentation. <br><br>API Documentation: <a href="https://documentation.autoshares.dev">https://documentation.autoshares.dev</a></p>                                                                                                                              |
-| <p>When you are ready to begin developing, you must register for a development connection key. Please email us at support@autoshares.dev to get setup</p><p></p><p>Upon approval, </p><p>Your developer environment will be set up and you'll receive credentials within 1-2 business days.</p><p></p><p> </p> |
+| <p>When you are ready to begin developing, you must register for a development connection key. Please email us at support@autoshares.dev to get setup. Upon approval, your developer environment will be set up and you'll receive credentials within 1-2 business days.|
 
 ### Once you register for Developer Access Token and Key
 
