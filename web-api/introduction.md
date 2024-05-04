@@ -32,19 +32,21 @@ AutoShares integrated vendors and trading APIs can be used as a whole turn-key t
 For an overview of AutoShares Comprehensive Brokerage and Technology Solutions:[**Go here**](https://autoshares.com/api)
 
 # Lets Get Started 
-### Get Started
+### Signup for AutoShares Developer Portal
 
-[**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) **to AutoShares API Documentation Portal.**
+[**Sign-Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign-In**](https://apidevportal.autoshares.dev/how-to) to the AutoShares Developer Portal and review the API documentation. 
 
-Review the API documentation.
+When you are ready to start developing, follow the steps below. 
 
-**To begin developing, you must register for Developer Connection Keys.**
+### Request AutoShares Connection Keys
 
-[**Register for Developer Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
+To begin working with the API, you'll first need to register for **AutoShares Connection Keys.**
 
-After you submit the developer registration form, AutoShares will set up your developer environment and provide connection keys within 1-2 business days. 
+[**Register for Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
 
-We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections.
+After you submit the developer registration form, AutoShares will set up your developer environment and provide connection keys within 1-2 business days. We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections. 
+
+After you receive your connection keys, you can now move forward with authentication.
 
 ### Authentication
 
