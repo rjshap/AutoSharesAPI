@@ -1,12 +1,12 @@
 # Quick Start Guide
 
-AutoShares cloud-based API infrastructure was built for fintech developers seeking to launch the next generation of financial services, trading platforms, and apps.
+AutoShares cloud-based API infrastructure helps fintech developers launch the next generation of financial services, trading platforms, and apps.
 
 We have made the APIs as easy as possible to work with. There are some essential concepts to understand having to do with a trading flow, but the calls themselves are very straightforward.
 
 ### Introduction to the APIs
 
-AutoShares all-in-one front-to-back-office online brokerage and trading solutions consist of several components: web trader, mobile trading applications for iOS and Android, OMS with a middle and back office and a suite of APIs for self-directed Stock, ETF, and Options trading.   
+AutoShares provides an all-in-one front-to-back-office online brokerage and trading solutions consist of several components: web trader, mobile trading applications for iOS and Android, OMS with a middle and back office and a suite of APIs for self-directed Stock, ETF, and Options trading.   
 
 AutoShares can be used as a whole turn-key trading suite, or certain components can be utilized separately including: single or multiple API endpoints, web trader, mobile applications, trading APIs, or broker back office with OMS.
 
