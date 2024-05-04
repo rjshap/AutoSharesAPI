@@ -31,7 +31,7 @@ AutoShares integrated vendors and trading APIs can be used as a whole turn-key t
 
 For an overview of AutoShares Comprehensive Brokerage and Technology Solutions: [**Go here**](https://autoshares.com/api)
 
-# Lets Get Started 
+# Getting Started with the API
 ### Signup for AutoShares Developer Portal
 
 [**Sign-up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign-in**](https://apidevportal.autoshares.dev/how-to) to the AutoShares Developer Portal and review the API documentation. 
@@ -59,6 +59,10 @@ Follow the **Authentication Instructions** after your receive your connection ke
 
 **Read more here**: [**Authenticate with AutoShares SSO/Auth0**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
+### Sign Required Access Agreements
+
+All users on the system must sign required access agreements to stream data. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
+
 ### The Flow
 
 In its most basic form, you will register your application with AutoShares, redirect a browser to a URL, parse a token from the responding redirect, and send the token to whichever AutoSharesAPI you wish to access.
@@ -74,10 +78,6 @@ Access tokens (or Bearer tokens) are provided after a successful authorization c
 ### Refresh Tokens
 
 Once refresh tokens are enabled for your application, you will receive the refresh token alongside every access token. You can exchange a refresh token for a new access token. Refresh tokens do not expire.
-
-### Sign Required Access Agreements
-
-All users on the system must sign required access agreements to stream data. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
 
 ### Onboarding Accounts
 
