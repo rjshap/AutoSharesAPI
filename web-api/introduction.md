@@ -38,7 +38,7 @@ For an overview of AutoShares Comprehensive Brokerage and Technology Solutions:[
 
 Review the API documentation.
 
-**To start developing, register for developer connection keys.**
+**To begin developing, you must register for developer connection keys.**
 
 [**Register for Developer Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
 
