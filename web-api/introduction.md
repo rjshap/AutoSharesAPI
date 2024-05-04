@@ -12,7 +12,7 @@ Getting Started:
 
 Please review the API documentation. When you are ready to begin developing, you'll need to register for developer connection keys.
 
-**Step 2: Ready to Start Developing?:** [**Register for Developer Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
+**Step 2: Ready to Begin Developing?** [**Register for Developer Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
 
 After you submit the developer registration form, AutoShares will set up your developer environment and provide connection keys within 1-2 business days. We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections.
 
