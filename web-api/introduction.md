@@ -40,7 +40,7 @@ When you are ready to start developing, follow the steps below.
 
 ### Request AutoShares Connection Keys
 
-To begin working with the API, you'll need to register for **AutoShares Connection Keys.**
+To begin working with the API, you'll first need to register for **AutoShares Connection Keys.**
 
 [**Register for Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
 
