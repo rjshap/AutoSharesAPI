@@ -28,13 +28,14 @@ Follow the [**Authentication Instructions**] after your receive your connection 
 
 Read more here: [**Authenticate with AutoShares SSO/Auth0**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
+#### Access Agreements
+
+All users on the system must sign access agreements to stream data. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
+
 #### Adding User Accounts
 
 This API endpoint enables you to bind a new or an existing trading account to an existing user.
 
-#### Access Agreements
-
-All users on the system must sign access agreements to stream data. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
 
 #### The Flow
 
