@@ -29,7 +29,7 @@ AutoShares integrated vendors and trading APIs can be used as a whole turn-key t
 * Paper trading/simulated trading mode 
 * Customizable layouts
 
-For an overview of AutoShares Comprehensive Brokerage and Technology Solutions:[**Go here**](https://autoshares.com/api)
+For an overview of AutoShares Comprehensive Brokerage and Technology Solutions: [**Go here**](https://autoshares.com/api)
 
 # Lets Get Started 
 ### Signup for AutoShares Developer Portal
