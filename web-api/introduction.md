@@ -8,7 +8,7 @@ We have made AutoShares APIs as easy as possible to work with. There are some es
 
 [**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) \*_to the AutoShares API Documentation Portal_
 
-Please review the API documentation. 
+Review the API documentation. 
 
 **To begin developing, you must register for a developer connection key.**
 
@@ -59,12 +59,6 @@ This API endpoint enables you to bind a new or an existing trading account to an
 #### Trading APIs
 
 This is the trader's API that invokes actions typically performed by trader's widgets: placing orders, getting quotes, configuring price alerts, and so forth. This API can be called from anywhere simply using your app's API key and a user's credentials.
-
-#### Have Questions?
-
-Our seasoned team of experts in brokerage operations and fintech are available to discuss your interest in connecting, integrating, and embedding functionality using our API-based technology.
-
-If you have any questions or need support, please don't hesitate to contact us at https://autoshares.com/support
 
 ## New to coding and development or never worked with API based systems before? Read below for how the process works...
 
