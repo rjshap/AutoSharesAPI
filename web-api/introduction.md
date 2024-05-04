@@ -29,7 +29,6 @@ The trader's API that invokes actions typically performed by trader's widgets: p
 * Automation
 * APIs, Single or Multiple Endpoints
 * Custom Integrations and Development Services
-* Brokerage Account Custody Solutions
 
 For an overview of AutoShares Comprehensive Brokerage and Technology Solutions: [**Go here**](https://autoshares.com/api)
 
