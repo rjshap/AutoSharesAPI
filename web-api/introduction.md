@@ -100,7 +100,7 @@ You will receive an email with auth0 login and password reset upon signup.
 
 &#x20;
 
-If you are integrating to present a login page to the authentication platform, the following page details the process using auth0(existing authentication platform). Note that your login page needs to be redirected to this login module. This is to enable single signon and you must be familiar with how authentication platforms and single signon works before you go further. We highly recommend reading up few resources on internet before attempting to do that.
+If you are integrating to present a login page to the authentication platform, the following page details the process using auth0(existing authentication platform). Note that your login page needs to be redirected to this login module. This is to enable single signon and you must be familiar with how authentication platforms and single signon works before you go further. We highly recommend reading the resources below before attempting to do that.
 
 &#x20;
 
