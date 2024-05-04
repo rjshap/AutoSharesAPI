@@ -12,7 +12,7 @@ We have made AutoShares APIs as easy as possible to work with. There are some es
 
 Please review the API documentation. 
 
-**To activate AutoShares developer environment, you will first need to obtain connection keys.**
+**To get started with the API, you need to register for connection keys.**
 
 [**Register for Developer Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
 
