@@ -10,7 +10,7 @@ Getting Started:
 
 **Step 1 :** [**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) \*_to the AutoShares API Documentation Portal_
 
-Please review the API documentation. To begin developing, you'll need to register for developer connection keys.
+Please review the API documentation. When you are ready to begin developing, you'll need to register for developer connection keys.
 
 **Step 2: Complete the Developer Registration Form:** [**Register for Developer Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
 
