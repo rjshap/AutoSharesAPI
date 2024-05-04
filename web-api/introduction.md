@@ -4,6 +4,16 @@ AutoShares cloud-based API infrastructure was built for fintech developers seeki
 
 We have made AutoShares APIs as easy as possible to work with. There are some essential concepts to understand having to do with a trading flow, but the calls themselves are very straightforward.
 
+#### Introduction to the APIs
+
+AutoShares is a cross-platform online trading solution for Stocks, Options, and ETFs with all-encompassing trading functionality. Even though AutoShares provides both the web and the mobile interfaces for executing trades and analyzing markets, some users opt to implement their own custom interfaces that suit their requirements. For this purpose, AutoShares offers a trading platform as well as extended API that can be invoked to perform various trading operations like creating users, getting quotes, and placing orders.
+
+The trader's API that invokes actions typically performed by trader's widgets: placing orders, getting quotes, configuring price alerts, and so forth. This API can be called from anywhere simply using your app's API key and a user's credentials.
+
+The APIs are designed to perform operations like placing orders and trading, streaming buying power and account values, positions, charts, watchlists, price alerts, and transactions.
+
+Each API request is described on two pages; the first page introduces you to the API request and explains how to properly use the request parameters and the typical mistakes to avoid; the second page is strictly technical, outlining all of the header and body parameters along with their types, the range of request status codes, as well as all possible responses.
+
 **Lets Get Started:**
 
 [**Sign Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign In**](https://apidevportal.autoshares.dev/how-to) \*_to the AutoShares API Documentation Portal_
@@ -55,16 +65,6 @@ Applicants must follow the workflow determined by the AutoShares implementation 
 #### Adding User Accounts
 
 This API endpoint enables you to bind a new or an existing trading account to an existing user.
-
-#### Trading APIs
-
-AutoShares is a cross-platform online trading solution for Stocks, Options, and ETFs with all-encompassing trading functionality. Even though AutoShares provides both the web and the mobile interfaces for executing trades and analyzing markets, some users opt to implement their own custom interfaces that suit their requirements. For this purpose, AutoShares offers a trading platform as well as extended REST API that can be invoked to perform various trading operations like creating users, getting quotes, and placing orders.
-
-The trader's API that invokes actions typically performed by trader's widgets: placing orders, getting quotes, configuring price alerts, and so forth. This API can be called from anywhere simply using your app's API key and a user's credentials.
-
-The APIs are designed to perform operations like placing orders and trading, streaming buying power and account values, positions, charts, watchlists, price alerts, and transactions.
-
-Each API request is described on two pages; the first page introduces you to the API request and explains how to properly use the request parameters and the typical mistakes to avoid; the second page is strictly technical, outlining all of the header and body parameters along with their types, the range of request status codes, as well as all possible responses.
 
 ## New to coding and development or never worked with API based systems before? Read below for how the process works...
 
