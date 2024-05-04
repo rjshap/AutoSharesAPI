@@ -18,10 +18,6 @@ After you submit the developer registration form, AutoShares will set up your de
 
 We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections.
 
-#### The Flow
-
-In its most basic form, you will register your application with AutoShares, redirect a browser to a URL, parse a token from the responding redirect, and send the token to whichever AutoSharesAPI you wish to access.
-
 ### Authentication
 
 Every call to AutoShares API must include an API secret key. After you create an AutoShares developer account, we generate API keys for you. To start working with the API with your keys, you need to activate your account.
@@ -31,6 +27,10 @@ We use Auth0's 2.0 protocol for authentication and authorization. Publicly we su
 Follow the [**Authentication Instructions**] after your receive your connection keys** 
 
 Read more here: [**Authenticate with AutoShares SSO/Auth0**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
+
+#### The Flow
+
+In its most basic form, you will register your application with AutoShares, redirect a browser to a URL, parse a token from the responding redirect, and send the token to whichever AutoSharesAPI you wish to access.
 
 #### Authorization Codes
 
