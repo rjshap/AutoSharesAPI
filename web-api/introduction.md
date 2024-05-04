@@ -75,7 +75,7 @@ Access tokens (or Bearer tokens) are provided after a successful authorization c
 
 Once refresh tokens are enabled for your application, you will receive the refresh token alongside every access token. You can exchange a refresh token for a new access token. Refresh tokens do not expire.
 
-### Signed Required Access Agreements
+### Sign Required Access Agreements
 
 All users on the system must sign required access agreements to stream data. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
 
