@@ -16,7 +16,13 @@ Please review the API documentation. To begin developing, you'll need to registe
 
 After you submit the developer registration form, AutoShares will set up your developer environment and provide connection keys within 1-2 business days. We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections.
 
-**Step 3: Follow the Authentication process after your receive your connection keys** [**Authentication Instructions**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
+### Authentication
+
+Every call to AutoShares API must include an API secret key. After you create an AutoShares developer account, we generate API keys for you. To start working with the API with your keys, you need to activate your account.
+
+We use Auth0's 2.0 protocol for authentication and authorization. Publicly we support the Authorization Code flow (server-side application). OAuth 2.0 is a simple protocol and a developer can integrate with AutoShares’ Auth0 2.0 endpoints easily, especially using client libraries.
+
+Follow the Authentication process after your receive your connection keys** Read more here: [**Authentication Instructions**] [**link**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
 #### Working with the APIs
 
@@ -25,14 +31,6 @@ AutoShares is a cross-platform online trading solution for Stocks, Options, and 
 In this scenario AutoShares serves as the backend platform for your own custom-made web terminal or mobile app. Your task is to develop the mobile and web UI that invokes our API to perform all of the trading operations. On our side, we will execute your customers' orders on the required exchange, settle all transactions with the clearing firm, and take care of all of behind-the-scenes technicalities.
 
 Another frequent use-case of our API is to augment the existing functionality of AutoShares trading platform by designing custom widgets. In this scenario you create your own custom JavaScript-based widgets that can load various information about the user's positions, place new orders, and perform just about any other action. For example, you can create a widget that displays the user's most frequently traded securities; or a widget that displays the list of users' positions with the highest profit or highest loss.
-
-### Authentication
-
-Every call to AutoShares API must include an API secret key. After you create an AutoShares account, we generate API keys for you. To start working with the API with your keys, you need to activate your account.
-
-We use Auth0's 2.0 protocol for authentication and authorization. Publicly we support the Authorization Code flow (server-side application). OAuth 2.0 is a simple protocol and a developer can integrate with AutoShares’ Auth0 2.0 endpoints easily, especially using client libraries.
-
-Read more here: [**link**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
 #### Adding User Accounts
 
