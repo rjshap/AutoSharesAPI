@@ -34,19 +34,20 @@ For an overview of AutoShares Comprehensive Brokerage and Technology Solutions:[
 # Lets Get Started 
 ### Signup for AutoShares Developer Portal
 
-[**Sign-Up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign-In**](https://apidevportal.autoshares.dev/how-to) to the AutoShares Developer Portal and review the API documentation. 
+[**Sign-up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign-in**](https://apidevportal.autoshares.dev/how-to) to the AutoShares Developer Portal and review the API documentation. 
 
 When you are ready to start developing, follow the steps below. 
 
 ### Request AutoShares Connection Keys
 
-To begin working with the API, you'll first need to register for **AutoShares Connection Keys.**
+To begin working with the API, you'll need to register for **AutoShares Connection Keys.**
 
 [**Register for Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
 
-After you submit the developer registration form, AutoShares will set up your developer environment and provide connection keys within 1-2 business days. We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections. 
+After you submit the developer registration form, AutoShares will set up your developer environment and provide connection keys within 1-2 business days.
+We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections. 
 
-After you receive your connection keys, you can now move forward with authentication.
+ **After you receive your connection keys**, you can move forward with **authentication**.
 
 ### Authentication
 
@@ -56,7 +57,7 @@ Every call to AutoShares API must include an API secret key. To start working wi
 
 Follow the **Authentication Instructions** after your receive your connection keys. 
 
-Read more here: [**Authenticate with AutoShares SSO/Auth0**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
+**Read more here**: [**Authenticate with AutoShares SSO/Auth0**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
 ### The Flow
 
