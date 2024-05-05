@@ -88,13 +88,13 @@ Applicants must follow the workflow determined by the AutoShares implementation 
 
 This API endpoint enables you to bind a new or an existing trading account to an existing user.
 
-## New to coding and development or never worked with API based systems before? Read below for how the process works...
+## New to coding API based systems? Read initial process below...
 
 | <p><br>Upon signing up, you get an email like the one below</p>                                                                                                                                                                                                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Dear \<aspiring developer>,                                                                                                                                                                                                                                                                                                                                  |
 | <p>Access to your AutoShares API is now ready for you to review the API documentation. <br><br>API Documentation: <a href="https://documentation.autoshares.dev">https://documentation.autoshares.dev</a></p>                                                                                                                              |
-| <p>When you are ready to begin developing, you must register for a development connection key. Please email us at support@autoshares.dev to get setup. Upon approval, your developer environment will be set up and you'll receive credentials within 1-2 business days.|
+| <p>When you are ready to begin developing, you must register for a development connection key. Upon approval, your developer environment will be set up and you'll receive credentials within 1-2 business days.|
 
 ### Once you register for Developer Access Token and Key
 
