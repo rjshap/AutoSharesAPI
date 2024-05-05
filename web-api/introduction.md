@@ -6,13 +6,13 @@ We have made the APIs as easy as possible to work with. There are some essential
 
 ### Introduction to the APIs
 
-AutoShares all-in-one front-to-back-office solutions consist of several components: web trader, mobile trading applications for iOS and Android, OMS with a middle and back office and a suite of APIs for self-directed Stock, ETF, and Options trading.   
+AutoShares all-in-one front-to-back-office solutions consist of several components: web trader, mobile trading applications for iOS and Android, OMS with a middle and back office, and a suite of APIs for self-directed Stock, ETF, and Options trading.   
 
-AutoShares can be used as a whole turn-key trading suite, or certain components can be utilized separately including: single or multiple API endpoints, web trader, mobile applications, trading APIs, or brokerage back office with OMS.
+AutoShares can be used as a whole turn-key trading suite, or certain components can be utilized separately including: single or multiple API endpoints, web trader, mobile applications, or brokerage back office with OMS.
 
 Even though AutoShares provides both the web and the mobile interfaces for executing trades and analyzing markets, some users opt to implement their own custom interfaces that suit their requirements. For this purpose, AutoShares offers a trading platform as well as extended API that can be invoked to perform various trading operations like creating users, getting quotes, and placing orders.
 
-The trader's API that invokes actions typically performed by trader's widgets: placing orders, streaming data, configuring watchlists and price alerts, and so forth. This API can be called from anywhere simply using your app's API key and a user's credentials. The APIs are designed to perform operations like orders and trading, buying powers, account values, positions, and transactions.
+The APIs are designed to perform operations typically performed by trader's widgets: orders and trading, buying powers, account values, positions, and transactions, watchlists and price alerts, and so forth. These APIs can be called from anywhere simply using your app's API key and a user's credentials. 
 
 **Features include:**
 
