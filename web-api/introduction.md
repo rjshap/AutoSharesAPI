@@ -102,7 +102,7 @@ This API endpoint enables you to bind a new or an existing trading account to an
 
 You will receive an email with auth0 login and password reset upon signup.
 
-| These are the credentials you must use to access the API gateway and for further development. |
+| These are the credentials you must use to access the API gateway for further development. |
 | ----------------------------------------------------------------------------------------- |
 |                                                                                           |
 
