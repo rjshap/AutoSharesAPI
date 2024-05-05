@@ -6,7 +6,7 @@ We have made the APIs as easy as possible to work with. There are some essential
 
 ### Introduction to the APIs
 
-AutoShares provides an all-in-one front-to-back-office brokerage and trading solutions consist of several components: web trader, mobile trading applications for iOS and Android, OMS with a middle and back office and a suite of APIs for self-directed Stock, ETF, and Options trading.   
+AutoShares all-in-one front-to-back-office solutions consist of several components: web trader, mobile trading applications for iOS and Android, OMS with a middle and back office and a suite of APIs for self-directed Stock, ETF, and Options trading.   
 
 AutoShares can be used as a whole turn-key trading suite, or certain components can be utilized separately including: single or multiple API endpoints, web trader, mobile applications, trading APIs, or brokerage back office with OMS.
 
@@ -28,7 +28,7 @@ The trader's API that invokes actions typically performed by trader's widgets: p
 * Customizable layouts
 * Automation
 * APIs, Single or Multiple Endpoints
-* Custom Integrations and Development Services
+* Custom Integrations and Development
 
 For an overview of AutoShares Comprehensive Brokerage and Technology Solutions: [**Go here**](https://autoshares.com/api)
 
