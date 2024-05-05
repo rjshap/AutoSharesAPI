@@ -6,7 +6,7 @@ We have made the APIs as easy as possible to work with. There are some essential
 
 ### Introduction to the APIs
 
-AutoShares all-in-one front-to-back-office solutions consist of several components: web trader, mobile trading applications for iOS and Android, OMS with a middle and back office, and a suite of APIs for Stock, ETF, and Options Trading.   
+AutoShares is an all-in-one front-to-back-office solution consisting of several components: web trader, mobile trading applications for iOS and Android, OMS with a middle and back office, and a suite of APIs for Stock, ETF, and Options Trading.   
 
 AutoShares can be used as a whole turn-key trading suite, or certain components can be utilized separately including: single or multiple API endpoints, web trader, mobile applications, or brokerage back office with OMS.
 
