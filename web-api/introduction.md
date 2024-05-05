@@ -56,7 +56,7 @@ We use Auth0's 2.0 protocol for authentication and authorization. Publicly we su
 
 Every call to AutoShares API must include an API secret key. To start working with the API and your keys, you need to activate your account.
 
-Follow the **Authentication Instructions** after your receive your connection keys. 
+**Authentication** will only work *after* you receive your connection keys. 
 
 **Read more here**: [**Authenticate with AutoShares SSO/Auth0**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
