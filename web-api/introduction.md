@@ -80,11 +80,11 @@ Access tokens (or Bearer tokens) are provided after a successful authorization c
 
 Once refresh tokens are enabled for your application, you will receive the refresh token alongside every access token. You can exchange a refresh token for a new access token. Refresh tokens do not expire.
 
-### Onboarding Accounts
+### New Account Onboarding
 
-Applicants must follow the workflow determined by the AutoShares implementation team. Otherwise, you may initiate account signup using the following instructions with our development application (currently available for development use only).
+Applicants must follow the workflow determined by the AutoShares implementation team. Otherwise, you may initiate account signup using the following instructions with our online application (currently available for developer use only).
 
-### Adding User Accounts
+### User Accounts
 
 This API endpoint enables you to bind a new or an existing trading account to an existing user.
 
