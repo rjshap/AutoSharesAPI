@@ -12,7 +12,7 @@ AutoShares can be used as a whole turn-key trading suite, or certain components 
 
 Even though AutoShares provides both the web and the mobile interfaces for executing trades and analyzing markets, some users opt to implement their own custom interfaces that suit their requirements. For this purpose, AutoShares offers a trading platform as well as extended API that can be invoked to perform various trading operations like creating users, getting quotes, and placing orders.
 
-The APIs are designed to perform operations typically performed by trader's widgets: orders and trading, buying powers, account values, positions, and transactions, watchlists and price alerts, and so forth. These APIs can be called from anywhere simply using your app's API key and a user's credentials. 
+The trading APIs are designed to perform operations typically performed by trader's widgets: orders and trading, account values, buying powers, positions, and transactions, watchlists and price alerts, and so forth. These APIs can be called from anywhere simply using your app's API key and a user's credentials. 
 
 **Features include:**
 
