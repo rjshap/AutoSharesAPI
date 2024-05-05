@@ -88,7 +88,7 @@ Applicants must follow the workflow determined by the AutoShares implementation 
 
 This API endpoint enables you to bind a new or an existing trading account to an existing user.
 
-## New to AutoShares API? Read how the rgistration process works...
+## New to AutoShares API? Read how the registration process works.
 
 | <p><br>Upon signing up, you get an email like the one below</p>                                                                                                                                                                                                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
