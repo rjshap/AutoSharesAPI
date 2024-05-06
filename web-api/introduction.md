@@ -4,7 +4,7 @@ AutoShares cloud-based API infrastructure helps fintech developers launch the ne
 
 We have made the APIs as easy as possible to work with. There are some essential concepts to understand having to do with a trading flow, but the calls themselves are very straightforward.
 
-### Introduction to the APIs
+## Introduction to the APIs
 
 AutoShares is an all-in-one front-to-back-office solution consisting of several components: web trader, mobile trading applications for iOS and Android, OMS with a middle and back office, and a suite of APIs for Stock, ETF, and Options Trading.   
 
@@ -33,13 +33,13 @@ The trading APIs are designed to perform operations typically performed by trade
 For an overview of AutoShares Comprehensive Brokerage and Technology Solutions: [**Go here**](https://autoshares.com/api)
 
 # Getting Started with the API
-### Signup for AutoShares Developer Portal
+## Signup for AutoShares Developer Portal
 
 [**Sign-up**](https://apidevportal.autoshares.dev/how-to) **or** [**Sign-in**](https://apidevportal.autoshares.dev/how-to) to the AutoShares Developer Portal and review the API documentation. 
 
 When you are ready to start developing, follow the steps below. 
 
-### Request AutoShares Connection Keys
+## Request AutoShares Connection Keys
 
 To begin working with the API, you'll first need to register for **AutoShares Connection Keys.**
 
@@ -50,7 +50,7 @@ We will generate two sets of API keys for you—a publishable client-side key an
 
 After you receive your connection keys, you can move forward with **authentication**.
 
-### Authentication
+## Authentication
 
 We use Auth0's 2.0 protocol for authentication and authorization. Publicly we support the Authorization Code flow (server-side application). OAuth 2.0 is a simple protocol and a developer can integrate with AutoShares’ Auth0 2.0 endpoints easily, especially using client libraries.
 
@@ -60,31 +60,31 @@ Every call to AutoShares API must include an API secret key. To start working wi
 
 **Read more here**: [**Authenticate with AutoShares SSO/Auth0**](https://documentation.autoshares.dev/api-documentation/authentication/authenticate-with-autoshares-sso-auth0)
 
-### Sign Required Access Agreements
+## Sign Required Access Agreements
 
 All users on the system must sign required access agreements to stream data. This GET endpoint enables you to fetch the list of all outstanding agreements that must be signed by the user.
 
-### The Flow
+## The Flow
 
 In its most basic form, you will register your application with AutoShares, redirect a browser to a URL, parse a token from the responding redirect, and send the token to whichever AutoSharesAPI you wish to access.
 
-### Authorization Codes
+## Authorization Codes
 
 Authorization codes are short-lived (they expire in 10 minutes). A code is provided after an investor authorizes your application for access to their account. These codes are exchanged for access tokens which can be used to make API requests.
 
-### Access Tokens
+## Access Tokens
 
 Access tokens (or Bearer tokens) are provided after a successful authorization code exchange. These tokens expire every 24 hours – no questions asked. Once a token expires you’ll need to exchange another authorization code to receive another access token.
 
-### Refresh Tokens
+## Refresh Tokens
 
 Once refresh tokens are enabled for your application, you will receive the refresh token alongside every access token. You can exchange a refresh token for a new access token. Refresh tokens do not expire.
 
-### New Account Onboarding
+## New Account Onboarding
 
 Applicants must follow the workflow determined by the AutoShares implementation team. Otherwise, you may initiate account signup using the following instructions with our online application (currently available for developer use only).
 
-### User Accounts
+## User Accounts
 
 This API endpoint enables you to bind a new or an existing trading account to an existing user.
 
