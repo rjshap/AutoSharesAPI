@@ -6,7 +6,7 @@ description: >-
 
 # Authentication
 
-## Overview
+## Authenticate with AutoShares SSO/Auth0
 
 Auth0's 2.0 protocol for authentication and authorization. Publicly we support the Authorization Code flow (server-side application). OAuth 2.0 is a simple protocol and a developer can integrate with AutoShares’ Auth0 2.0 endpoints easily, especially using client libraries.
 
@@ -35,11 +35,11 @@ The Management API allows you to manage your Auth0 account programmatically, so 
 Some example tasks include:
 
 ```
-Register your applications and APIs with Auth0
+## Register your applications and APIs with Auth0
 
 Set up connections with which your users can authenticate
 
-Manage users
+## Manage users
 
 Link user accounts
 ```
@@ -56,21 +56,23 @@ You need the following information:
 
 &#x20;
 
+## Callback URL
+
 A callback URL is a URL in your application where Auth0 redirects the user after they have authenticated. The callback URL for your app must be added to the **Allowed Callback URLs** field within Auth0 by our admins. If this field is not set, users will be unable to log in to the application and will get an error.
 
 &#x20;
 
 You will need to provide this URL and Logout URL .
 
-**As an example, allowed Callback URL** could be set to [`http://localhost:3000`](http://localhost:3000) if you are testing a local application.
+**## As an example, allowed Callback URL** could be set to [`http://localhost:3000`](http://localhost:3000) if you are testing a local application.
 
 &#x20;
 
-### Installation and Code changes for developers:
+## Installation and code changes for developers:
 
-Install as a dependency:
+### You can install the Auth0 SPA SDK as a dependency of your application, useful if you're using a build system
 
-You can install the Auth0 SPA SDK as a dependency of your application, useful if you're using a build system
+Install as a dependency....
 
 If you use npm or react,
 
@@ -92,7 +94,7 @@ import { createAuth0Client } from '@auth0/auth0-spa-js';
 
 &#x20;
 
-if using code language such as Django,
+## If using code language such as Django,
 
 create an `.env` file in your project directory. This file will hold your client keys and other configuration details
 
@@ -108,7 +110,7 @@ example:
 
 
 
-### Update settings.py
+## Update settings.py
 
 You'll want to make some minor changes to your `/settings.py` file to read those `.env` values. At the top of the file, add these imports:
 
