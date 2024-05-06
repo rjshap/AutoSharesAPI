@@ -46,7 +46,7 @@ Link user accounts
 
 When you signed up for integrating with AutoShares  single sign-on solution(Auth0), a new application will be created for you. You will need some details about this application to communicate with Auth0. One of the AutoShares system administrators can provide the following information once your application is setup.
 
-You need the following information:
+### You need the following information:
 
 * Domain
 * Client ID
