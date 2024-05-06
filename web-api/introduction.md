@@ -26,8 +26,8 @@ The trading APIs are designed to perform operations typically performed by trade
 * Trade from any where functionality
 * Paper trading/simulated trading mode 
 * Customizable layouts
-* Automation
-* Use Single or Multiple Endpoints
+* Automation 
+* Single or Multiple Endpoints
 * Custom Integration and Development
 
 For an overview of AutoShares Comprehensive Brokerage and Technology Solutions: [**Go here**](https://autoshares.com/api)
