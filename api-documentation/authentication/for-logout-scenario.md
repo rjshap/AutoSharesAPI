@@ -1,6 +1,6 @@
 # For logout scenario
 
-#### Clearing a session with logout
+## Clearing a session with logout
 
 This route handles signing a user out from your application. It will clear the user's session in your app, and briefly redirect to Auth0's logout endpoint to ensure their session is completely clear, before they are returned to your home route
 
