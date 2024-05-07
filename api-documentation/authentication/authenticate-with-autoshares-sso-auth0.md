@@ -1,16 +1,18 @@
 # Authenticate with AutoShares SSO/Auth0
 
-Universal Login is setup for all applications integrating with AutoShares. This is the easiest way to set up authentication in your application. We recommend using it for the best experience, best security and the fullest array of features. This guide will use it to provide a way for your users to log in to your JavaScript application.
+## Universal Login is setup for all applications integrating with AutoShares. 
+
+This is the easiest way to set up authentication in your application. We recommend using it for the best experience, best security and the fullest array of features. This guide will use it to provide a way for your users to log in to your JavaScript application.
 
 &#x20;
 
-When a user logs in, Auth0 returns three items:
+## When a user logs in, Auth0 returns three items:
 
 * `access_token`: &#x20;
 * `id_token`:
 * `expires_in`: the number of seconds before the Access Token expires
 
-You can use these items in your application to set up and manage authentication.
+## You can use these items in your application to set up and manage authentication.
 
 \
 Create an auth\_config.json in the root of the project. The values from domain and clientId should be populated within this file.
@@ -27,7 +29,7 @@ Log Into configure this snippet with your account
 
 &#x20;
 
-If using a programming language such as Django,
+## If using a programming language such as Django,
 
 Authlib to handle your application's authentication with Auth0:
 
