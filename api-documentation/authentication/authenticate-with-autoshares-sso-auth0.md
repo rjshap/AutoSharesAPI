@@ -14,10 +14,11 @@ This is the easiest way to set up authentication in your application. We recomme
 
 ## You can use these items in your application to set up and manage authentication.
 
-\
-Create an auth\_config.json in the root of the project. The values from domain and clientId should be populated within this file.
+#### Create an auth\_config.json in the root of the project. 
 
-Log Into configure this snippet with your account
+The values from domain and clientId should be populated within this file.
+
+#### Login to configure this snippet with your account
 
 `{`
 
