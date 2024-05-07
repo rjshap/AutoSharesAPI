@@ -12,10 +12,9 @@ This PUT endpoint enables you to retrieve candles and indicators for a particula
 
 There are four required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **model** (body). This is a JSON dictionary that contains information about the enquired security.
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **model** (body). This is a JSON dictionary that contains information about the enquired security.
 
 #### Enquired Security Syntax
 
@@ -305,16 +304,6 @@ where:
 ### Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to retrieve trading data for a particular security.
-
-#### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
 
 #### Incorrectly Specifying the Request Body
 

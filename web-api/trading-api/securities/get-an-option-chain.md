@@ -6,10 +6,9 @@ This GET endpoint enables you to retrieve an option chain for a specific securit
 
 There are four required parameters that must be provided in the request's header and query:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. It can be found it in the **BO Companies** widget. When editing the company's settings, navigate to the **WebApi** tab and look for the required key (it could be a key for the web terminal, the mobile app, or a custom key).
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **symbol** (path). This is the ticker symbol of the underlying security for which the option series must be fetched.
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **symbol** (path). This is the ticker symbol of the underlying security for which the option series must be fetched.
 
 There's also one optional parameter worth examining:
 
@@ -235,13 +234,3 @@ In response to this API request, you will receive an option chain filtered accor
 ## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to retrieve option chains.
-
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```

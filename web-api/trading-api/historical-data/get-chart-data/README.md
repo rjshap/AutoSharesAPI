@@ -12,10 +12,9 @@ This PUT endpoint enables you to retrieve and compare historical trading data fo
 
 There are four required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **model** (body). This is a JSON dictionary that contains information about the enquired securities.
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **model** (body). This is a JSON dictionary that contains information about the enquired securities.
 
 #### Enquired Securities Syntax
 
@@ -98,7 +97,7 @@ curl -X PUT --header 'Content-Type: application/json' --header 'Accept: applicat
  "SecuritiesHistorySettings":
  { "CandlesCount":14,
  "Period":"4h"
- } }' 'https://pub-api-trader-demo-prod.etnasoft.us/api/v1.0/history/compare'
+ } }' 'https://pub-api-trader-demo-prod.autoshares.dev/api/v1.0/history/compare'
 ```
 
 ### Response
@@ -150,16 +149,6 @@ where:
 ### Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to retrieve trading data for a set of securities.
-
-#### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
 
 #### Incorrectly Specifying the Request Body
 

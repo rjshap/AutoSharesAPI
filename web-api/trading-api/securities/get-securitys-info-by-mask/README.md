@@ -12,11 +12,10 @@ This GET endpoint enables you to retrieve a list of securities with a certain pa
 
 There are five required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **mask** (query). This is the target keyword that will be searched for in all equities' symbol, exchange, and description fields.
-5. **count** (query). This is the maximum number of equities that must be retrieved.
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **mask** (query). This is the target keyword that will be searched for in all equities' symbol, exchange, and description fields.
+4. **count** (query). This is the maximum number of equities that must be retrieved.
 
 There's also one noteworthy optional parameter:
 
@@ -99,15 +98,5 @@ where:
 ## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to retrieve equities with a certain keyword in their symbol, exchange, or description fields.
-
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
 
 The following article covers the syntax for this API request in detail.

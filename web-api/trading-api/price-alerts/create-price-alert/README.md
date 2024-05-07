@@ -10,11 +10,10 @@ This POST endpoint enables you to create a new price alert for the user whose ID
 
 There are five required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **userID** (path). This is the ID of the user to whose account a new price alert should be added.
-5. **model** (body). This is a JSON dictionary that contains information about the new price alert.
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **userID** (path). This is the ID of the user to whose account a new price alert should be added.
+4. **model** (body). This is a JSON dictionary that contains information about the new price alert.
 
 ### Body Syntax
 
@@ -74,15 +73,5 @@ where:
 ## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to create a new price alert.
-
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
 
 The following article covers the syntax for this API request in detail.

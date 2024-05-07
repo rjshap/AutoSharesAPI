@@ -10,13 +10,12 @@ This GET endpoint enables you to retrieve equites sorted by a specified field.
 
 There are seven required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **pageNumber** (query). This is the page number (there are thousands of equities split into pages).
-5. **pageSize** (query). This is the number of equities that should be retrieved from this page.
-6. **sortField** (query). This is the field by which all equities should be sorted. For example, if you specify **Type**, first you'll receive stocks, then ETFs, etc.
-7. **Desc** (query). This is a boolean field that indicates if the returned equities should be sorted in the descending order.
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **pageNumber** (query). This is the page number (there are thousands of equities split into pages).
+4. **pageSize** (query). This is the number of equities that should be retrieved from this page.
+5. **sortField** (query). This is the field by which all equities should be sorted. For example, if you specify **Type**, first you'll receive stocks, then ETFs, etc.
+6. **Desc** (query). This is a boolean field that indicates if the returned equities should be sorted in the descending order.
 
 There's also one optional parameter worth examining:
 

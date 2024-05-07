@@ -10,11 +10,10 @@ This GET endpoint enables you to retrieve information about a particular price a
 
 There are five required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **userID** (path). This is the ID of the user whose particular price alert's information needs to be retrieved.
-5. **alertID** (query). This is the ID of the price alert whose information needs to be retrieved.
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **userID** (path). This is the ID of the user whose particular price alert's information needs to be retrieved.
+4. **alertID** (query). This is the ID of the price alert whose information needs to be retrieved.
 
 Here's the final template for this API request:
 
@@ -53,19 +52,5 @@ where:
 | Field          | This is the referent price for the price alert. Possible values: Ask, Bid, Last.                                     |
 | Argument       | This is the price point at which the price alert will be triggered and the user will be notified.                    |
 | ExpirationDate | This is the expiration date of the price alert (in ticks).                                                           |
-
-## Common Mistakes
-
-Here are some of the common mistakes that developers make when attempting to retrieve information about a particular price alert.
-
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
 
 The following article covers the syntax for this API request in detail.

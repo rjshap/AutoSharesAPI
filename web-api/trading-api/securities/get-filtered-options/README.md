@@ -10,13 +10,12 @@ This GET endpoint enables you to retrieve options sorted by a specified field.
 
 There are seven required parameters that must be provided in the request:
 
-1. **Et-App-Key** (header). This is the unique key of your app that identifies your app when communicating with our service. Contact your administrator to get this key.
-2. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
-3. **API version** (path). Unless necessary, leave it at "1.0".
-4. **pageNumber** (query). This is the page number (there are thousands of options split into pages).
-5. **pageSize** (query). This is the number of options that should be retrieved from this page.
-6. **sortField** (query). This is the field by which all retrieved options should be sorted. For example, if you specify **ExpirationDate**, first you'll receive options with the furthest expiration date while options with the closest expiration date will be listed in the end.
-7. **Desc** (query). This is a boolean field that indicates if the returned options should be sorted in the descending order.
+1. **Authorization** (header). This is the authorization token from the very first [token request](broken-reference). The value of this header must have the following format: `Bearer BQ898r9fefi` (`Bearer` + 1 space + the token).
+2. **API version** (path). Unless necessary, leave it at "1.0".
+3. **pageNumber** (query). This is the page number (there are thousands of options split into pages).
+4. **pageSize** (query). This is the number of options that should be retrieved from this page.
+5. **sortField** (query). This is the field by which all retrieved options should be sorted. For example, if you specify **ExpirationDate**, first you'll receive options with the furthest expiration date while options with the closest expiration date will be listed in the end.
+6. **Desc** (query). This is a boolean field that indicates if the returned options should be sorted in the descending order.
 
 There's also one optional parameter worth examining:
 
@@ -142,16 +141,6 @@ where:
 ## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to retrieve sorted options.
-
-### Failing to Specify the Et-App-Key Parameter
-
-If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
-
-```javascript
-{
-    "error": "Application key is not defined or does not exist"
-}
-```
 
 ### Failing to Specify the Query Parameters
 
