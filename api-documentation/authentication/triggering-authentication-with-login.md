@@ -1,4 +1,4 @@
-# Triggering authentication with /login
+## Triggering authentication with /login
 
 When visitors to your app visit the `/login` route, they'll be redirected to Auth0 to begin the authentication flow.
 
@@ -26,7 +26,7 @@ def login(request):
     )
 ```
 
-#### Finalizing authentication with /callback
+## Finalizing authentication with /callback
 
 After your users finish logging in with Auth0, they'll be returned to your application at the `/callback` route. This route is responsible for actually saving the session for the user, so when they visit again later, they won't have to sign back in all over again.
 
@@ -58,7 +58,7 @@ def callback(request):
 
 &#x20;
 
-### To inquire User roles
+## To inquire User roles
 
 You can use the following code sample:
 
