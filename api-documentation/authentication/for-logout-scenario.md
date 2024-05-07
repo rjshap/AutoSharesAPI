@@ -24,8 +24,8 @@ def logout(request):
 
 &#x20;
 
-Include the client\_id parameter in the string, as shown here:\
-\
+## Include the client\_id parameter in the string, as shown here:
+
 [`https://YOUR_DOMAIN/v2/logout?returnTo=http%3A%2F%2Flocalhost%3A85&client_id=YOUR_CLIENT_ID`](https://your\_domain/v2/logout?returnTo=http%3A%2F%2Flocalhost%3A85\&client\_id=YOUR\_CLIENT\_ID)
 
 &#x20;
