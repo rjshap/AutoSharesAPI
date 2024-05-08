@@ -4,7 +4,7 @@ AutoShares is an all-in-one front-to-back-office online brokerage and trading so
 
 AutoShares integrated vendors and trading APIs can be used as a whole turn-key trading suite, or certain components can be utilized separately including: single or multiple API endpoints, web trader, mobile applications, trading APIs, or broker back office with OMS.
 
-Features include:
+### Features include:
 
 * Trade equities, options \(including multi-legs\), and ETFs.
 * Web-based custom widgets and tabs designer - "trading browser within a web browser" 
@@ -16,5 +16,8 @@ Features include:
 * Trade from any where functionality
 * Paper trading/simulated trading mode 
 * Customizable layouts 
+* Automation
+* Single or Multiple Endpoints
+* Custom Integration and Development
 
-Find more information about the features of AutoShares here: https://autoshares.com/api
+If you are interested in developing with AutoShares API, please contact us.
