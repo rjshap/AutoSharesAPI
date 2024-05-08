@@ -20,4 +20,4 @@ AutoShares integrated vendors and trading APIs can be used as a whole turn-key t
 * Single or Multiple Endpoints
 * Custom Integration and Development
 
-If you are interested in developing with AutoShares API, please contact us.
+For an overview of AutoShares Comprehensive Brokerage and Technology Solutions: [**Go here**](https://autoshares.com/api)
