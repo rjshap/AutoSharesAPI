@@ -1,5 +1,5 @@
-# Vibe Code Trading Apps with AutoShares API
-Create Apps. Integrate Trading. Launch Products and Services.
+# Build Trading Apps with AutoShares API
+Vibe Code. Create Apps. Integrate Trading. Launch Products and Services.
 
 AutoShares is an all-in-one front-to-back-office online brokerage and trading solution consisting of several components: web trader, mobile trading applications for iOS and Android, trading OMS with a middle and back office and a suite of APIs for self-directed Stock, ETF, and Options trading. Services are available for developers and vibe coders, fintech companies, app developers, hobbyists, RIAs, B2B2C companies, US and NON-US broker-dealers.   
 
