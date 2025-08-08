@@ -16,6 +16,7 @@ The trading APIs are designed to perform operations typically performed by trade
 
 **Features include:**
 
+* AI and Vibe Coding
 * Trade equities, options \(including multi-legs\), and ETFs.
 * Web-based custom widgets and tabs designer - "trading browser within a web browser" 
 * Market Analytics with streaming market data \(LI and LII\)
@@ -52,7 +53,7 @@ After you receive your connection keys, you can move forward with **authenticati
 
 ## Authentication
 
-We use Auth0's 2.0 protocol for authentication and authorization. Publicly we support the Authorization Code flow (server-side application). OAuth 2.0 is a simple protocol and a developer can integrate with AutoShares’ Auth0 2.0 endpoints easily, especially using client libraries.
+We use OAuth 2.0 protocol for authentication and authorization. Publicly we support the Authorization Code flow (server-side application). OAuth 2.0 is a simple protocol and a developer can integrate with AutoShares’ Auth0 2.0 endpoints easily, especially using client libraries.
 
 Every call to AutoShares API must include an API secret key. To start working with the API and your keys, you need to activate your account.
 
