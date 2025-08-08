@@ -46,7 +46,7 @@ To begin working with the API, you'll first need to register for **AutoShares Co
 
 [**Register for Connection Keys**](https://onboarding.autoshares.com/app/241146432165147)
 
-After you submit the developer registration form, AutoShares will set up your developer environment and provide connection keys within 1-2 business days.
+After you submit the developer registration form, AutoShares will set up your developer environment and provide connection keys.
 We will generate two sets of API keys for you—a publishable client-side key and a secret server-side key—for testing connections and live connections. 
 
 After you receive your connection keys, you can move forward with **authentication**.
